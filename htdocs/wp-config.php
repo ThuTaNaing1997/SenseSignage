@@ -86,7 +86,7 @@ define('WP_DEBUG', false);
 define( 'MULTISITE', true );
 define( 'SUBDOMAIN_INSTALL', true );
 $base = '/';
-define( 'DOMAIN_CURRENT_SITE', '18.191.245.118.xip.io' );
+define( 'DOMAIN_CURRENT_SITE', 'sensesignagesolutions.com' );
 define( 'PATH_CURRENT_SITE', '/' );
 define( 'SITE_ID_CURRENT_SITE', 1 );
 define( 'BLOG_ID_CURRENT_SITE', 1 );
