@@ -4,5 +4,5 @@
    unset($_SESSION["password"]);
    
    echo 'You have cleaned session';
-   header('Refresh: 2; URL = insertdevicelogin.php');
+   header('Refresh: 2; URL = ../network/index.php');
 ?>
