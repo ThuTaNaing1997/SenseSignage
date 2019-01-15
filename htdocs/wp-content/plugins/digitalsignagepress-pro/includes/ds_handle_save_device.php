@@ -20,10 +20,70 @@ foreach($types as $type) {
 		$changed = true;
 	}
 }
-if ($changed) {
-	$deviceId = $dsdbh->insert_or_update_device($device);
-} else {
-	$deviceId = $device['id'];
+
+
+//New Code Start
+
+/* Attempt MySQL server connection. Assuming you are running MySQL
+server with default setting (user 'root' with no password) */
+$link = mysqli_connect("localhost:3306", "bn_wordpress", "ee58c16529", "bitnami_wordpress");
+ 
+// Check connection
+if($link === false){
+    die("ERROR: Could not connect. " . mysqli_connect_error());
 }
+
+ 
+
+global $wpdb;
+$tablename = $wpdb->prefix.'ds_device'; //OK
+
+
+$limit = 'SELECT devicecount FROM devicelimit WHERE siteID = 1';
+$count = 'SELECT COUNT(*) FROM '.$tablename;
+
+if($result = mysqli_query($link, $limit)){
+	$row = mysqli_fetch_array($result);
+	$limit1 = $row['devicecount']; //OK 5ku
+	
+}
+
+if($result = mysqli_query($link, $count)){
+	$row = mysqli_fetch_array($result);
+	$count1 = $row['COUNT(*)']; //OK
+	$count1 = $count1+1;
+	
+}
+
+
+if ($limit1 >= $count1) //OK Now
+{
+	if ($changed) 
+	{
+	
+		$deviceId = $dsdbh->insert_or_update_device($device);
+	
+		} 
+	else 
+	{
+	$deviceId = $device['id'];
+	}
+	
+}
+else{ //OK Now
+
+	//print_r($limit1);
+	//print_r($count1);
+	//die();
+	
+	print_r($limit1);
+	print_r($count1);
+	die();
+
+ }
+
+// NEW Code, Close connection
+mysqli_close($link);
+
 $redirect_url = admin_url("admin.php?page=".SIGNAGE_PLUGIN_MENU_SLUG).'_devices';
 wp_redirect($redirect_url);
