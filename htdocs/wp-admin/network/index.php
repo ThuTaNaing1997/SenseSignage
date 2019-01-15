@@ -21,8 +21,8 @@ $parent_file = 'index.php';
 
 $overview = '<p>' . __( 'Welcome to your Network Admin. This area of the Administration Screens is used for managing all aspects of your Multisite Network.' ) . '</p>';
 $overview .= '<p>' . __( 'From here you can:' ) . '</p>';
-$overview .= '<ul><li>' . __( 'Add and manage sites or users' ) . '</li>';
-$overview .= '<li>' . __( 'Install and activate themes or plugins' ) . '</li>';
+$overview .= '<ul><li>' . __( 'Manage Device Limit' ) . '</li>';
+$overview .= '<a href="../devicelimit/insertdevicelogin.php">' . __( 'Limit' ) . '</a>';
 $overview .= '<li>' . __( 'Update your network' ) . '</li>';
 $overview .= '<li>' . __( 'Modify global network settings' ) . '</li></ul>';
 

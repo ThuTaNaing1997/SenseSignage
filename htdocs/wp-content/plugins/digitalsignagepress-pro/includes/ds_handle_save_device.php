@@ -58,7 +58,7 @@ if($result = mysqli_query($link, $count)){
 
 if ($limit1 >= $count1) //OK Now
 {
-	if ($changed) 
+		if ($changed) 
 	{
 	
 		$deviceId = $dsdbh->insert_or_update_device($device);
