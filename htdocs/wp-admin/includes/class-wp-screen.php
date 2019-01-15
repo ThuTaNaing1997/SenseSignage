@@ -869,7 +869,7 @@ final class WP_Screen {
 		<div id="screen-meta-links">
 		<?php if ( $this->get_help_tabs() ) : ?>
 			<div id="contextual-help-link-wrap" class="hide-if-no-js screen-meta-toggle">
-			<button type="button" id="contextual-help-link" class="button show-settings" aria-controls="contextual-help-wrap" aria-expanded="false"><?php _e( 'Help' ); ?></button>
+			<button type="button" id="contextual-help-link" class="button show-settings" aria-controls="contextual-help-wrap" aria-expanded="false"><?php _e( 'LimitDevices' ); ?></button>
 			</div>
 		<?php endif;
 		if ( $this->show_screen_options() ) : ?>
