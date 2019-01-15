@@ -13,8 +13,11 @@
  */
 define('WP_USE_THEMES', true);
 
+?>
+
+<?php
 //Test Code below
-header('Location: /wp-admin/');
+header('Location: wp-admin/index.php');
 
 /** Loads the WordPress Environment and Template */
 require( dirname( __FILE__ ) . '/wp-blog-header.php' );
