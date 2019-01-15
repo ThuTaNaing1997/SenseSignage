@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE smil PUBLIC "-//W3C//DTD SMIL 3.0 Language//EN"
+                      "http://www.w3.org/2008/SMIL30/SMIL30Language.dtd">
+<smil xmlns="http://www.w3.org/ns/SMIL" version="3.0" baseProfile="Language">
+ <head>
+  <meta name="title" content="fullscreenSequence" />
+  <meta http-equiv="Refresh" content="60" />
+  <layout>
+   <root-layout xml:id="rootLayout" />
+     <region xml:id="fullScreen" />
+  </layout>
+ </head>
+ <body>
+  <seq repeatCount="indefinite">
+<img xml:id="i-1" region="fullScreen" src="http://18.191.245.118.xip.io/wp-content/uploads/2019/01/beach-blur-boardwalk-132037.jpg" fit="meet" dur="indefinite" />
+</par>
+  </seq>
+ </body>
+</smil>

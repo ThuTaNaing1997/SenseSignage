@@ -1,0 +1,243 @@
+* {
+    	padding: 0;
+	margin: 0;
+	/*font-family: sans-serif;
+	font-size: 100%;
+	font-style: inherit;
+	vertical-align: baseline;*/
+	font-weight: inherit;
+	border: 0;
+	outline: 0;
+}
+#wrapper {
+	height:100%;
+	min-height:100%;
+}
+#header {
+	position: relative;	
+	height: 40px;
+	max-width: 100%;
+	background-color: #1681c1;
+}
+.center {
+	width: 927px;
+	margin: 0 auto 0 4px;
+}
+#logo   {
+	display: block;
+	float:left;
+	height:40px;
+	margin: 5px 20px 0 10px;
+}
+.nav {
+	position: relative;
+	width: auto;
+	text-align: center;
+}
+
+.nav ul li {
+	display: block;
+	float: left;
+	width: auto;
+	height: 20px;
+	padding: 10px 20px 10px 20px;
+	font-family: sans-serif;
+	text-align: center;
+
+}
+#content {
+	width: 100%;
+	height: auto;
+	margin: 0 auto 0 4px;
+	padding-right: 20px;
+
+}
+.step-title {
+	vertical-align: middle;
+	border: 1px solid #CCC;
+	border-bottom: 0px;
+	background: linear-gradient(to bottom, #f8f8f8 0%,#eeeeee 100%);
+	height:auto;
+	padding: 10px 15px;
+	margin:20px 0 0 0;
+	box-shadow: inset 0 0 0 1px white;
+	color: #555;
+	border-radius: 4px 4px 0 0;
+}
+
+.format , .format *{
+	box-sizing: border-box;
+}
+.step-content, #step-content-layout {
+	height: auto;
+	clear: both;
+	background: white;
+	border: none;
+	/*border: 1px solid #CCC;*/
+}
+
+.step-content-title {
+	width: 100%;
+	padding: 10px;
+}
+
+.step-content.signage .required label {
+	display: block;
+	margin: 0 0 4px 0;
+	font-weight: bold;
+}
+
+input, label, select{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #555;
+}
+.step-content-title.required {
+	width: 100%;
+}
+.step-content-title.required #signage-title #step-playlist {
+	width:100%;
+}
+.step-content.signage .required input[type="text"], select {
+	margin:0;
+}
+
+input[type="text"], select {
+	/*display:block;*/
+	width: 305px;
+	/*padding: 8px 18px 8px 8px;; */
+	/*font-size: 16px; */
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	border: 1px solid #c8c8c8;
+	border-radius: 2px;
+}
+
+a {
+	text-decoration: none;
+}
+li.active {
+	/*color: #005061 !important;
+	background-color: white;*/
+	font-weight: bold;
+}
+.selectedlink {
+	color:#1681c1;
+}
+.pkufonttype {
+}
+.nonselectedlink {
+	color:white;
+}
+
+#layout-portrait, #layout-landscape {
+	vertical-align: middle;
+}
+
+.layouts-choice {
+	vertical-align: middle;
+	margin: 0.5%;
+}
+#owl-item-landscape, #layout-custom-landscape {
+	margin-top: 3%;
+	margin-left: 10%;
+	margin-bottom: 2px;
+	float: left;
+	z-index: 5;
+}
+
+#owl-item-portrait, #layout-custom-portrait {
+	margin-top: 3%;
+	margin-left:20%;
+	float: left;
+	z-index: 5;
+}
+#createownlayout {
+	margin-left: 30%;
+	vertical-align: middle;
+	background: white;
+	border: 2px solid #CCC;			
+	border-radius: 4px;
+}
+#layout-custom {
+	vertical-align: middle;
+	background: white;
+	border: 2px solid #CCC;			
+	border-radius: 4px;
+}
+#landscape {
+	width: 85%;
+	margin-left: 2.5%;
+}
+#portrait {
+	height:10%;
+	width:60%;
+	margin-left:7.5%;
+}
+.owl-controls .owl-buttons div {
+	position: absolute;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-prev{
+	/*left: -36px;
+	top: 30px;
+	font-size: 30px;
+	font-weight: bold;*/
+	display:none;
+}
+ 
+.owl-theme .owl-controls .owl-buttons .owl-next{
+	/*right: -45px;
+	top: 30px;
+	font-size: 30px;
+	font-weight: bold;*/
+	display:none;
+}
+.owl-carousel_padder {
+	margin-left:30px;
+	margin-right:40px;
+}
+
+#screen	{
+	vertical-align: middle;
+}
+
+
+
+.save, .delete {
+	margin-top: 5%;
+	width: 70px;
+	background: white;
+	/*border: 2px solid #CCC;*/
+	border-radius: 4px;
+	text-align: center;
+}
+
+.nav {
+	vertical-align: middle;
+}
+
+.fseinhundert {
+	font-size: 100%;	
+}
+
+body {
+	font-size: 100%;	
+}
+.bootstrap-timepicker-widget{
+  height: 88px !important;
+  left: 405px !important;
+  position:fixed;
+}
+.timepickerc1 .bootstrap-timepicker-widget{
+  top: 55px !important;
+}
+.timepickerc2 .bootstrap-timepicker-widget{
+  top: 105px !important;
+}
+.bootstrap-timepicker-widget.dropdown-menu:before {
+  display: none !important;
+}
+.bootstrap-timepicker-widget.dropdown-menu:after {
+  display: none !important;
+}

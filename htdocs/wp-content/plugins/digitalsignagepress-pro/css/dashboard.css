@@ -1,0 +1,7 @@
+#signage_dashboard_table {
+	width: 100%;
+	padding-right: 3px;
+}
+#signage_dashboard_table td:nth-child(2) {
+	text-align: right;
+}

@@ -1,0 +1,1152 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: digitalsignagepress\n"
+"POT-Creation-Date: 2016-06-15 12:01+0200\n"
+"PO-Revision-Date: 2017-04-05 16:14+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+
+msgid "Are you sure you want to permanently delete this file?"
+msgstr "क्या आप वास्तव में यह फाइल स्थायी रूप से हटाना चाहते हैं?"
+
+msgid "Are you sure you want to permanently delete this folder and all of its content? (this may take a moment)"
+msgstr "क्या आप वास्तव में यह फोल्डर और इसकी सभी सामग्रियां स्थायी रूप से हटाना चाहते हैं? (इसमें थोड़ा समय लग सकता है)"
+
+msgid "New Playlist"
+msgstr "नया प्लेलिस्ट"
+
+msgid "Playlist"
+msgstr "प्लेलिस्ट"
+
+msgid "Devices"
+msgstr "डिवाइस"
+
+msgid "Videowalls"
+msgstr "विडियोवॉल"
+
+msgid "Customers"
+msgstr "ग्राहक"
+
+msgid "Users"
+msgstr "प्रयोगकर्ता"
+
+msgid "Media"
+msgstr "मीडिया"
+
+msgid "License"
+msgstr "लाइसेंस"
+
+msgid "Everything"
+msgstr "सबकुछ"
+
+msgid "Group"
+msgstr "समूह"
+
+msgid "Branch"
+msgstr "शाखा"
+
+msgid "Discription"
+msgstr "विवरण"
+
+msgid "Zipcode"
+msgstr "पिनकोड"
+
+msgid "City"
+msgstr "शहर"
+
+msgid "Street"
+msgstr "मार्ग"
+
+msgid "House number"
+msgstr "निवास संख्या"
+
+msgid "Country"
+msgstr "देश"
+
+msgid "FILTER BY:"
+msgstr "निम्न द्वारा फिल्टर करें:"
+
+msgid "Search Filter"
+msgstr "खोज फिल्टर"
+
+msgid "use * as wildcard"
+msgstr "* वाइल्डकार्ड के रूप में प्रयोग करें"
+
+msgid "Add New Customer"
+msgstr "नया ग्राहक जोड़ें"
+
+msgid "Edit"
+msgstr "संपादित करें"
+
+msgid "Delete"
+msgstr "हटाएं"
+
+msgid "Are you sure you want to permanently delete this customer?"
+msgstr "क्या आप वास्तव में इस ग्राहक को स्थायी रूप से हटाना चाहते हैं?"
+
+msgid "Devicename"
+msgstr "डिवाइस नाम"
+
+msgid "Playlistname"
+msgstr "प्लेलिस्ट नाम"
+
+msgid "Videowallname"
+msgstr "विडियोवॉल नाम"
+
+msgid "Customer"
+msgstr "ग्राहक"
+
+msgid "Location"
+msgstr "स्थान"
+
+msgid "Change Date"
+msgstr "तिथि बदलें"
+
+msgid "Last Request"
+msgstr "अंतिम अनुरोध"
+
+msgid "Online"
+msgstr "ऑनलाइन"
+
+msgid "Offline"
+msgstr "ऑफलाइन"
+
+msgid "Not Updated"
+msgstr "अपडेट नहीं किया गया"
+
+msgid "Move selected Device(s) to Playlist:"
+msgstr "चयनित डिवाइस को प्लेलिस्ट में डालें:"
+
+msgid "No Playlist"
+msgstr "कोई प्लेलिस्ट नहीं है"
+
+msgid "Videowall"
+msgstr "विडियोवॉल"
+
+msgid "Check"
+msgstr "जांच करें"
+
+msgid "Are you sure you want to permanently delete this device?"
+msgstr "क्या आप वास्तव में यह डिवाइस स्थायी रूप से हटाना चाहते हैं?"
+
+msgid "Number of Devices"
+msgstr "डिवाइसों की संख्या"
+
+msgid "Select or deselect all Devices at once"
+msgstr "सभी डिवाइसों को एक बार में चयनित या अचयनित करें"
+
+msgid "Are you sure you want to permanently delete this devicewall?"
+msgstr "क्या आप वास्तव में यह डिवाइसवॉल स्थायी रूप से हटाना चाहते हैं?"
+
+msgid "Are you sure you want to permanently delete this playlist?"
+msgstr "क्या आप वास्तव में यह प्लेलिस्ट स्थायी रूप से हटाना चाहते हैं?"
+
+msgid "Devices that use this playlist will have their playlist entry removed."
+msgstr "वे डिवाइसें जो इस प्लेलिस्ट का प्रयोग करती हैं उनकी प्लेलिस्ट प्रविष्टि हट जाएगी।"
+
+msgid "Media Library"
+msgstr "मीडिया लाइब्रेरी"
+
+msgid "Add New Folder"
+msgstr "नया फोल्डर जोड़ें"
+
+msgid "Drop Images/Movies here or"
+msgstr "यहाँ छवियां/फिल्में ड्रॉप करें या"
+
+msgid "Upload"
+msgstr "अपलोड करें"
+
+msgid "ADD NEW FOLDER"
+msgstr "नया फोल्डर जोड़ें"
+
+msgid "Preview"
+msgstr "पूर्वावलोकन"
+
+msgid "Name"
+msgstr "नाम"
+
+msgid "Orientation"
+msgstr "अनुस्थापन"
+
+msgid "Resolution"
+msgstr "रेज़ोल्यूशन"
+
+msgid "Filesize"
+msgstr "फाइल का आकार"
+
+msgid "Uploaded"
+msgstr "अपलोड किया गया"
+
+msgid "Modified"
+msgstr "संशोधित किया गया"
+
+msgid "Replace"
+msgstr "बदलें"
+
+msgid "User Details"
+msgstr "प्रयोगकर्ता विवरण"
+
+msgid "Login Name"
+msgstr "लॉगइन नाम"
+
+msgid "New Password"
+msgstr "नया पासवर्ड"
+
+msgid "Password"
+msgstr "पासवर्ड"
+
+msgid "First Name"
+msgstr "पहला नाम"
+
+msgid "Last Name"
+msgstr "अंतिम नाम"
+
+msgid "No Limitation"
+msgstr "कोई सीमा नहीं"
+
+msgid "Manage User"
+msgstr "प्रयोगकर्ता प्रबंधित करें"
+
+msgid "Can't manage users"
+msgstr "प्रयोगकर्ताओं को प्रबंधित नहीं कर सकता है"
+
+msgid "Can create new and manage existing Users"
+msgstr "नए प्रयोगकर्ता बना सकता है और वर्तमान प्रयोगकर्ताओं को प्रबंधित कर सकता है"
+
+msgid "SAVE"
+msgstr "सहेजें"
+
+msgid "User Name"
+msgstr "प्रयोगकर्ता नाम"
+
+msgid "Full Name"
+msgstr "पूरा नाम"
+
+msgid "Position"
+msgstr "स्थिति"
+
+msgid "Are you sure you want to permanently delete this user?"
+msgstr "क्या आप वास्तव में इस प्रयोगकर्ता को स्थायी रूप से हटाना चाहते हैं?"
+
+msgid "Never"
+msgstr "कभी नहीं"
+
+msgid "Add New Device"
+msgstr "नया डिवाइस जोड़ें"
+
+msgid "PAGE"
+msgstr "पृष्ठ"
+
+msgid "Add New Videowall"
+msgstr "नया विडियोवॉल जोड़ें"
+
+msgid "New Slide"
+msgstr "नया स्लाइड"
+
+msgid "Slideduration"
+msgstr "स्लाइड अवधि"
+
+msgid "Sec"
+msgstr "से."
+
+msgid "None of your slides has a slideduration"
+msgstr "आपके किसी स्लाइड में स्लाइड अवधि नहीं है"
+
+msgid "The current page orientation is portrait; do you really want to change this for all slides in this playlist?"
+msgstr "वर्तमान पृष्ठ अनुस्थापन पोर्ट्रेट है; क्या आप वास्तव में इस प्लेलिस्ट के सभी स्लाइड के लिए इसे बदलना चाहते हैं?"
+
+msgid "The current page orientation is landscape; do you really want to change this for all slides in this playlist?"
+msgstr "वर्तमान पृष्ठ अनुस्थापन लैंडस्केप है; क्या आप वास्तव में इस प्लेलिस्ट के सभी स्लाइड के लिए इसे बदलना चाहते हैं?"
+
+msgid "Close"
+msgstr "बंद करें"
+
+msgid "Your changes have not been saved. Do you wish to leave the page?"
+msgstr "आपके परिवर्तन सहेज दिए गए हैं। क्या आप इस पृष्ठ से जाना चाहते हैं?"
+
+msgid "can never be played, enddate is in the past."
+msgstr "कभी प्ले नहीं किया जा सकता है, समाप्ति तिथि अतीत में है।"
+
+msgid "has startdate after enddate."
+msgstr "प्रारम्भ तिथि समाप्ति तिथि के बाद है।"
+
+msgid "has start after end for day of month."
+msgstr "महीने के दिन के लिए प्रारम्भ समाप्ति के बाद है।"
+
+msgid "Your playlist has no slides that can be played, latest enddate is in the past."
+msgstr "आपकी प्लेलिस्ट में ऐसी कोई स्लाइड नहीं है जिसे प्ले किया जा सके, नवीनतम समाप्ति तिथि अतीत में है।"
+
+# FILENAME is a keyword here
+msgid "Are you sure you want to delete FILENAME"
+msgstr "क्या आप निश्चित रूप से FILENAME हटाना चाहते हैं"
+
+msgid "Name of this Slide"
+msgstr "इस स्लाइड का नाम"
+
+msgid "custom editor"
+msgstr "कस्टम एडिटर"
+
+msgid "Signage Playlist Name:"
+msgstr "साइनेज प्लेलिस्ट नाम:"
+
+msgid "Create New Slide"
+msgstr "नया स्लाइड बनाएं"
+
+msgid "Slides of this Playlist"
+msgstr "इस प्लेलिस्ट के स्लाइड"
+
+msgid "Sec."
+msgstr "से."
+
+msgid "Save"
+msgstr "सहेजें"
+
+msgid "Choose landscape or portrait layout as your page orientation."
+msgstr "अपने पृष्ठ अनुस्थापन के रूप में लैंडस्केप या पोर्ट्रेट लेआउट चुनें।"
+
+msgid "Choose between favorite list and regular for template selection."
+msgstr "टेम्पलेट चयन के लिए पसंदीदा और नियमित सूची में से चुनाव करें"
+
+msgid "Favorite"
+msgstr "पसंदीदा"
+
+msgid "Choose the page or menu card template or use custom template to freely place elements on the entire page."
+msgstr "पूरे पृष्ठ पर भागों को स्वतंत्र रूप से रखने के लिए पृष्ठ या मेन्यू कार्ड टेम्पलेट चुनें या कस्टम टेम्पलेट का प्रयोग करें।"
+
+msgid "Scheduling of"
+msgstr "शेड्यूलिंग"
+
+msgid "Number of seconds this slide will be shown each repetition. Use 0 for endless."
+msgstr "प्रत्येक दोहराव में इस स्लाइड को दिखाने के लिए सेकंड की संख्या। असीमित के लिए 0 का प्रयोग करें।"
+
+msgid "show 24h every Day"
+msgstr "प्रतिदिन 24 घं. दिखाएं"
+
+msgid "define scheduling"
+msgstr "शेड्यूलिंग परिभाषित करें"
+
+msgid "Here you can limit that the slide is only visible during certain times each week. Leave empty to not restrict show time."
+msgstr "यहाँ आप सीमित कर सकते हैं कि स्लाइड प्रत्येक सप्ताह केवल निश्चित समय पर दिखाई दे। प्रदर्शन समय को प्रतिबंधित ना करने के लिए खाली छोड़ें।"
+
+msgid "Limit Showtime by Weekdays"
+msgstr "सप्ताह के दिनों से प्रदर्शन समय सीमित करें"
+
+msgid "en"
+msgstr "हिंदी"
+
+msgid "Save Anyway"
+msgstr "किसी प्रकार से सहेजें"
+
+msgid "Proceed"
+msgstr "आगे बढ़ें"
+
+msgid "Cancel"
+msgstr "रद्द करें"
+
+msgid "Customer Details"
+msgstr "ग्राहक विवरण"
+
+msgid "Description"
+msgstr "विवरण"
+
+msgid "Available Devices"
+msgstr "उपलब्ध डिवाइस"
+
+msgid "No pages are configured with the [digitalsignage] shortcode."
+msgstr "[digitalsignage] शॉर्टकोड के साथ कोई पृष्ठ कॉन्फ़िगर नहीं हैं।"
+
+msgid "Please add it to one."
+msgstr "कृपया इसे एक से जोड़ें।"
+
+msgid "No device belongs to this customer"
+msgstr "इस ग्राहक से कोई डिवाइस संबंधित नहीं है"
+
+msgid "VIEW"
+msgstr "देखें"
+
+msgid "All Items"
+msgstr "सभी आइटम"
+
+msgid "One Row"
+msgstr "एक पंक्ति"
+
+msgid "Row"
+msgstr "पंक्ति"
+
+msgid "Device Details"
+msgstr "डिवाइस विवरण"
+
+msgid "No Program"
+msgstr "कोई प्रोग्राम नहीं"
+
+msgid "No Customer"
+msgstr "कोई ग्राहक नहीं"
+
+msgid "Browser of allocated Device"
+msgstr "निर्धारित डिवाइस का ब्राउज़र"
+
+msgid "Allow other device to use this URL"
+msgstr "दूसरी डिवाइस को यह यूआरएल प्रयोग करने की अनुमति दें"
+
+msgid "Enter these URLs into your device to see this playlist on your device"
+msgstr "अपनी डिवाइस पर यह प्लेलिस्ट देखने के लिए अपनी डिवाइस में ये यूआरएल डालें"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Licensing for DigitalSignagePress"
+msgstr "DigitalSignagePress के लिए लाइसेंस"
+
+msgid "To use our DigitalSignagePress Plugin, please follow the next steps to activate it."
+msgstr "हमारा DigitalSignagePress प्लगइन प्रयोग करने के लिए और इसे सक्रिय करने के लिए कृपया अगले चरणों का पालन करें।"
+
+msgid "Step 1: Enter License Key"
+msgstr "चरण 1: लाइसेंस नंबर डालें"
+
+msgid "Enter your license key"
+msgstr "अपना लाइसेंस नंबर डालें"
+
+msgid "You'll find your License Key inside your confirmation email after you"
+msgstr "आपको अपने पुष्टिकरण ईमेल में अपना लाइसेंस नंबर मिलेगा"
+
+msgid "purchased a license"
+msgstr "आपके द्वारा लाइसेंस खरीदने के बाद"
+
+msgid "Step 2: Activate License"
+msgstr "चरण 2: लाइसेंस सक्रिय करें"
+
+msgid "active"
+msgstr "सक्रिय करें"
+
+msgid "Deactivate License"
+msgstr "लाइसेंस निष्क्रिय करें"
+
+msgid "Activate License"
+msgstr "लाइसेंस सक्रिय करें"
+
+msgid "Step 3: Install DigitalSignagePress Theme"
+msgstr "चरण 3: DigitalSignagePress-थीम स्थापित करें"
+
+msgid "installed"
+msgstr "स्थापित किया गया"
+
+msgid "Activation is <b>not</b> required."
+msgstr "सक्रियण आवश्यक <b>नहीं</b> है।"
+
+msgid "Please download the DigitalSignagePress Theme and install it.<br>You <b>don't</b> need to <b>activate</b> it, only install it."
+msgstr "कृपया DigitalSignagePress थीम डाउनलोड करें और इसे स्थापित करें। <br>आपको <b>इसे <b>सक्रिय <b>करने <b>की <b>जरुरत <b>नहीं <b> है, बस \"इसे\" स्थापित करें"
+
+msgid "Background of Slide"
+msgstr "स्लाइड का बैकग्राउंड"
+
+msgid "Media for Element"
+msgstr "सामग्री के लिए मीडिया"
+
+msgid "Background Image"
+msgstr "बैकग्राउंड छवि"
+
+msgid "Background Color"
+msgstr "बैकग्राउंड का रंग"
+
+msgid "Image"
+msgstr "छवि"
+
+msgid "Color"
+msgstr "रंग"
+
+msgid "Menucard"
+msgstr "मेन्यूकार्ड"
+
+msgid "Slideshow"
+msgstr "स्लाइडशो"
+
+msgid "Font"
+msgstr "फॉन्ट"
+
+msgid "Size"
+msgstr "आकार"
+
+msgid "Bold"
+msgstr "बोल्ड"
+
+msgid "Italic"
+msgstr "इटैलिक"
+
+msgid "Underline"
+msgstr "अंडरलाइन"
+
+msgid "Align Left"
+msgstr "बायीं तरफ व्यवस्थित करें"
+
+msgid "Align Center"
+msgstr "बीच में व्यवस्थित करें"
+
+msgid "Align Right"
+msgstr "दायीं तरफ व्यवस्थित करें"
+
+msgid "Align Full"
+msgstr "पूर्ण व्यवस्थित करें"
+
+msgid "ADD"
+msgstr "जोड़ें"
+
+msgid "Duplicate"
+msgstr "प्रतिलिपि"
+
+msgid "Padding"
+msgstr "पैडिंग"
+
+msgid "Playlists"
+msgstr "प्लेलिस्ट"
+
+msgid "Create a new playlist."
+msgstr "नयी प्लेलिस्ट बनाएं।"
+
+msgid "View and edit existing playlists."
+msgstr "वर्तमान प्लेलिस्ट देखें और संपादित करें।"
+
+msgid "Manage your viewing devices and generate urls for viewing your content on them."
+msgstr "अपनी देखने वाली डिवाइस प्रबंधित करें और उनपर अपनी सामग्री देखने के लिए यूआरएल जनरेट करें।"
+
+msgid "Configure videowalls - show your content across multiple devices."
+msgstr "विडियोवॉल कॉन्फ़िगर करें - एकाधिक डिवाइसों पर अपनी सामग्री दिखाएं।"
+
+msgid "Manage your customers that own the devices."
+msgstr "डिवाइस रखने वाले अपने ग्राहकों को प्रबंधित करें।"
+
+msgid "Slides"
+msgstr "स्लाइड"
+
+msgid "Showing"
+msgstr "दिखा रहा है"
+
+msgid "Format"
+msgstr "स्वरुप"
+
+msgid "Slidenames"
+msgstr "स्लाइड नाम"
+
+msgid "Last Change"
+msgstr "पिछला परिवर्तन"
+
+msgid "Valid From"
+msgstr "मान्य निम्न से"
+
+msgid "Valid To"
+msgstr "मान्य निम्न तक"
+
+msgid "Are you sure you want to remove this slide from the playlist?"
+msgstr "क्या आप निश्चित रूप से यह स्लाइड प्लेलिस्ट से हटाना चाहते हैं?"
+
+msgid "Display Orientation"
+msgstr "प्रदर्शन अनुस्थापन"
+
+msgid "Display configuration"
+msgstr "प्रदर्शन कॉन्फ़िगरेशन"
+
+msgid "Resolution width"
+msgstr "रेज़ोल्यूशन चौड़ाई"
+
+msgid "Bezel compensation width"
+msgstr "बेज़ल कंपनसेशन चौड़ाई"
+
+msgid "Resolution height"
+msgstr "रेज़ोल्यूशन ऊंचाई"
+
+msgid "Bezel compensation height"
+msgstr "बेज़ल कंपनसेशन ऊंचाई"
+
+msgid "Rows"
+msgstr "पंक्ति"
+
+msgid "Columns"
+msgstr "स्तंभ"
+
+msgid "Videowall Details"
+msgstr "विडियोवॉल विवरण"
+
+msgid "PREVIEW OF YOUR PLAYLIST"
+msgstr "आपकी प्लेलिस्ट का पूर्वावलोकन"
+
+msgid "Slide"
+msgstr "स्लाइड"
+
+msgid "Last Edit"
+msgstr "अंतिम संपादन"
+
+msgid "nameless device"
+msgstr "अनाम डिवाइस"
+
+msgid "nameless playlist"
+msgstr "अनाम प्लेलिस्ट"
+
+msgid "nameless customer"
+msgstr "अनाम ग्राहक"
+
+msgid "nameless videowall"
+msgstr "अनाम विडियोवॉल"
+
+msgid "nameless user"
+msgstr "अनाम प्रयोगकर्ता"
+
+msgid "nameless slide"
+msgstr "अनाम स्लाइड"
+
+msgid "Enter Website URL"
+msgstr "वेबसाइट यूआरएल डालें"
+
+msgid "Enter Video URL"
+msgstr "विडियो यूआरएल डालें"
+
+msgid "Enter a URL to a video file on a webserver or a youtube link or choose a video file from the media library."
+msgstr "वेबसर्वर या यूट्यूब लिंक पर विडियो फाइल के लिए यूआरएल डालें या मीडिया लाइब्रेरी से विडियो फाइल चुनें।"
+
+msgid "You may also add fallback videos for browser that don't support the primary video."
+msgstr "आप उस ब्राउज़र के लिए वैकल्पिक विडियो भी जोड़ सकते हैं जो प्राइमरी विडियो समर्थित नहीं करता है।"
+
+msgid "To guarantee best compatibility, please provide at least files with formats of MP4 and OGG."
+msgstr "सर्वश्रेष्ठ अनुकूलता सुनिश्चित करने के लिए, कृपया कम से कम MP4 और OGG फॉर्मेट वाली फाइल प्रदान करें।"
+
+msgid "Edit your Code"
+msgstr "अपना कोड संपादित करें"
+
+msgid "Set padding of Content"
+msgstr "सामग्री की पैडिंग सेट करें"
+
+msgid "Select to which element this padding should be applied"
+msgstr "चुनिए कि यह पैडिंग किस भाग के लिए लागू होनी चाहिए"
+
+msgid "Only Text"
+msgstr "केवल टेक्स्ट"
+
+msgid "Content"
+msgstr "सामग्री"
+
+msgid "Setup Slideshow"
+msgstr "स्लाइडशो सेटअप करें"
+
+msgid "Slide-in Effect"
+msgstr "स्लाइड-इन प्रभाव"
+
+msgid "REMOVE"
+msgstr "हटाएं"
+
+msgid "Change"
+msgstr "बदलें"
+
+msgid "Name of this Folder"
+msgstr "इस फोल्डर का नाम"
+
+msgid "Insert into page"
+msgstr "पृष्ठ में डालें"
+
+msgid "Create new empty Slide"
+msgstr "नया खाली स्लाइड बनाएं"
+
+msgid "Copy existing Slide"
+msgstr "वर्तमान स्लाइड कॉपी करें"
+
+msgid "Copy to Playlist"
+msgstr "प्लेलिस्ट में कॉपी करें"
+
+msgid "New Folder"
+msgstr "नया फोल्डर"
+
+msgid "Active"
+msgstr "सक्रिय करें"
+
+msgid "More Options"
+msgstr "और अधिक विकल्प"
+
+msgid "Limit Showtime by Day of Month"
+msgstr "महीने के दिन से प्रदर्शन समय सीमित करें"
+
+msgid "Limit Showtime by Date"
+msgstr "तिथि से प्रदर्शन समय सीमित करें"
+
+msgid "Text"
+msgstr "टेक्स्ट"
+
+msgid "Tags"
+msgstr "टैग"
+
+msgid "Video"
+msgstr "विडियो"
+
+msgid "Website"
+msgstr "वेबसाइट"
+
+msgid "Choose"
+msgstr "चुनें"
+
+msgid "Choose Image"
+msgstr "छवि चुनें"
+
+msgid "Choose Video"
+msgstr "विडियो चुनें"
+
+msgid "This call only works in a WordPress environment"
+msgstr "यह कॉल केवल वर्डप्रेस परिवेश में काम करता है"
+
+msgid "Not supported in fix template"
+msgstr "फिक्स टेम्पलेट में समर्थित नहीं है"
+
+msgid "Add Column"
+msgstr "स्तंभ जोड़ें"
+
+msgid "Remove Column"
+msgstr "स्तंभ हटाएं"
+
+msgid "Add Row"
+msgstr "पंक्ति जोड़ें"
+
+msgid "Remove Row"
+msgstr "पंक्ति हटाएं"
+
+msgid "Text Column"
+msgstr "टेक्स्ट स्तंभ"
+
+msgid "New Text Column"
+msgstr "नया टेक्स्ट स्तंभ"
+
+msgid "Price"
+msgstr "मूल्य"
+
+msgid "Edit Html-Content"
+msgstr "Html-सामग्री संपादित करें"
+
+msgid "Header"
+msgstr "हेडर"
+
+msgid "Footer"
+msgstr "फुटर"
+
+msgid "Menu"
+msgstr "मेन्यू"
+
+msgid "Start the slideshow"
+msgstr "स्लाइडशो शुरू करें"
+
+msgid "Stop the slideshow"
+msgstr "स्लाइडशो बंद करें"
+
+msgid "Duration"
+msgstr "अवधि"
+
+msgid "Center"
+msgstr "मध्य"
+
+msgid "left"
+msgstr "बाएं"
+
+msgid "right"
+msgstr "दाएं"
+
+msgid "top"
+msgstr "ऊपर"
+
+msgid "bottom"
+msgstr "नीचे"
+
+msgid "Add New User"
+msgstr "नया प्रयोगकर्ता जोड़ें"
+
+msgid "Partly Never"
+msgstr "आंशिक रूप से कभी नहीं"
+
+msgid "ERROR: no customer"
+msgstr "त्रुटि: कोई ग्राहक नहीं"
+
+msgid "ERROR: no playlist"
+msgstr "त्रुटि: कोई प्लेलिस्ट नहीं"
+
+msgid "Layout"
+msgstr "लेआउट"
+
+msgid "Date"
+msgstr "तिथि"
+
+msgid "Span"
+msgstr "सीमा"
+
+msgid "Settings"
+msgstr "सेटिंग"
+
+msgid "Logout"
+msgstr "लॉगआउट करें"
+
+msgid "Download"
+msgstr "डाउनलोड करें"
+
+msgid "If you do not schedule something the slide will be always active"
+msgstr "यदि आप कुछ शिड्यूल नहीं करते हैं तो स्लाइड हमेशा सक्रिय रहेगा।"
+
+msgid "User to edit could not be found."
+msgstr "संपादित करने के लिए प्रयोगकर्ता नहीं मिला।"
+
+msgid "Unrecoverable error while editing user."
+msgstr "प्रयोगकर्ता संपादित करते समय ठीक ना होने वाली त्रुटि।"
+
+msgid "Username already taken."
+msgstr "प्रयोगकर्ता नाम पहले से प्रयोग में है।"
+
+msgid "A required field was not filled, could not create user..."
+msgstr "आवश्यक स्थान नहीं भरा गया था, प्रयोगकर्ता नहीं बन पाया..."
+
+msgid "This Device has the latest playlist."
+msgstr "इस डिवाइस में नवीनतम प्लेलिस्ट है।"
+
+msgid "This Device hasn't yet downloaded the latest playlist."
+msgstr "इस डिवाइस ने अभी तक नवीनतम प्लेलिस्ट डाउनलोड नहीं की है।"
+
+msgid "Here you can limit that this slide is only visible between the two given dates."
+msgstr "यहाँ आप सीमित कर सकते हैं कि यह स्लाइड केवल दो दी गयी तिथियों के बीच दिखाई दे।"
+
+msgid "Here you can limit that this slide is only visible between two days of a month. This will be repeated for every month."
+msgstr "यहाँ आप सीमित कर सकते हैं कि यह स्लाइड महीने के केवल दो दिनों के बीच दिखाई दे। यह हर महीने के लिए दोहराया जायेगा।"
+
+msgid "Enter this URL into your device with SMIL support."
+msgstr "इस यूआरएल को अपनी SMIL समर्थन वाली डिवाइस में डालें।"
+
+msgid "Choose landscape or portrait layout as your videowall orientation"
+msgstr "अपने विडियोवॉल अनुस्थापन के रूप में लैंडस्केप या पोर्ट्रेट लेआउट का चयन करें"
+
+msgid "Set up the parameters of the display type your video wall consists of"
+msgstr "अपने विडियो वॉल के प्रदर्शन प्रकार के पैमाने सेटअप करें"
+
+msgid "Remove this slide from the playlist."
+msgstr "प्लेलिस्ट से यह स्लाइड हटाएं।"
+
+msgid "Delete this playlist."
+msgstr "यह प्लेलिस्ट हटाएं।"
+
+msgid "This slide is currently active."
+msgstr "इस समय यह स्लाइड सक्रिय है।"
+
+msgid "This slide is currently not showing because of scheduling."
+msgstr "यह स्लाइड इस समय शेड्यूलिंग की वजह से नहीं दिखाई दे रही है।"
+
+msgid "An error occurred during upload.."
+msgstr "अपलोड के दौरान एक त्रुटि आ गयी थी.."
+
+msgid "An error occurred during update.."
+msgstr "अपडेट के दौरान एक त्रुटि आ गयी थी.."
+
+msgid "Invalid file format."
+msgstr "अमान्य फाइल फॉर्मेट"
+
+msgid "Couldn't get user info."
+msgstr "प्रयोगकर्ता जानकारी नहीं मिल पायी।"
+
+msgid "A username and password are required."
+msgstr "प्रयोगकर्ता नाम और पासवर्ड आवश्यक हैं।"
+
+msgid "We check whether your browser supports cookies."
+msgstr "हम देखते हैं कि आपका ब्राउज़र कुकीज़ समर्थित करता है या नहीं।"
+
+msgid "This device number is already occupied by a different monitor, please enter the URL of a different device for this monitor."
+msgstr "यह डिवाइस नंबर पहले से किसी दूसरे मॉनिटर द्वारा प्रयोग में है, कृपया इस मॉनिटर के लिए एक अलग डिवाइस का यूआरएल डालें।"
+
+msgid "This device number is already occupied by a different monitor, please enter the URL of a different device for this monitor.<br>Please use this URL only on one monitor at the same time.<br>If this is the right monitor for this URL please follow these steps:<br>1) navigate to Devices<br>2) edit this device<br>3) press the button \"Allow other device to use this URL\"<br>4) refresh this page on this monitor/browser or restart the monitor"
+msgstr "यह डिवाइस नंबर दूसरे मॉनिटर द्वारा पहले से प्रयोग में है, कृपया इस मॉनिटर के लिए अलग डिवाइस का यूआरएल डालें।<br>कृपया यह यूआरएल एक बार में केवल एक मॉनिटर के लिए प्रयोग करें।<br> यदि यह इस यूआरएल के लिए सही मॉनिटर है तो कृपया इन चरणों कापालन करें:<br>1) डिवाइसों पर जाएँ<br>2) यह डिवाइस संपादित करें<br>3) बटन दबाएं \"यह यूआरएल प्रयोग करने के लिए दूसरी डिवाइस को अनुमति दें\"<br>4) इस मॉनिटर/ब्राउज़र पर यह पृष्ठ रिफ्रेश करें या मॉनिटर रीस्टार्ट करें"
+
+msgid "There seems to be a problem with your license. Please verify your license data."
+msgstr "आपके लाइसेंस के साथ कोई समस्या है। कृपया अपना लाइसेंस डेटा सत्यापित करें।"
+
+msgid "Number of Playlists"
+msgstr "प्लेलिस्ट की संख्या"
+
+msgid "Number of Slides"
+msgstr "स्लाइड की संख्या"
+
+msgid "Number of Customers"
+msgstr "ग्राहकों की संख्या"
+
+msgid "Number of Devicewalls"
+msgstr "डिवाइसवॉल की संख्या"
+
+msgid "Updated Devices"
+msgstr "अपडेट किये गए डिवाइस"
+
+msgid "Unused Devices"
+msgstr "अप्रयुक्त डिवाइस"
+
+msgid "Offline Devices"
+msgstr "ऑफलाइन डिवाइस"
+
+msgid "Online Devices"
+msgstr "ऑनलाइन डिवाइस"
+
+msgid "You must choose an existing file to replace!"
+msgstr "बदलने के लिए आपको एक वर्तमान फाइल का चयन करना चाहिए!"
+
+msgid "Upload a new file"
+msgstr "नयी फाइल अपलोड करें"
+
+# FILENAME is a keyword here
+msgid "Choose a new file to replace FILENAME"
+msgstr "FILENAME बदलने के लिए नया फाइल चुनें"
+
+msgid "All links to the old file will be updated."
+msgstr "पुराने फाइल के सभी लिंक अपडेट हो जायेंगे।"
+
+msgid "Once the upload is finished, this can not be undone!"
+msgstr "अपलोड समाप्त होने के बाद, यह खत्म नहीं हो सकता है!"
+
+msgid "You do not have permission to upload files."
+msgstr "आपके पास फाइल अपलोड करने की अनुमति नहीं है।"
+
+msgid "Replace media"
+msgstr "मीडिया बदलें"
+
+msgid "Replace the current file and automatically update all links to it."
+msgstr "वर्तमान फाइल बदलें और इसके सभी लिंक स्वचालित रूप से अपडेट करें।"
+
+msgid "Could not find file to replace."
+msgstr "बदलने के लिए फाइल नहीं मिला।"
+
+msgid "File not usable. Unknown extension."
+msgstr "फाइल प्रयोग योग्य नहीं है। अज्ञात एक्सटेंशन।"
+
+msgid " could not be deleted, please check file permissions."
+msgstr "हटाया नहीं जा सका, कृपया फाइल अनुमतियों की जांच करें।"
+
+msgid "Complete the setup now."
+msgstr "अभी सेटअप पूरा करें।"
+
+# PLUGIN is a keyword here
+msgid "Please enter your PLUGIN license key to enable updates."
+msgstr "अपडेट सक्षम करने के लिए कृपया अपना प्लगइन लाइसेंस नंबर डालें।"
+
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr "%1$s का एक नया संस्करण उपलब्ध है। <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">संस्करण %3$s का विवरण देखें</a>।"
+
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr "%1$s का एक नया संस्करण उपलब्ध है। <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">संस्करण %3$s का विवरण देखें</a> या <a href=\"%4$s\">अभी अपडेट करें</a>।"
+
+msgid "All"
+msgstr "सभी"
+
+msgid " of "
+msgstr " का"
+
+msgid "Start Date"
+msgstr "प्रारंभ तिथि"
+
+msgid "End Date"
+msgstr "समाप्ति तिथि"
+
+msgid "Signage Playlist"
+msgstr "साइनेज प्लेलिस्ट"
+
+msgid "Nick"
+msgstr "उपनाम"
+
+msgid "This Device is online."
+msgstr "यह डिवाइस ऑनलाइन है।"
+
+msgid "This Device made no contact with the server for some time."
+msgstr "इस डिवाइस ने कुछ समय के लिए सर्वर से कोई संपर्क नहीं किया है।"
+
+msgid "MON"
+msgstr "सोम"
+
+msgid "TUE"
+msgstr "मंगल"
+
+msgid "WED"
+msgstr "बुध"
+
+msgid "THU"
+msgstr "गुरु"
+
+msgid "FRI"
+msgstr "शुक्र"
+
+msgid "SAT"
+msgstr "शनि"
+
+msgid "SUN"
+msgstr "रवि"
+
+msgid "Border"
+msgstr "बॉर्डर"
+
+msgid "Su"
+msgstr "र"
+
+msgid "Mo"
+msgstr "सो"
+
+msgid "Tu"
+msgstr "मं"
+
+msgid "We"
+msgstr "बु"
+
+msgid "Th"
+msgstr "गु"
+
+msgid "Fr"
+msgstr "शु"
+
+msgid "Sa"
+msgstr "श"
+
+msgid "Sunday"
+msgstr "रविवार"
+
+msgid "Monday"
+msgstr "सोमवार"
+
+msgid "Tuesday"
+msgstr "मंगलवार"
+
+msgid "Wednesday"
+msgstr "बुधवार"
+
+msgid "Thursday"
+msgstr "गुरुवार"
+
+msgid "Friday"
+msgstr "शुक्रवार"
+
+msgid "Saturday"
+msgstr "शनिवार"
+
+msgid "January"
+msgstr "जनवरी"
+
+msgid "February"
+msgstr "फरवरी"
+
+msgid "March"
+msgstr "मार्च"
+
+msgid "April"
+msgstr "अप्रैल"
+
+msgid "May"
+msgstr "मई"
+
+msgid "June"
+msgstr "जून"
+
+msgid "July"
+msgstr "जुलाई"
+
+msgid "August"
+msgstr "अगस्त"
+
+msgid "September"
+msgstr "सितम्बर"
+
+msgid "October"
+msgstr "अक्टूबर"
+
+msgid "November"
+msgstr "नवम्बर"
+
+msgid "December"
+msgstr "दिसम्बर"
+
+msgid "Jan"
+msgstr "जन"
+
+msgid "Feb"
+msgstr "फर"
+
+msgid "Mar"
+msgstr "मार्च"
+
+msgid "Apr"
+msgstr "अप्रै"
+
+msgid "Jun"
+msgstr "जून"
+
+msgid "Jul"
+msgstr "जुला"
+
+msgid "Aug"
+msgstr "अग"
+
+msgid "Sep"
+msgstr "सितं"
+
+msgid "Oct"
+msgstr "अक्टू"
+
+msgid "Nov"
+msgstr "नव"
+
+msgid "Dec"
+msgstr "दिस"
+
+msgid "Quick Template Generation"
+msgstr "क्विक टेम्पलेट जनरेशन"
+
+msgid "Template"
+msgstr "टेम्पलेट"
+
+msgid "Facebook"
+msgstr "फेसबुक"
+
+msgid "Twitter"
+msgstr "ट्विटर"
+
+msgid "Select a template type"
+msgstr "टेम्पलेट का प्रकार चुनें"
+
+msgid "Enter a Facebook username"
+msgstr "फेसबुक प्रयोगकर्ता नाम डालें"
+
+msgid "Enter a Twitter username"
+msgstr "ट्विटर प्रयोगकर्ता नाम डालें"
+
+msgid "Generate"
+msgstr "जनरेट करें"
+
+msgid "EMPTY"
+msgstr "खाली"
+
+msgid "SELECT THIS"
+msgstr "यह चुनें"
+
+msgid "Navigation"
+msgstr "नेविगेशन"
+
+msgid "Show WordPress navigation"
+msgstr "वर्डप्रेस-नेविगेशन दिखाएं"
+
+msgid "Hide WordPress navigation"
+msgstr "वर्डप्रेस-नेविगेशन छिपाएं"
+
+msgid "Device Limit"
+msgstr "डिवाइस सीमा"
+
+msgid "If this problem persists, make sure that your browser supports cookies and does not delete them upon restart."
+msgstr "यदि यह समस्या बनी रहती है तो इस बात का ध्यान रखें कि आपका ब्राउज़र कुकीज़ का समर्थन करता हो और रीस्टार्ट करने पर उन्हें समाप्त ना करता हो।"
+
+msgid "This plugin requires at least PHP 5.5 or higher."
+msgstr "इस प्लगइन के लिए कम से कम PHP 5.5 या इससे अधिक की आवश्यकता है।"
+
+#~ msgid "Slidesnames"
+#~ msgstr "स्लाइड नाम"
+
+#~ msgid "Colums"
+#~ msgstr "स्तंभ"
+
+#~ msgid "Scheduling of "
+#~ msgstr "शेड्यूलिंग"
+
+#~ msgid "%s"
+#~ msgstr "%s"

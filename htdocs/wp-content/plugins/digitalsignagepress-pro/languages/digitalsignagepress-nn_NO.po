@@ -1,0 +1,1376 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: digitalsignagepress\n"
+"POT-Creation-Date: 2016-06-15 12:01+0200\n"
+"PO-Revision-Date: 2017-05-03 15:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: pages/navigation_header.php\n"
+"X-Poedit-SearchPath-1: pages/admin.php\n"
+"X-Poedit-SearchPath-2: pages/editor.php\n"
+"X-Poedit-SearchPath-3: js/ds_admin.js\n"
+"X-Poedit-SearchPath-4: pages/programs.php\n"
+"X-Poedit-SearchPath-5: pages/devices.php\n"
+"X-Poedit-SearchPath-6: enterprise/devices_alternate.php\n"
+"X-Poedit-SearchPath-7: includes/ds_misc_function.php\n"
+"X-Poedit-SearchPath-8: pages/device.php\n"
+"X-Poedit-SearchPath-9: enterprise/devicewalls_alternate.php\n"
+"X-Poedit-SearchPath-10: pages/devicewall.phtml\n"
+"X-Poedit-SearchPath-11: enterprise/customers_alternate.php\n"
+"X-Poedit-SearchPath-12: enterprise/users.php\n"
+"X-Poedit-SearchPath-13: pages/customers.php\n"
+"X-Poedit-SearchPath-14: pages/customer.php\n"
+"X-Poedit-SearchPath-15: enterprise/user.php\n"
+"X-Poedit-SearchPath-16: digitalsignagepress.php\n"
+"X-Poedit-SearchPath-17: pages/ds_license_form.php\n"
+"X-Poedit-SearchPath-18: enterprise/media.php\n"
+"X-Poedit-SearchPath-19: enterprise/editor.php\n"
+"X-Poedit-SearchPath-20: enterprise/devices_alternate.php\n"
+"X-Poedit-SearchPath-21: enterprise/devicewalls_alternate.php\n"
+"X-Poedit-SearchPath-22: enterprise/multiupload.js\n"
+"X-Poedit-SearchPath-23: enterprise/users.php\n"
+"X-Poedit-SearchPath-24: pages/programs.php\n"
+"X-Poedit-SearchPath-25: pages/customers.php\n"
+"X-Poedit-SearchPath-26: pages/devices.php\n"
+
+msgid "It's a plugin to allow Digital Signage via WordPress"
+msgstr "Det er en plugin for Digital Signage via Wordpress"
+
+msgid "Are you sure you want to permanently delete this file?"
+msgstr "Er du helt sikker på at du vil slette denne filen for godt?"
+
+msgid "Are you sure you want to permanently delete this folder and all of its content? (this may take a moment)"
+msgstr "Er du sikker på at du vil slette denne mappen og alt innhold for godt? (Dette kan ta noe tid)"
+
+msgid "New Playlist"
+msgstr "Ny Spilleliste"
+
+msgid "Playlist"
+msgstr "Spilleliste"
+
+msgid "Devices"
+msgstr "Enheter"
+
+msgid "Videowalls"
+msgstr "Videovegger"
+
+msgid "Customers"
+msgstr "Kunder"
+
+msgid "Users"
+msgstr "Brukere"
+
+msgid "Media"
+msgstr "Media"
+
+msgid "License"
+msgstr "Lisens"
+
+msgid "Everything"
+msgstr "Alt"
+
+msgid "Group"
+msgstr "Gruppe"
+
+msgid "Branch"
+msgstr "Bransje"
+
+msgid "Discription"
+msgstr "Beskrivelse"
+
+msgid "Zipcode"
+msgstr "Post Nummer"
+
+msgid "City"
+msgstr "By"
+
+msgid "Street"
+msgstr "Gate"
+
+msgid "House number"
+msgstr "Hus Nr."
+
+msgid "Country"
+msgstr "Land"
+
+msgid "FILTER BY:"
+msgstr "Filtrer:"
+
+msgid "Search Filter"
+msgstr "Søkefilter"
+
+msgid "use * as wildcard"
+msgstr "Bruk * som wildcard"
+
+msgid "Add New Customer"
+msgstr "Legg til ny kunde"
+
+msgid "Edit"
+msgstr "Endre"
+
+msgid "Delete"
+msgstr "Slett"
+
+msgid "Are you sure you want to permanently delete this customer?"
+msgstr "Er du sikker på at du vil slette denne kunden for godt?"
+
+msgid "Devicename"
+msgstr "Enhetsnavn"
+
+msgid "Playlistname"
+msgstr "Spilleliste Navn"
+
+msgid "Videowallname"
+msgstr "Videovegg navn"
+
+msgid "Customer"
+msgstr "Kunde"
+
+msgid "Location"
+msgstr "Lokasjon"
+
+msgid "Change Date"
+msgstr "Endre dato"
+
+msgid "Last Request"
+msgstr "Siste forespørsel"
+
+msgid "Online"
+msgstr "Online"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Not Updated"
+msgstr "Ikke Oppdatert"
+
+msgid "Move selected Device(s) to Playlist:"
+msgstr "Flytt merket enhet/enheter til spilleliste:"
+
+msgid "No Playlist"
+msgstr "Ingen Spilleliste"
+
+msgid "Videowall"
+msgstr "Videovegg"
+
+msgid "Check"
+msgstr "Sjekk"
+
+msgid "Are you sure you want to permanently delete this device?"
+msgstr "Er du sikker på at du vil slette denne enheten permanent?"
+
+msgid "Number of Devices"
+msgstr "Antall Enheter"
+
+msgid "Select or deselect all Devices at once"
+msgstr "Merk alle enheter samtidig"
+
+msgid "Are you sure you want to permanently delete this devicewall?"
+msgstr "Er du sikker på at du vil slette denne videovegg enheten for godt?"
+
+msgid "Are you sure you want to permanently delete this playlist?"
+msgstr "Er du sikker på at du vil slette denne spillelisten for godt?"
+
+msgid "Devices that use this playlist will have their playlist entry removed."
+msgstr "Enheter som bruker denne spillelisten vil få deres spilleliste fjernet."
+
+msgid "Media Library"
+msgstr "Media Bibliotek"
+
+msgid "Add New Folder"
+msgstr "Legg til ny mappe"
+
+msgid "Drop Images/Movies here or"
+msgstr "Dra bilder/filmer hit eller"
+
+msgid "Upload"
+msgstr "Last Opp"
+
+msgid "ADD NEW FOLDER"
+msgstr "LEGG TIL NY MAPPE"
+
+msgid "Preview"
+msgstr "Forhåndsvisning"
+
+msgid "Name"
+msgstr "Navn"
+
+msgid "Orientation"
+msgstr "Retning"
+
+msgid "Resolution"
+msgstr "Oppløsning"
+
+msgid "Filesize"
+msgstr "Filstørrelse"
+
+msgid "Uploaded"
+msgstr "Opplastet"
+
+msgid "Modified"
+msgstr "Modifisert"
+
+msgid "Replace"
+msgstr "Erstatt"
+
+msgid "User Details"
+msgstr "Bruker Detaljer"
+
+msgid "Login Name"
+msgstr "Innloggingsnavn"
+
+msgid "New Password"
+msgstr "Nytt Passord"
+
+msgid "Password"
+msgstr "Passord"
+
+msgid "First Name"
+msgstr "Fornavn"
+
+msgid "Last Name"
+msgstr "Etternavn"
+
+msgid "No Limitation"
+msgstr "Ingen begrensning"
+
+msgid "Manage User"
+msgstr "Behandle Brukere"
+
+msgid "Can't manage users"
+msgstr "Kan ikke behandle brukere"
+
+msgid "Can create new and manage existing Users"
+msgstr "Kan opprette nye og redigere eksisterende brukere"
+
+msgid "SAVE"
+msgstr "LAGRE"
+
+msgid "User Name"
+msgstr "Brukernavn"
+
+msgid "Full Name"
+msgstr "Fultnavn"
+
+msgid "Position"
+msgstr "Posisjon"
+
+msgid "Are you sure you want to permanently delete this user?"
+msgstr "Er du sikker på at du vil slette denne brukeren for godt?"
+
+msgid "Never"
+msgstr "Aldri"
+
+msgid "Add New Device"
+msgstr "Legg Til Ny Enhet"
+
+msgid "PAGE"
+msgstr "SIDE"
+
+msgid "Add New Videowall"
+msgstr "Legg Til Ny Videovegg"
+
+msgid "New Slide"
+msgstr "Ny slide"
+
+msgid "Slideduration"
+msgstr "Lysbildevarighet"
+
+msgid "Sec"
+msgstr "Sek"
+
+msgid "None of your slides has a slideduration"
+msgstr "Ingen av dine lysbilder har spilletid"
+
+msgid "The current page orientation is portrait; do you really want to change this for all slides in this playlist?"
+msgstr "Dine nåværende sider er i portrett; er du sikker på at du vil endre dette for alle lysbildene i spillelisten?"
+
+msgid "The current page orientation is landscape; do you really want to change this for all slides in this playlist?"
+msgstr "Dine nåværende sider er i landskap; er du sikker på at du vil endre dette for alle lysbildene i spillelisten?"
+
+msgid "Close"
+msgstr "Lukk"
+
+msgid "Your changes have not been saved. Do you wish to leave the page?"
+msgstr "Dine endringer er ikke lagret. Ønsker du og forlate denne siden alikevell?"
+
+msgid "can never be played, enddate is in the past."
+msgstr "Kan aldri spilles da sluttdatoen er i fortiden."
+
+msgid "has startdate after enddate."
+msgstr "har startdato etter sluttdato."
+
+msgid "has start after end for day of month."
+msgstr "Har begynt etter slutten for dagen i måneden"
+
+msgid "Your playlist has no slides that can be played, latest enddate is in the past."
+msgstr "Din spilleliste har ingen lysbilder som kan spilles av, siste sluttdato er i fortiden."
+
+# FILENAME is a keyword here
+msgid "Are you sure you want to delete FILENAME"
+msgstr "Er du sikker på at du vil slettte FILENAME"
+
+msgid "Name of this Slide"
+msgstr "Navnet på lysbilde"
+
+msgid "custom editor"
+msgstr "Freier Editor"
+
+msgid "Signage Playlist Name:"
+msgstr "Signage Spilleliste navn:"
+
+msgid "Create New Slide"
+msgstr "Opprett nytt lysbilde"
+
+msgid "Slides of this Playlist"
+msgstr "Lysbilder for denne spillelisten"
+
+msgid "Sec."
+msgstr "Sek."
+
+msgid "Save"
+msgstr "Lagre"
+
+msgid "Choose landscape or portrait layout as your page orientation."
+msgstr "Velg landskap eller portrett for ditt prosjekt"
+
+msgid "Choose between favorite list and regular for template selection."
+msgstr "Velg mellom favoritt liste eller vanlig for mal valg"
+
+msgid "Favorite"
+msgstr "Favoritt"
+
+msgid "Choose the page or menu card template or use custom template to freely place elements on the entire page."
+msgstr "Velg side eller meny mal eller bruk tilpasset mal for og selv plassere elementer på siden."
+
+msgid "Scheduling of"
+msgstr "Planlegging AV"
+
+msgid "Number of seconds this slide will be shown each repetition. Use 0 for endless."
+msgstr "Sekunder dette lysbilde vil vises på hver repetisjon. Bruk 0 for uendelig."
+
+msgid "show 24h every Day"
+msgstr "Vis 24t hver dag"
+
+msgid "define scheduling"
+msgstr "Definer planlegging"
+
+msgid "Here you can limit that the slide is only visible during certain times each week. Leave empty to not restrict show time."
+msgstr "Her can du velge at lysbilde kun er synelig spesifike tider hver uke. Hvis blank, vises lysbilde alltid"
+
+msgid "Limit Showtime by Weekdays"
+msgstr "Begrens Visningstid til Ukedager"
+
+msgid "en"
+msgstr "no"
+
+msgid "Save Anyway"
+msgstr "Lagre alikevell"
+
+msgid "Proceed"
+msgstr "Fortsett"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Customer Details"
+msgstr "Kunde Detaljer"
+
+msgid "Description"
+msgstr "Beskrivelse"
+
+msgid "Available Devices"
+msgstr "Tilgjengelige Enheter"
+
+msgid "No pages are configured with the [digitalsignage] shortcode."
+msgstr "Ingen av sidene er konfigurert med [digitalsignage] code "
+
+msgid "Please add it to one."
+msgstr "Vennligst legg den til en"
+
+msgid "No device belongs to this customer"
+msgstr "Ingen enheter tilhører denne kunden"
+
+msgid "VIEW"
+msgstr "VISNING"
+
+msgid "All Items"
+msgstr "Alle Elementer"
+
+msgid "One Row"
+msgstr "En Rad"
+
+msgid "Row"
+msgstr "Rad"
+
+msgid "Device Details"
+msgstr "Enhet Detaljer"
+
+msgid "No Program"
+msgstr "Ingen program"
+
+msgid "No Customer"
+msgstr "Ingen Kunde"
+
+msgid "Browser of allocated Device"
+msgstr "Utforsker for alle allokerte enheter"
+
+msgid "Allow other device to use this URL"
+msgstr "La andre enheter bruke denne URL-Linken"
+
+msgid "Enter these URLs into your device to see this playlist on your device"
+msgstr "Legg inn URL-Linken på din enhet for og se spillelisten på din enhet"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Licensing for DigitalSignagePress"
+msgstr "Lisens for DigitalSignagePress"
+
+msgid "To use our DigitalSignagePress Plugin, please follow the next steps to activate it."
+msgstr "For og bruke vår DigitalSignagePress plugin, vennligst følg neste steg for aktivering."
+
+msgid "Step 1: Enter License Key"
+msgstr "Skriv Inn Lisens Kode"
+
+msgid "Enter your license key"
+msgstr "Skriv Inn Din Lisens Kode"
+
+msgid "You'll find your License Key inside your confirmation email after you"
+msgstr "Du vil finne din lisens kode i bekreftelse eposten etter du"
+
+msgid "purchased a license"
+msgstr "Kjøpt en lisens"
+
+msgid "Step 2: Activate License"
+msgstr "Steg 2: Aktiver Lisens"
+
+msgid "active"
+msgstr "aktiv"
+
+msgid "Deactivate License"
+msgstr "Deaktiver Lisens"
+
+msgid "Activate License"
+msgstr "Aktiver Lisens"
+
+msgid "Step 3: Install DigitalSignagePress Theme"
+msgstr "Steg 3: Installer DigitalSignagePress Tema"
+
+msgid "installed"
+msgstr "installert"
+
+msgid "Activation is <b>not</b> required."
+msgstr "Aktivering er <b>ikke</b> nødvendig"
+
+msgid "Please download the DigitalSignagePress Theme and install it.<br>You <b>don't</b> need to <b>activate</b> it, only install it."
+msgstr "Vennligst last ned DigitalSignagePress tema og installer det.<br>Du <b>trenger</b> ikke <b>aktivere</b> det, bare installer tema`et."
+
+msgid "Background of Slide"
+msgstr "Lysbilde bakgrunn"
+
+msgid "Media for Element"
+msgstr "Media for Ellement"
+
+msgid "Background Image"
+msgstr "Bakgrunns Bilde"
+
+msgid "Background Color"
+msgstr "Bakgrunns Farge"
+
+msgid "Image"
+msgstr "Bilde"
+
+msgid "Color"
+msgstr "Farge"
+
+msgid "Menucard"
+msgstr "Menykort"
+
+msgid "Slideshow"
+msgstr "Bildevisning"
+
+msgid "Font"
+msgstr "Skrift"
+
+msgid "Size"
+msgstr "Størrelse"
+
+msgid "Bold"
+msgstr "Fet"
+
+msgid "Italic"
+msgstr "Kursiv"
+
+msgid "Underline"
+msgstr "Understrek"
+
+msgid "Align Left"
+msgstr "Venstre Juster"
+
+msgid "Align Center"
+msgstr "Midtstil"
+
+msgid "Align Right"
+msgstr "Høyre Juster"
+
+msgid "Align Full"
+msgstr "Fullskjerm"
+
+msgid "ADD"
+msgstr "LEGG TIL"
+
+msgid "Duplicate"
+msgstr "Dupliser"
+
+msgid "Padding"
+msgstr "Avstand"
+
+msgid "Playlists"
+msgstr "Spilleliste"
+
+msgid "Create a new playlist."
+msgstr "Lag en ny spilleliste."
+
+msgid "View and edit existing playlists."
+msgstr "Se og rediger eksisterende spillelister."
+
+msgid "Manage your viewing devices and generate urls for viewing your content on them."
+msgstr "Behandle dine enheter og generer URL-Link for publisering av ditt innhold"
+
+msgid "Configure videowalls - show your content across multiple devices."
+msgstr "Konfigurer videovegger - Vis ditt innhold på flere enheter"
+
+msgid "Manage your customers that own the devices."
+msgstr "Behnalde dine kunder som eier denne enheten"
+
+msgid "Slides"
+msgstr "Lysbilder"
+
+msgid "Showing"
+msgstr "Aktiv"
+
+msgid "Format"
+msgstr "Format"
+
+msgid "Slidenames"
+msgstr "Lysbilde navn"
+
+msgid "Last Change"
+msgstr "Siste endring"
+
+msgid "Valid From"
+msgstr "Gyldig fra"
+
+msgid "Valid To"
+msgstr "Gyldig Til"
+
+msgid "Are you sure you want to remove this slide from the playlist?"
+msgstr "Er du sikker på at du vil fjerne dette lysbilde fra spillelisten?"
+
+msgid "Display Orientation"
+msgstr "Bilde Retning"
+
+msgid "Display configuration"
+msgstr "Bilde konfigurasjon"
+
+msgid "Resolution width"
+msgstr "Oppløsning bredde"
+
+msgid "Bezel compensation width"
+msgstr "Ramme kompansasjon bredde"
+
+msgid "Resolution height"
+msgstr "Oppløsning høyde"
+
+msgid "Bezel compensation height"
+msgstr "Ramme kompansasjon høyde"
+
+msgid "Rows"
+msgstr "Rader"
+
+msgid "Columns"
+msgstr "Kolonner"
+
+msgid "Videowall Details"
+msgstr "Videovegg Detaljer"
+
+msgid "PREVIEW OF YOUR PLAYLIST"
+msgstr "FORHÅNDSVISNING AV DIN SPILLELISTE"
+
+msgid "Slide"
+msgstr "Lysbilde"
+
+msgid "Last Edit"
+msgstr "Siste redigering"
+
+msgid "nameless device"
+msgstr "navnløs enhet"
+
+msgid "nameless playlist"
+msgstr "navnløs spilleliste"
+
+msgid "nameless customer"
+msgstr "navnløs kunde"
+
+msgid "nameless videowall"
+msgstr "navnløs videovegg"
+
+msgid "nameless user"
+msgstr "navnløs bruker"
+
+msgid "nameless slide"
+msgstr "navnløst lysbilde"
+
+msgid "Enter Website URL"
+msgstr "Skriv inn Netside URL-Linken"
+
+msgid "Enter Video URL"
+msgstr "Skriv inn video URL-Link"
+
+msgid "Enter a URL to a video file on a webserver or a youtube link or choose a video file from the media library."
+msgstr "Skriv inn URL-Linken til en video fil på internet eller en youtube link eller velg en videofil fra media biblioteket."
+
+msgid "You may also add fallback videos for browser that don't support the primary video."
+msgstr "Do kan også legge til alternativ video for nettlesere som ikke støtter primær video`en."
+
+msgid "To guarantee best compatibility, please provide at least files with formats of MP4 and OGG."
+msgstr "For og garantere best tilgjengelighet, vennligst bruk MP4 og OGG format."
+
+msgid "Edit your Code"
+msgstr "Rediger din kode"
+
+msgid "Set padding of Content"
+msgstr "Sett avstand til innhold"
+
+msgid "Select to which element this padding should be applied"
+msgstr "Velg hvilket element denne avstanden skal være i bruk til"
+
+msgid "Only Text"
+msgstr "Bare tekst"
+
+msgid "Content"
+msgstr "Innhold"
+
+msgid "Setup Slideshow"
+msgstr "Sett opp lysbilde fremvisning"
+
+msgid "Slide-in Effect"
+msgstr "Slide-in Effekt"
+
+msgid "REMOVE"
+msgstr "FJERN"
+
+msgid "Change"
+msgstr "ENDRE"
+
+msgid "Name of this Folder"
+msgstr "Navnet til denne mappen"
+
+msgid "Insert into page"
+msgstr "Legg til på side"
+
+msgid "Create new empty Slide"
+msgstr "Opprett nytt TOMT lysbilde"
+
+msgid "Copy existing Slide"
+msgstr "Kopier eksisterende lysbilde"
+
+msgid "Copy to Playlist"
+msgstr "Kopier til spilleliste"
+
+msgid "New Folder"
+msgstr "Ny Mappe"
+
+msgid "Active"
+msgstr "Aktiv"
+
+msgid "More Options"
+msgstr "Flere instillinger"
+
+msgid "Limit Showtime by Day of Month"
+msgstr "Begrens Visningstid til dag i månenden."
+
+msgid "Limit Showtime by Date"
+msgstr "Begrens Visningstid med dato"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Website"
+msgstr "Nettside"
+
+msgid "Choose"
+msgstr "Velg"
+
+msgid "Choose Image"
+msgstr "Velg Bilde"
+
+msgid "Choose Video"
+msgstr "Velg Video"
+
+msgid "This call only works in a WordPress environment"
+msgstr "Denne samtalen fungerer bare i et WordPress-miljø"
+
+msgid "Not supported in fix template"
+msgstr "Ikke mulig i fastsatt mal"
+
+msgid "Add Column"
+msgstr "Legg til Kolonne"
+
+msgid "Remove Column"
+msgstr "Fjern Kolonne"
+
+msgid "Add Row"
+msgstr "Legg til Rad"
+
+msgid "Remove Row"
+msgstr "Fjern Rad"
+
+msgid "Text Column"
+msgstr "Tekst-Spalte"
+
+msgid "New Text Column"
+msgstr "Ny Tekst-Spalte"
+
+msgid "Price"
+msgstr "Pris"
+
+msgid "Edit Html-Content"
+msgstr "Rediger Html-innhold"
+
+msgid "Header"
+msgstr "Overskrift"
+
+msgid "Footer"
+msgstr "Bunntekst"
+
+msgid "Menu"
+msgstr "Meny"
+
+msgid "Start the slideshow"
+msgstr "Start lysbilde fremvisning"
+
+msgid "Stop the slideshow"
+msgstr "Stop lysbilde fremvisning"
+
+msgid "Duration"
+msgstr "Varighet"
+
+msgid "Center"
+msgstr "Senter"
+
+msgid "left"
+msgstr "venstre"
+
+msgid "right"
+msgstr "høyre"
+
+msgid "top"
+msgstr "topp"
+
+msgid "bottom"
+msgstr "bunn"
+
+msgid "Add New User"
+msgstr "Legg til ny bruker"
+
+msgid "Partly Never"
+msgstr "Delvis Aldri"
+
+msgid "ERROR: no customer"
+msgstr "ERROR: ingen kunde"
+
+msgid "ERROR: no playlist"
+msgstr "ERROR: ingen spilleliste"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Date"
+msgstr "Dato"
+
+msgid "Span"
+msgstr "Span"
+
+msgid "Settings"
+msgstr "Instillinger"
+
+msgid "Logout"
+msgstr "Log Ut"
+
+msgid "Download"
+msgstr "Last Ned"
+
+msgid "If you do not schedule something the slide will be always active"
+msgstr "Hvis du ikke tidsfester/planlegger noe vil lysbilde alltid vises."
+
+msgid "User to edit could not be found."
+msgstr "Bruker til redigering ble ikke funnet."
+
+msgid "Unrecoverable error while editing user."
+msgstr "Uopprettelig feil ved editering av bruker."
+
+msgid "Username already taken."
+msgstr "Brukernavnet er i bruk."
+
+msgid "A required field was not filled, could not create user..."
+msgstr "Nødvendig kolonne var ikke fylt ut, kan ikke opprette bruker..."
+
+msgid "This Device has the latest playlist."
+msgstr "Denne enheten har den seneste spillelisten."
+
+msgid "This Device hasn't yet downloaded the latest playlist."
+msgstr "Enheten har ikke lastet ned den seneste spillelisten."
+
+msgid "Here you can limit that this slide is only visible between the two given dates."
+msgstr "Her kan du begrense at lysbilde kun er synlig mellom 2 gitte datoer."
+
+msgid "Here you can limit that this slide is only visible between two days of a month. This will be repeated for every month."
+msgstr "Her kan du begrense at lysbilde kun er synlig mellom 2 dager i måneden. Dette vil repeteres hver måned."
+
+msgid "Enter this URL into your device with SMIL support."
+msgstr "Skriv inn denne URL-Linken på dine enheter med SMIL support."
+
+msgid "Choose landscape or portrait layout as your videowall orientation"
+msgstr "Velg landskap eller portrett på din videovegg installasjon"
+
+msgid "Set up the parameters of the display type your video wall consists of"
+msgstr "Still inn parametrene for skjermtypen som består av videovegg"
+
+msgid "Remove this slide from the playlist."
+msgstr "Fjern dette lysbilde fra spillelisten."
+
+msgid "Delete this playlist."
+msgstr "Slett denne spillelisten."
+
+msgid "This slide is currently active."
+msgstr "Dette lysbilde har status: Aktiv."
+
+msgid "This slide is currently not showing because of scheduling."
+msgstr "Dette lysbilde vises ikke pga tidsplanleggingen i ditt slideshow."
+
+msgid "An error occurred during upload.."
+msgstr "En feil oppstod ved opplastning."
+
+msgid "An error occurred during update.."
+msgstr "En feil oppstod ved oppdatering."
+
+msgid "Invalid file format."
+msgstr "Feil fil format."
+
+msgid "Couldn't get user info."
+msgstr "Kan ikke vise bruker info."
+
+msgid "A username and password are required."
+msgstr "Ett brukernavn og passord er nødvendig ."
+
+msgid "We check whether your browser supports cookies."
+msgstr "Vi sjekker om din nettleser støtter cookies."
+
+msgid "This device number is already occupied by a different monitor, please enter the URL of a different device for this monitor."
+msgstr "Dette enhet nummeret er allerede ibruk på en annen monitor, vennligst skriv inn URL-Linken fra en annen enhet."
+
+msgid ""
+"This device number is already occupied by a different monitor, please enter the URL of a different device for this monitor.<br>Please use this URL only on one monitor at the same "
+"time.<br>If this is the right monitor for this URL please follow these steps:<br>1) navigate to Devices<br>2) edit this device<br>3) press the button \"Allow other device to use "
+"this URL\"<br>4) refresh this page on this monitor/browser or restart the monitor"
+msgstr "Dette enhets nummeret er allerede ibruk på en annen monitor, vennligst skriv inn URL-Linken fra en annen enhet på denne monitoren."
+
+msgid "There seems to be a problem with your license. Please verify your license data."
+msgstr "Noe er feil med din lisens, Vennligst verifiser at lisens nøkkelen er riktig."
+
+msgid "Number of Playlists"
+msgstr "Antall spillelister"
+
+msgid "Number of Slides"
+msgstr "Antall lysbilder"
+
+msgid "Number of Customers"
+msgstr "Antall Kunder"
+
+msgid "Number of Devicewalls"
+msgstr "Antall Videovegg Enheter"
+
+msgid "Updated Devices"
+msgstr "Oppdaterte Enheter"
+
+msgid "Unused Devices"
+msgstr "Ubrukte Enheter"
+
+msgid "Offline Devices"
+msgstr "Offline Enheter"
+
+msgid "Online Devices"
+msgstr "Online Enheter"
+
+msgid "You must choose an existing file to replace!"
+msgstr "Du må velge en eksisterende fil og bytte ut!"
+
+msgid "Upload a new file"
+msgstr "Last opp en ny fil"
+
+# FILENAME is a keyword here
+msgid "Choose a new file to replace FILENAME"
+msgstr "Velg en ny fil for å bytte med FILENAME"
+
+msgid "All links to the old file will be updated."
+msgstr "Alle linker til den gamle filen må oppdateres."
+
+msgid "Once the upload is finished, this can not be undone!"
+msgstr "Når opplastning er ferdig, kan dette ikke angres!"
+
+msgid "You do not have permission to upload files."
+msgstr "Do har ikke rettigheter til og laste opp filer."
+
+msgid "Replace media"
+msgstr "Erstatt media"
+
+msgid "Replace the current file and automatically update all links to it."
+msgstr "Erstatt nåværende fil og automatisk oppdater alle linker til denne."
+
+msgid "Could not find file to replace."
+msgstr "Kan ikke finne fil og erstatte."
+
+msgid "File not usable. Unknown extension."
+msgstr "Filen kan ikke brukes. Ukjent Filtype."
+
+msgid " could not be deleted, please check file permissions."
+msgstr "Kunne ikke slettes, vennligst sjekk fil rettigheter."
+
+msgid "Complete the setup now."
+msgstr "Ferdigstill installasjon nå."
+
+# PLUGIN is a keyword here
+msgid "Please enter your PLUGIN license key to enable updates."
+msgstr "Vennligst skriv inn din PLUGIN lisens kode for og aktivere oppdateringer."
+
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr "Det er en ny versjon av %1$s. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Se versjons %3$s detaljer</\"a>."
+
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr "Det er en ny versjon av %1$s tilgjengelig. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Se versjon %3$s detaljer</"
+
+msgid "All"
+msgstr "Alle"
+
+msgid " of "
+msgstr " av "
+
+msgid "Start Date"
+msgstr "Start dato"
+
+msgid "End Date"
+msgstr "Slutt dato"
+
+msgid "Signage Playlist"
+msgstr "Signage Spilleliste"
+
+msgid "Nick"
+msgstr "Kallenavn"
+
+msgid "This Device is online."
+msgstr "Denne enheten er online."
+
+msgid "This Device made no contact with the server for some time."
+msgstr "Enheten har ikke hatt kontakt med serveren på en stund."
+
+msgid "MON"
+msgstr "MANDAG"
+
+msgid "TUE"
+msgstr "TIRSDAG"
+
+msgid "WED"
+msgstr "ONSDAG"
+
+msgid "THU"
+msgstr "TORSDAG"
+
+msgid "FRI"
+msgstr "FREDAG"
+
+msgid "SAT"
+msgstr "LØRDAG"
+
+msgid "SUN"
+msgstr "SØNDAG"
+
+msgid "Border"
+msgstr "Rammer"
+
+msgid "Su"
+msgstr "Sø"
+
+msgid "Mo"
+msgstr "Ma"
+
+msgid "Tu"
+msgstr "Ti"
+
+msgid "We"
+msgstr "On"
+
+msgid "Th"
+msgstr "To"
+
+msgid "Fr"
+msgstr "Fr"
+
+msgid "Sa"
+msgstr "Lø"
+
+msgid "Sunday"
+msgstr "Søndag"
+
+msgid "Monday"
+msgstr "Mandag"
+
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+msgid "Wednesday"
+msgstr "Onsdag"
+
+msgid "Thursday"
+msgstr "Torsdag"
+
+msgid "Friday"
+msgstr "Fredag"
+
+msgid "Saturday"
+msgstr "Lørdag"
+
+msgid "January"
+msgstr "Januar"
+
+msgid "February"
+msgstr "Februar"
+
+msgid "March"
+msgstr "Mars"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "Mai"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "Desember"
+
+msgid "Jan"
+msgstr "Jan"
+
+msgid "Feb"
+msgstr "Feb"
+
+msgid "Mar"
+msgstr "Mar"
+
+msgid "Apr"
+msgstr "Apr"
+
+msgid "Jun"
+msgstr "Jun"
+
+msgid "Jul"
+msgstr "Jul"
+
+msgid "Aug"
+msgstr "Aug"
+
+msgid "Sep"
+msgstr "Sep"
+
+msgid "Oct"
+msgstr "Okt"
+
+msgid "Nov"
+msgstr "Nov"
+
+msgid "Dec"
+msgstr "Dez"
+
+# VERSION 1.4.7
+msgid "Quick Template Generation"
+msgstr "Opprett Hurtig Mal"
+
+msgid "Template"
+msgstr "Mal"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Select a template type"
+msgstr "Velg en mal type"
+
+msgid "Enter a Facebook username"
+msgstr "Skriv inn ett Facebook brukernavn"
+
+msgid "Enter a Twitter username"
+msgstr "Skriv inn ett Twitter brukernavn"
+
+msgid "Generate"
+msgstr "Generer"
+
+msgid "EMPTY"
+msgstr "TOM"
+
+msgid "SELECT THIS"
+msgstr "VELG DENNE"
+
+msgid "Navigation"
+msgstr "Navigering"
+
+msgid "Show WordPress navigation"
+msgstr "Hvis Wordpress navigering"
+
+msgid "Hide WordPress navigation"
+msgstr "Skjul Wordpress navigering"
+
+msgid "Device Limit"
+msgstr "Max antall enheter"
+
+msgid "If this problem persists, make sure that your browser supports cookies and does not delete them upon restart."
+msgstr "Hvis problemet oppstår igjen, pass på at nettleseren støtter cookies og ikke sletter dem ved restart."
+
+msgid "This plugin requires at least PHP 5.5 or higher."
+msgstr "Denne plugin krever PHP 5.5 eller høyere."
+
+msgid "Select a playlist"
+msgstr "Velg en spilleliste"
+
+msgid "Or embed a playlist"
+msgstr "eller legg til en spilleliste"
+
+msgid "Tool Selection"
+msgstr "Verktøy Utvalg"
+
+msgid "Tools"
+msgstr "Verktøy"
+
+msgid "Timezone"
+msgstr "Tidssone"
+
+msgid "RSS"
+msgstr "RSS"
+
+msgid "RSS source"
+msgstr "RSS Kilde"
+
+msgid "Enter a RSS URL"
+msgstr "Skriv inn en RSS-Link"
+
+msgid "Enter amount of items"
+msgstr "Velg antall elementer"
+
+msgid "Item limit"
+msgstr "Element grense"
+
+msgid "Display description"
+msgstr "Visningsbeskrivelse"
+
+msgid "Clock"
+msgstr "Klokke"
+
+msgid "No RSS data found"
+msgstr "Ingen RSS data funnet"
+
+msgid "Invalid http code"
+msgstr "Ugyldig http kode"
+
+msgid "Cannot get data from this url"
+msgstr "Kan ikke motta data fra denne URL-Linken"
+
+msgid "Weather"
+msgstr "Vær"
+
+msgid "Unit"
+msgstr "Enhet"
+
+msgid "Display Forecast"
+msgstr "Vis Prognose"
+
+msgid "Today"
+msgstr "Idag"
+
+msgid "Tomorrow"
+msgstr "I Morgen"
+
+msgid "No weather data for settings: city([CITY]) zipcode([ZIPCODE])"
+msgstr "Ingen værdata fra: By([CITY]) Postnummer([ZIPCODE])"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Help getting necessary data"
+msgstr "Hjelp for og motta nødvendig data"
+
+msgid "How to get Access Token"
+msgstr "Hvordan få tilgang Token"
+
+msgid "http://web-settler.com/generate-instagram-access-token/"
+msgstr "http://web-settler.com/generate-instagram-access-token/"
+
+msgid "Get user ID"
+msgstr "Få bruker ID"
+
+msgid "https://smashballoon.com/instagram-feed/find-instagram-user-id/"
+msgstr "https://smashballoon.com/instagram-feed/find-instagram-user-id/"
+
+msgid "Own Access Token"
+msgstr "Egen tilgang token"
+
+msgid "Target User ID"
+msgstr "Velg bruker ID"
+
+msgid "Column Number"
+msgstr "Kolonne Nummer"
+
+msgid "max 10"
+msgstr "max 10"
+
+msgid "max 20"
+msgstr "max 20"
+
+msgid "No images found"
+msgstr "Ingen bilder funnet"
+
+msgid "Instagram request had failed"
+msgstr "Instagram forespørsel feilet"
+
+msgid "Failed to get Instagram data"
+msgstr "Problem med og motta Instagram data"
+
+msgid "Drag and drop the slides into the calendar to manage its scheduling"
+msgstr "Flytt og slipp lysbildene inn i kalenderen for og planlegge visning"
+
+msgid "Information: This calendar uses Drag&Drop. You can simply drag the slides on the left into the calender"
+msgstr "Informasjon: Denne kalenderen bruer Drag&Drop. Du kan enkelt dra lysbildene in til kalenderen."
+
+msgid "Still missing necessary settings"
+msgstr "Mangler fortsatt nødvendige instillinger"
+
+msgid "invalid"
+msgstr "Ugyldig"
+
+msgid "no connection"
+msgstr "ingen tilkobling"
+
+# VERSION 1.4.8
+msgid "Custom Logo"
+msgstr "Egen logo"
+
+msgid "Reset"
+msgstr "Reset"
+
+msgid "Header Color"
+msgstr "Overskrift farge"
+
+msgid "Header Text Color"
+msgstr "Overskrift tekst farge"
+
+msgid "Button Color"
+msgstr "Farge på knapp"
+
+msgid "Button Color Hover"
+msgstr "Farge på knapp ''Hover'' "
+
+msgid "Button Text Color"
+msgstr "Tekst farge på knapp"
+
+msgid "For best results give width and height in percentage."
+msgstr "For beste resultat satt høyde og bredde i prosent."
+
+msgid "New Group"
+msgstr "Ny Gruppe"
+
+msgid "Font Name"
+msgstr "Font"
+
+msgid "Name of this Font"
+msgstr "Fontnavn"
+
+msgid "Name of this Font Group"
+msgstr "Navn på denne font gruppen"
+
+msgid "Url of this Font"
+msgstr "Url for denne Font`en"
+
+msgid "apply changed URL to other fonts of this URL"
+msgstr "Bruk endret URL til andre skrifter av denne nettadressen"
+
+msgid "Font Group Name"
+msgstr "Font gruppe navn"
+
+msgid "Google Fonts Url"
+msgstr "Google-Fonts Url"
+
+msgid "e.g."
+msgstr "e.g"
+
+msgid "Create New Font"
+msgstr "Lag ny font"
+
+msgid "Individual font names are taken from the url's content."
+msgstr "Individuelle fant navn er tatt fra url innholdet."
+
+msgid "Duplicate fonts will be moved to the new group."
+msgstr "Doble fonter vil bli flyttet til ny gruppe."
+
+msgid "To expand an existing font group with new fonts, use the old group name again."
+msgstr "For og opprette nye fonter i gammel font gruppe, bruk navnet til den gamle font gruppen."
+
+msgid "If you leave the name blank the file name will be used."
+msgstr "Hvis du lar navnet være blankt vil fil navnet bli brukt."
+
+msgid "Use the same name as an existing font to overwrite outdated font files or add different font file types to a font"
+msgstr "Bruk samme navn som en eksisterende skrift for å overskrive gamle skriftfiler eller legge til ulike skrift filtyper til en skrift"
+
+msgid " (e.g. add .ttf to existing .woff to support different devices)"
+msgstr "f.eks Legg til .ttf til eksisterende .woff for å støtte forskjellige enheter"
+
+msgid "Upload Date"
+msgstr "Opplastningsdato"
+
+msgid "Drop Font files here or"
+msgstr "Slipp font filer her"
+
+msgid "Or"
+msgstr "Eller"

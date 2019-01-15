@@ -1,0 +1,1277 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: digitalsignagepress\n"
+"POT-Creation-Date: 2016-06-15 12:01+0200\n"
+"PO-Revision-Date: 2016-11-03 15:20+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Last-Translator: \n"
+"Language: nl\n"
+"X-Poedit-SearchPath-0: pages/navigation_header.php\n"
+"X-Poedit-SearchPath-1: pages/admin.php\n"
+"X-Poedit-SearchPath-2: pages/editor.php\n"
+"X-Poedit-SearchPath-3: js/ds_admin.js\n"
+"X-Poedit-SearchPath-4: pages/programs.php\n"
+"X-Poedit-SearchPath-5: pages/devices.php\n"
+"X-Poedit-SearchPath-6: enterprise/devices_alternate.php\n"
+"X-Poedit-SearchPath-7: includes/ds_misc_function.php\n"
+"X-Poedit-SearchPath-8: pages/device.php\n"
+"X-Poedit-SearchPath-9: enterprise/devicewalls_alternate.php\n"
+"X-Poedit-SearchPath-10: pages/devicewall.phtml\n"
+"X-Poedit-SearchPath-11: enterprise/customers_alternate.php\n"
+"X-Poedit-SearchPath-12: enterprise/users.php\n"
+"X-Poedit-SearchPath-13: pages/customers.php\n"
+"X-Poedit-SearchPath-14: pages/customer.php\n"
+"X-Poedit-SearchPath-15: enterprise/user.php\n"
+"X-Poedit-SearchPath-16: digitalsignagepress.php\n"
+"X-Poedit-SearchPath-17: pages/ds_license_form.php\n"
+"X-Poedit-SearchPath-18: enterprise/media.php\n"
+"X-Poedit-SearchPath-19: enterprise/editor.php\n"
+"X-Poedit-SearchPath-20: enterprise/devices_alternate.php\n"
+"X-Poedit-SearchPath-21: enterprise/devicewalls_alternate.php\n"
+"X-Poedit-SearchPath-22: enterprise/multiupload.js\n"
+"X-Poedit-SearchPath-23: enterprise/users.php\n"
+"X-Poedit-SearchPath-24: pages/programs.php\n"
+"X-Poedit-SearchPath-25: pages/customers.php\n"
+"X-Poedit-SearchPath-26: pages/devices.php\n"
+
+msgid "It's a plugin to allow Digital Signage via WordPress"
+msgstr "Dit is een plugin voor wordpress"
+
+msgid "Are you sure you want to permanently delete this file?"
+msgstr "Wilt u dit bestand definitief verwijderen?"
+
+msgid ""
+"Are you sure you want to permanently delete this folder and all of its "
+"content? (this may take a moment)"
+msgstr "Weet u zeker dat u deze folder wilt verwijderen?"
+
+msgid "New Playlist"
+msgstr "Nieuwe afspeellijst"
+
+msgid "Playlist"
+msgstr "Afspeelijst"
+
+msgid "Devices"
+msgstr "Apparaat"
+
+msgid "Videowalls"
+msgstr "Videowalls"
+
+msgid "Customers"
+msgstr "Klanten"
+
+msgid "Users"
+msgstr "Gebruikers"
+
+msgid "Media"
+msgstr "Media"
+
+msgid "License"
+msgstr "Licentie"
+
+msgid "Everything"
+msgstr "Alles"
+
+msgid "Group"
+msgstr "Groep"
+
+msgid "Branch"
+msgstr "Branche"
+
+msgid "Discription"
+msgstr "Omschrijving"
+
+msgid "Zipcode"
+msgstr "Postcode"
+
+msgid "City"
+msgstr "Plaats"
+
+msgid "Street"
+msgstr "Straat"
+
+msgid "House number"
+msgstr "Huisnummer"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "FILTER BY:"
+msgstr "Filteren op:"
+
+msgid "Search Filter"
+msgstr "Zoeken"
+
+msgid "use * as wildcard"
+msgstr "Gebruik* als wildcard"
+
+msgid "Add New Customer"
+msgstr "Klant toevoegen"
+
+msgid "Edit"
+msgstr "Aanpassen"
+
+msgid "Delete"
+msgstr "Verwijderen"
+
+msgid "Are you sure you want to permanently delete this customer?"
+msgstr "Weet u zeker dat u deze klant wilt verwijderen?"
+
+msgid "Devicename"
+msgstr "Naam apparaat"
+
+msgid "Playlistname"
+msgstr "Naam afspeellijst"
+
+msgid "Videowallname"
+msgstr "Naam videowall"
+
+msgid "Customer"
+msgstr "Klant"
+
+msgid "Location"
+msgstr "Lokatie"
+
+msgid "Change Date"
+msgstr "Datum aanpassen"
+
+msgid "Last Request"
+msgstr "Laatste verzoek"
+
+msgid "Online"
+msgstr "Online"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Not Updated"
+msgstr "Niet geüpdate"
+
+msgid "Move selected Device(s) to Playlist:"
+msgstr "Geselecteerde apparaten verplaatsen naar afspeellijst:"
+
+msgid "No Playlist"
+msgstr "Geen afspeellijst"
+
+msgid "Videowall"
+msgstr "Videowall"
+
+msgid "Check"
+msgstr "Controleren"
+
+msgid "Are you sure you want to permanently delete this device?"
+msgstr "Weet u zeker dat u dit apparaat wilt verwijderen?"
+
+msgid "Number of Devices"
+msgstr "Aantal apparaten"
+
+msgid "Select or deselect all Devices at once"
+msgstr "Selecteer of de selecteer alle apparaten tegelijk"
+
+msgid "Are you sure you want to permanently delete this devicewall?"
+msgstr "Weet u zeker dat u deze apparaat wall wilt verwijderen?"
+
+msgid "Are you sure you want to permanently delete this playlist?"
+msgstr "Weet u zeker dat u deze afspeellijst wilt verwijderen?"
+
+msgid "Devices that use this playlist will have their playlist entry removed."
+msgstr ""
+"Apparaten die deze afspeellijst gebruiken zullen hun afspeellijst ingang "
+"verwijderd"
+
+msgid "Media Library"
+msgstr "Media bibliotheek"
+
+msgid "Add New Folder"
+msgstr "Voeg Nieuwe map"
+
+msgid "Drop Images/Movies here or"
+msgstr "Sleep afbeeldingen / videobestanden hier heen"
+
+msgid "Upload"
+msgstr "Upload"
+
+#, fuzzy
+msgid "ADD NEW FOLDER"
+msgstr "Voeg Nieuwe map"
+
+msgid "Preview"
+msgstr "Voorbeeld"
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Orientation"
+msgstr "oriëntering"
+
+msgid "Resolution"
+msgstr "Resolutie"
+
+msgid "Filesize"
+msgstr "Bestands grootte"
+
+msgid "Uploaded"
+msgstr "Geupload"
+
+msgid "Modified"
+msgstr "Gewijzigd"
+
+msgid "Replace"
+msgstr "Vervangen"
+
+msgid "User Details"
+msgstr "Gebruiker Details"
+
+msgid "Login Name"
+msgstr "Inlog Naam"
+
+msgid "New Password"
+msgstr "Nieuw wachtwoord"
+
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgid "First Name"
+msgstr "Voornaam"
+
+msgid "Last Name"
+msgstr "Achternaam"
+
+msgid "No Limitation"
+msgstr "Geen beperking"
+
+msgid "Manage User"
+msgstr "Beheer gebruiker"
+
+msgid "Can't manage users"
+msgstr "Geen rechten om te gebruikers beheren!"
+
+msgid "Can create new and manage existing Users"
+msgstr "Heeft wel rechten om nieuwe en bestaande gebruikers te beheren"
+
+msgid "SAVE"
+msgstr "Bewaren"
+
+msgid "User Name"
+msgstr "Gebruikersnaam"
+
+msgid "Full Name"
+msgstr "Volledige Naam"
+
+msgid "Position"
+msgstr "Positie"
+
+msgid "Are you sure you want to permanently delete this user?"
+msgstr "Weet u zeker dat u deze Gebruiker wilt verwijderen?"
+
+msgid "Never"
+msgstr "Nooit"
+
+msgid "Add New Device"
+msgstr "Apparaat toevoegen"
+
+msgid "PAGE"
+msgstr "Pagina"
+
+msgid "Add New Videowall"
+msgstr "Videowall toevoegen"
+
+msgid "New Slide"
+msgstr "Nieuwe slide"
+
+msgid "Slideduration"
+msgstr "Slide duur"
+
+msgid "Sec"
+msgstr "Sec"
+
+msgid "None of your slides has a slideduration"
+msgstr "Geen van je slides heeft een tijdsduur!"
+
+msgid ""
+"The current page orientation is portrait; do you really want to change this "
+"for all slides in this playlist?"
+msgstr ""
+"De huidige pagina oriëntatie is staande layout; wil je echt alle slides in "
+"deze afspeellijst te veranderen?"
+
+msgid ""
+"The current page orientation is landscape; do you really want to change this "
+"for all slides in this playlist?"
+msgstr ""
+"De huidige pagina oriëntatie is Liggende layout; wil je echt alle slides in "
+"deze afspeellijst te veranderen?"
+
+msgid "Close"
+msgstr "Sluiten"
+
+msgid "Your changes have not been saved. Do you wish to leave the page?"
+msgstr "Uw aanpassingen zijn niet bewaard! Wilt u deze pagina verlaten?"
+
+msgid "can never be played, enddate is in the past."
+msgstr "Kan niet afgespeeld worden. Einddatum is in het verleden!"
+
+msgid "has startdate after enddate."
+msgstr "heeft startdatum na einddatum."
+
+msgid "has start after end for day of month."
+msgstr "is gestart na afloop voor de dag van de maand."
+
+msgid ""
+"Your playlist has no slides that can be played, latest enddate is in the "
+"past."
+msgstr ""
+"Uw afspeellijst heeft geen slides die kunnen worden afgespeeld, laatste "
+"einddatum ligt in het verleden."
+
+# FILENAME is a keyword here
+msgid "Are you sure you want to delete FILENAME"
+msgstr "Weet u zeker dat u wilt verwijderen FILENAME"
+
+msgid "Name of this Slide"
+msgstr "Slide Naam"
+
+msgid "custom editor"
+msgstr "aangepaste editor"
+
+msgid "Signage Playlist Name:"
+msgstr "Signage afspeellijst:"
+
+msgid "Create New Slide"
+msgstr "Maak nieuwe slide"
+
+msgid "Slides of this Playlist"
+msgstr "Slides van deze afspeellijst"
+
+msgid "Sec."
+msgstr "Sec."
+
+msgid "Save"
+msgstr "Bewaren"
+
+msgid "Choose landscape or portrait layout as your page orientation."
+msgstr "Kies liggende of staande lay-out als uw pagina."
+
+msgid "Choose between favorite list and regular for template selection."
+msgstr "Kies tussen favorietenlijst en normaal voor template selectie"
+
+msgid "Favorite"
+msgstr "Favoriet"
+
+msgid ""
+"Choose the page or menu card template or use custom template to freely place "
+"elements on the entire page."
+msgstr ""
+"Kies de pagina of de menukaart template of gebruik een aangepaste sjabloon "
+"om vrij te plaatsen als element op de hele pagina."
+
+msgid "Scheduling of"
+msgstr "Planning van"
+
+msgid ""
+"Number of seconds this slide will be shown each repetition. Use 0 for "
+"endless."
+msgstr "Aantal seconden deze slide wordt herhaald. Gebruik 0 voor eindeloos."
+
+msgid "show 24h every Day"
+msgstr "24/7 tonen"
+
+msgid "define scheduling"
+msgstr "Bepaal planning"
+
+msgid ""
+"Here you can limit that the slide is only visible during certain times each "
+"week. Leave empty to not restrict show time."
+msgstr ""
+"Here you can limit that the slide is only visible during certain times each "
+"week. Leave empty to not restrict show time."
+
+msgid "Limit Showtime by Weekdays"
+msgstr "Beperk het afspelen op weekdagen"
+
+msgid "en"
+msgstr "en"
+
+msgid "Save Anyway"
+msgstr "Bewaar toch"
+
+msgid "Proceed"
+msgstr "Doorgaan"
+
+msgid "Cancel"
+msgstr "Annuleer"
+
+msgid "Customer Details"
+msgstr "Klant details"
+
+msgid "Description"
+msgstr "Omschrijving"
+
+msgid "Available Devices"
+msgstr "Beschikbare apparaten"
+
+msgid "No pages are configured with the [digitalsignage] shortcode."
+msgstr "Geen pagina's worden geconfigureerd met de [digitalsignage] shortcode"
+
+msgid "Please add it to one."
+msgstr "Gelieve toe te voegen aan één."
+
+msgid "No device belongs to this customer"
+msgstr "Geen apparaat maakt deel uit van deze klant."
+
+msgid "VIEW"
+msgstr "BEKIJK"
+
+msgid "All Items"
+msgstr "Alle Items"
+
+msgid "One Row"
+msgstr "Een rij"
+
+msgid "Row"
+msgstr "Rij"
+
+msgid "Device Details"
+msgstr "Apparaat details"
+
+msgid "No Program"
+msgstr "Geen programma"
+
+msgid "No Customer"
+msgstr "Geen klant"
+
+msgid "Browser of allocated Device"
+msgstr "Browser van het toegewezen apparaat"
+
+msgid "Allow other device to use this URL"
+msgstr "Een ander apparaat deze URL laten gebruiken"
+
+msgid "Enter these URLs into your device to see this playlist on your device"
+msgstr ""
+"Voer deze URL's in uw apparaat om deze afspeellijst op uw apparaat te "
+"bekijken"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Licensing for DigitalSignagePress"
+msgstr "licentie voor Digitalsignagepress"
+
+msgid ""
+"To use our DigitalSignagePress Plugin, please follow the next steps to "
+"activate it."
+msgstr ""
+"Om onze DigitalSignagePress Plugin te gebruiken, volg dan de volgende "
+"stappen om het te activeren."
+
+msgid "Step 1: Enter License Key"
+msgstr "Stap 1: Voer licentiesleutel in"
+
+msgid "Enter your license key"
+msgstr "Voer uw licentiecode in"
+
+msgid "You'll find your License Key inside your confirmation email after you"
+msgstr "U vind uw licentiecode in uw bevestigings e-mail nadat u "
+
+msgid "purchased a license"
+msgstr "een licentie heeft gekocht"
+
+msgid "Step 2: Activate License"
+msgstr "Stap 2: Licentie activeren"
+
+msgid "active"
+msgstr "Activeer "
+
+msgid "Deactivate License"
+msgstr "Deactiveer licentie"
+
+msgid "Activate License"
+msgstr "Activeer licentie"
+
+msgid "Step 3: Install DigitalSignagePress Theme"
+msgstr "Stap 3: Installeer het DigitalSignagePress Thema"
+
+msgid "installed"
+msgstr "Geïnstalleerd "
+
+msgid "Activation is <b>not</b> required."
+msgstr "Activeren is <b>niet </b> verplicht!"
+
+msgid ""
+"Please download the DigitalSignagePress Theme and install it.<br>You "
+"<b>don't</b> need to <b>activate</b> it, only install it."
+msgstr ""
+"Download de DigitalSignagePress Thema en installeer deze. U hoeft dit thema "
+"<b> niet </ b> te <b> activeren </ b>alleen installeren."
+
+msgid "Background of Slide"
+msgstr "Achtergrond van de slide"
+
+msgid "Media for Element"
+msgstr "Media voor element"
+
+msgid "Background Image"
+msgstr "Achtergrond afbeelding"
+
+msgid "Background Color"
+msgstr "Achtergrond kleur"
+
+msgid "Image"
+msgstr "Afbeelding"
+
+msgid "Color"
+msgstr "Kleur"
+
+msgid "Menucard"
+msgstr "Menukaart"
+
+msgid "Slideshow"
+msgstr "Slideshow"
+
+msgid "Font"
+msgstr "Lettertype"
+
+msgid "Size"
+msgstr "Grootte"
+
+msgid "Bold"
+msgstr "Bold"
+
+msgid "Italic"
+msgstr "Italic"
+
+msgid "Underline"
+msgstr "Onderlijn"
+
+msgid "Align Left"
+msgstr "Links uitlijnen"
+
+msgid "Align Center"
+msgstr "Uitlijnen vanuit het midden"
+
+msgid "Align Right"
+msgstr "Rechts uitlijnen"
+
+msgid "Align Full"
+msgstr "Volledig uitlijnen "
+
+msgid "ADD"
+msgstr "TOEVOEGEN"
+
+msgid "Duplicate"
+msgstr "Kopier"
+
+msgid "Padding"
+msgstr "Paddin"
+
+msgid "Playlists"
+msgstr "Afspeellijst"
+
+msgid "Create a new playlist."
+msgstr "Maak een nieuwe afspeellijst"
+
+msgid "View and edit existing playlists."
+msgstr "Bekijk en verander een bestaande afspeellijst"
+
+msgid ""
+"Manage your viewing devices and generate urls for viewing your content on "
+"them."
+msgstr "Beheer uw apparaten en genereer URL's voor het bekijken van de inhoud."
+
+msgid "Configure videowalls - show your content across multiple devices."
+msgstr "Configurerert videowalls - uw content op meerdere apparaten te tonen."
+
+msgid "Manage your customers that own the devices."
+msgstr "Beheer uw klanten die in het bezit zijn van een apparaat."
+
+msgid "Slides"
+msgstr "Slides"
+
+msgid "Showing"
+msgstr "Tonen"
+
+msgid "Format"
+msgstr "Formaat"
+
+msgid "Slidenames"
+msgstr "Slide Naam"
+
+msgid "Last Change"
+msgstr "Laatste wijziging"
+
+msgid "Valid From"
+msgstr "Geldig vanaf"
+
+msgid "Valid To"
+msgstr "Geldig tot"
+
+msgid "Are you sure you want to remove this slide from the playlist?"
+msgstr "Weet u zeker dat u deze slide wilt verwijderen van de afspeellijst?"
+
+msgid "Display Orientation"
+msgstr "Display Orientation"
+
+msgid "Display configuration"
+msgstr "Display configuration"
+
+msgid "Resolution width"
+msgstr "Resolutie breedte"
+
+msgid "Bezel compensation width"
+msgstr "Bezel compensatie breedte"
+
+msgid "Resolution height"
+msgstr "Resolutie hoogte "
+
+msgid "Bezel compensation height"
+msgstr "Bezel compensatie hoogte"
+
+msgid "Rows"
+msgstr "Rijen"
+
+msgid "Columns"
+msgstr "Kolommen"
+
+msgid "Videowall Details"
+msgstr "Videowall details"
+
+msgid "PREVIEW OF YOUR PLAYLIST"
+msgstr "PREVIEW VAN UW AFSPEELLIJST"
+
+msgid "Slide"
+msgstr "sLIDE"
+
+msgid "Last Edit"
+msgstr "Bijgewerkt"
+
+msgid "nameless device"
+msgstr "Naamloos apparaat"
+
+msgid "nameless playlist"
+msgstr "Naamloos afspeellijst"
+
+msgid "nameless customer"
+msgstr "Naamloos Klant"
+
+msgid "nameless videowall"
+msgstr "Naamloos videowall"
+
+msgid "nameless user"
+msgstr "Naamloos gebruiker"
+
+msgid "nameless slide"
+msgstr "Naamloos slide"
+
+msgid "Enter Website URL"
+msgstr "Voer website adres in"
+
+msgid "Enter Video URL"
+msgstr "Voer een video URL in"
+
+msgid ""
+"Enter a URL to a video file on a webserver or a youtube link or choose a "
+"video file from the media library."
+msgstr ""
+"Voer een URL naar een video bestand op een webserver of een youtube link of "
+"kies een videobestand van de mediatheek."
+
+msgid ""
+"You may also add fallback videos for browser that don't support the primary "
+"video."
+msgstr ""
+"U kunt ook fallback video toe te voegen voor de browser die niet de primaire "
+"video niet ondersteunen."
+
+msgid ""
+"To guarantee best compatibility, please provide at least files with formats "
+"of MP4 and OGG."
+msgstr ""
+"Om de beste compatibiliteit te garanderen, neem dan ten minste bestanden met "
+"formaten van MP4 en OGG."
+
+msgid "Edit your Code"
+msgstr "Bewerk uw Code"
+
+msgid "Set padding of Content"
+msgstr "Set padding van Content"
+
+msgid "Select to which element this padding should be applied"
+msgstr "Selecteer naar welk element deze padding op moet worden toegepast"
+
+msgid "Only Text"
+msgstr "Alleen tekst"
+
+msgid "Content"
+msgstr "Inhoud"
+
+msgid "Setup Slideshow"
+msgstr "Setup Slideshow"
+
+msgid "Slide-in Effect"
+msgstr "Slide-in Effect"
+
+msgid "REMOVE"
+msgstr "VERWIJDER"
+
+msgid "Change"
+msgstr "Aanpassen"
+
+msgid "Name of this Folder"
+msgstr "Naam van deze folder"
+
+msgid "Insert into page"
+msgstr "In pagina voegen"
+
+msgid "Create new empty Slide"
+msgstr "Maak een nieuwe lege Slide"
+
+msgid "Copy existing Slide"
+msgstr "Copy bestaande Slide"
+
+msgid "Copy to Playlist"
+msgstr "Copy aan playlist"
+
+msgid "New Folder"
+msgstr "Nieuwe map"
+
+msgid "Active"
+msgstr "Actief"
+
+msgid "More Options"
+msgstr "Meer opties"
+
+msgid "Limit Showtime by Day of Month"
+msgstr "Beperk Showtime door Dag van de Maand"
+
+msgid "Limit Showtime by Date"
+msgstr "Beperk Showtime door Datum"
+
+msgid "Text"
+msgstr "Tekst"
+
+msgid "Tags"
+msgstr "Tags"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Choose"
+msgstr "Kies"
+
+msgid "Choose Image"
+msgstr "Kies afbeelding"
+
+msgid "Choose Video"
+msgstr "Kies video"
+
+msgid "This call only works in a WordPress environment"
+msgstr "Deze oproep werkt alleen in een WordPress-omgeving"
+
+msgid "Not supported in fix template"
+msgstr "Niet ondersteund in fix template"
+
+msgid "Add Column"
+msgstr "Kolom toevoegen"
+
+msgid "Remove Column"
+msgstr "Kolom verwijderen"
+
+msgid "Add Row"
+msgstr "Rij toevoegen"
+
+msgid "Remove Row"
+msgstr "Verwijder Rij"
+
+msgid "Text Column"
+msgstr "Kolom tekst"
+
+msgid "New Text Column"
+msgstr "Nieuw Kolom Tekst"
+
+msgid "Price"
+msgstr "Prijs"
+
+msgid "Edit Html-Content"
+msgstr "Bewerk Html-inhoud"
+
+msgid "Header"
+msgstr "Header"
+
+msgid "Footer"
+msgstr "Footer"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Start the slideshow"
+msgstr "Start de Slideshow"
+
+msgid "Stop the slideshow"
+msgstr "Stop de Slideshow"
+
+msgid "Duration"
+msgstr "Duur"
+
+msgid "Center"
+msgstr "Midden"
+
+msgid "left"
+msgstr "Links"
+
+msgid "right"
+msgstr "Rechts"
+
+msgid "top"
+msgstr "Boven"
+
+msgid "bottom"
+msgstr "Onder"
+
+msgid "Add New User"
+msgstr "Nieuwe gebruiker toevoegen"
+
+msgid "Partly Never"
+msgstr "deels nooit"
+
+msgid "ERROR: no customer"
+msgstr "ERROR: geen Klant!"
+
+msgid "ERROR: no playlist"
+msgstr "ERROR: geen afspeellijst!"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Span"
+msgstr "Span"
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Logout"
+msgstr "Uitloggen"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "If you do not schedule something the slide will be always active"
+msgstr "Als je geen planning maakt zal de slide altijd actief zijn"
+
+msgid "User to edit could not be found."
+msgstr "Gebruiker om te bewerken kan niet gevonden worden"
+
+msgid "Unrecoverable error while editing user."
+msgstr "Onherstelbare fout tijdens het bewerken gebruiker."
+
+msgid "Username already taken."
+msgstr "Gebruikersnaam wordt al gebruikt!"
+
+msgid "A required field was not filled, could not create user..."
+msgstr ""
+"Een verplicht veld is niet ingevuld! Gebruiker kan niet worden aangemaakt..."
+
+msgid "This Device has the latest playlist."
+msgstr "Dit apparaat heeft de nieuwste afspeellijst."
+
+msgid "This Device hasn't yet downloaded the latest playlist."
+msgstr "Dit apparaat heeft de laatste afspeellijst nog niet gedownload!"
+
+msgid ""
+"Here you can limit that this slide is only visible between the two given "
+"dates."
+msgstr ""
+"Hier kunt u beperken dat deze slides alleen zichtbaar zijn tussen de twee "
+"gegeven datums."
+
+msgid ""
+"Here you can limit that this slide is only visible between two days of a "
+"month. This will be repeated for every month."
+msgstr ""
+"Hier kunt u beperken dat deze slides is alleen zichtbaar tussen de twee "
+"dagen van de maand. Dit wordt herhaald voor elke maand"
+
+msgid "Enter this URL into your device with SMIL support."
+msgstr "Voer deze URL in je toestel met SMIL ondersteuning"
+
+msgid "Choose landscape or portrait layout as your videowall orientation"
+msgstr "Kies liggende of staande lay-out als uw videowall oriëntatie"
+
+msgid "Set up the parameters of the display type your video wall consists of"
+msgstr "Stel de parameters van het scherm. typt u uw video wand bestaat uit"
+
+msgid "Remove this slide from the playlist."
+msgstr "Verwijder deze slide van de afspeellijst."
+
+msgid "Delete this playlist."
+msgstr "Verwijder deze afspeellijst."
+
+msgid "This slide is currently active."
+msgstr "Deze slide is op dit moment actief."
+
+msgid "This slide is currently not showing because of scheduling."
+msgstr "Deze slide wordt momenteel niet te getoond door de planning"
+
+msgid "An error occurred during upload.."
+msgstr "Er is een fout opgetreden tijdens het uploaden .."
+
+msgid "An error occurred during update.."
+msgstr "Er is een fout opgetreden tijdens de update .."
+
+msgid "Invalid file format."
+msgstr "Ongeldig bestandsformaat."
+
+msgid "Couldn't get user info."
+msgstr "Kon gebruiker informatie niet krijgen."
+
+msgid "A username and password are required."
+msgstr "Een gebruikersnaam en wachtwoord zijn verplicht."
+
+msgid "We check whether your browser supports cookies."
+msgstr "We controleren of uw browser cookies ondersteunt."
+
+msgid ""
+"This device number is already occupied by a different monitor, please enter "
+"the URL of a different device for this monitor."
+msgstr ""
+"Dit apparaat nummer wordt al door een andere monitor bezet, gebruik een "
+"andere URL van een ander apparaat voor deze monitor."
+
+msgid ""
+"This device number is already occupied by a different monitor, please enter "
+"the URL of a different device for this monitor.<br>Please use this URL only "
+"on one monitor at the same time.<br>If this is the right monitor for this "
+"URL please follow these steps:<br>1) navigate to Devices<br>2) edit this "
+"device<br>3) press the button \"Allow other device to use this URL\"<br>4) "
+"refresh this page on this monitor/browser or restart the monitor"
+msgstr ""
+"Dit apparaat nummer wordt al door een andere monitor bezet, dan kunt u de "
+"URL van een ander apparaat in te voeren voor deze monitor. <br> Gebruik deze "
+"URL slechts op één monitor tegelijk. <br> Als dit de juiste monitor is voor "
+"deze URL kunt u als volgt te werk gaan: <br> 1) navigeren naar Devices "
+"pagina <br>2) bewerken dit apparaat <br> 3) druk op de knop \"Laat een ander "
+"apparaat om deze URL te gebruiken\" <br> 4>dit scherm opnieuw opstarten!\n"
+"<br><br><b>ER ZIJN PROBLEMEN MET DIT SCHERM! NEEMT U ALSTUBLIEFT DIRECT "
+"CONTACT MET ONS OP OM HET PROBLEEM TE VERHELPEN!</B>"
+
+msgid ""
+"There seems to be a problem with your license. Please verify your license "
+"data."
+msgstr ""
+"Er lijkt een probleem met uw licentie. Controleer uw licentie gegevens."
+
+msgid "Number of Playlists"
+msgstr "Aantal afspeellijsten"
+
+msgid "Number of Slides"
+msgstr "Aantal slides"
+
+msgid "Number of Customers"
+msgstr "Aantal Klanten"
+
+msgid "Number of Devicewalls"
+msgstr "Aantal apparaten"
+
+msgid "Updated Devices"
+msgstr "Bijgewerkte apparaten"
+
+msgid "Unused Devices"
+msgstr "Ongebruikte apparaten"
+
+msgid "Offline Devices"
+msgstr "Offline Apparaten"
+
+msgid "Online Devices"
+msgstr "Online Apparaten"
+
+msgid "You must choose an existing file to replace!"
+msgstr "U moet een bestaand bestand kiezen om te vervangen!"
+
+msgid "Upload a new file"
+msgstr "Upload een nieuw bestand"
+
+# FILENAME is a keyword here
+msgid "Choose a new file to replace FILENAME"
+msgstr "Kies een nieuw bestand om FILENAME te vervangen"
+
+msgid "All links to the old file will be updated."
+msgstr "Alle links naar het oude bestand worden bijgewerkt."
+
+msgid "Once the upload is finished, this can not be undone!"
+msgstr "Zodra de upload is voltooid, kan dit niet ongedaan worden gemaakt!"
+
+msgid "You do not have permission to upload files."
+msgstr "Je hebt geen toestemming om bestanden te uploaden."
+
+msgid "Replace media"
+msgstr "Vervang de media"
+
+msgid "Replace the current file and automatically update all links to it."
+msgstr "Vervang het huidige bestand en werk alle links automatisch bij."
+
+msgid "Could not find file to replace."
+msgstr "Kan geen bestand vinden om te vervangen."
+
+msgid "File not usable. Unknown extension."
+msgstr "Bestand niet bruikbaar. Onbekende extensie."
+
+msgid " could not be deleted, please check file permissions."
+msgstr "kan niet worden verwijderd, controleer bestandsrechten."
+
+msgid "Complete the setup now."
+msgstr "Voltooi nu de installatie."
+
+# PLUGIN is a keyword here
+msgid "Please enter your PLUGIN license key to enable updates."
+msgstr "Vul uw PLUGIN licentiesleutel in om updates mogelijk te maken"
+
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+
+msgid "All"
+msgstr "Alles"
+
+msgid " of "
+msgstr "van"
+
+msgid "Start Date"
+msgstr "Start datum"
+
+msgid "End Date"
+msgstr "Eind datum"
+
+msgid "Signage Playlist"
+msgstr "Signage afspeellijst"
+
+msgid "Nick"
+msgstr "Bijnaam"
+
+msgid "This Device is online."
+msgstr "Dit apparaat is online."
+
+msgid "This Device made no contact with the server for some time."
+msgstr "Dit apparaat heeft geen contact met de server voor bepaalde tijd"
+
+msgid "MON"
+msgstr "MAA"
+
+msgid "TUE"
+msgstr "DIN"
+
+msgid "WED"
+msgstr "WOE"
+
+msgid "THU"
+msgstr "DON"
+
+msgid "FRI"
+msgstr "VRIJ"
+
+msgid "SAT"
+msgstr "ZAT"
+
+msgid "SUN"
+msgstr "ZON"
+
+msgid "Border"
+msgstr "Rand"
+
+msgid "Su"
+msgstr "Zo"
+
+msgid "Mo"
+msgstr "Ma"
+
+msgid "Tu"
+msgstr "Di"
+
+msgid "We"
+msgstr "Wo"
+
+msgid "Th"
+msgstr "Do"
+
+msgid "Fr"
+msgstr "Vr"
+
+msgid "Sa"
+msgstr "Za"
+
+msgid "Sunday"
+msgstr "Zondag"
+
+msgid "Monday"
+msgstr "Maandag"
+
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+msgid "Wednesday"
+msgstr "Woensdag"
+
+msgid "Thursday"
+msgstr "Donderdag"
+
+msgid "Friday"
+msgstr "Vrijdag"
+
+msgid "Saturday"
+msgstr "Zaterdag"
+
+msgid "January"
+msgstr "Januari"
+
+msgid "February"
+msgstr "Februari"
+
+msgid "March"
+msgstr "Maart"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "Mei"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "Augustus"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "December"
+
+msgid "Jan"
+msgstr "Jan"
+
+msgid "Feb"
+msgstr "Feb"
+
+msgid "Mar"
+msgstr "MRT"
+
+msgid "Apr"
+msgstr "Apr"
+
+msgid "Jun"
+msgstr "Jun"
+
+msgid "Jul"
+msgstr "Jul"
+
+msgid "Aug"
+msgstr "Aug"
+
+msgid "Sep"
+msgstr "Sep"
+
+msgid "Oct"
+msgstr "Okt"
+
+msgid "Nov"
+msgstr "Nov"
+
+msgid "Dec"
+msgstr "Dec"
+
+msgid "Quick Template Generation"
+msgstr "Quick Template Generation"
+
+msgid "Template"
+msgstr "Template"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Select a template type"
+msgstr "Selecteer een template"
+
+msgid "Enter a Facebook username"
+msgstr "Voer een Facebook-gebruikersnaam IN"
+
+msgid "Enter a Twitter username"
+msgstr "Voer een Twitter-gebruikersnaam in"
+
+msgid "Generate"
+msgstr "Genereer"
+
+msgid "EMPTY"
+msgstr "LEEG"
+
+msgid "SELECT THIS"
+msgstr "SELECTEER DIT"
+
+msgid "Navigation"
+msgstr "NAVIGATIE"
+
+msgid "Show WordPress navigation"
+msgstr "Wordpress navigatie tonen"
+
+msgid "Hide WordPress navigation"
+msgstr "Wordpress navigatie niet tonen"
+
+msgid "Device Limit"
+msgstr "Apparaat limiet"
+
+msgid ""
+"If this problem persists, make sure that your browser supports cookies and "
+"does not delete them upon restart."
+msgstr ""
+"Als dit probleem aanhoudt, zorg ervoor dat uw browser cookies worden "
+"ondersteunt en dat deze niet worden verwijderd bij het opnieuw opstarten."
+
+msgid "This plugin requires at least PHP 5.5 or higher."
+msgstr "Deze plugin vereist minimaal PHP 5.5 of hoger."
+
+msgid "Slidesnames"
+msgstr "Naam van slides"
+
+msgid "Colums"
+msgstr "Kolommen"
+
+msgid "Scheduling of "
+msgstr "Planning van"
+
+msgid "%s"
+msgstr "%s"

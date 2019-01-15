@@ -1,0 +1,1272 @@
+/* 
+    Created on : 11.03.2016
+    Author     : Dennis Jensch
+
+    Contains all settings necessary for the editor to act properly and
+    the to be created templates to be displayed correctly.
+*/
+/*############################################################################*/
+/*EDITOR #####################################################################*/
+
+.ds-editor-modal-html-quick-templates {
+    border: solid 1px gray;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 4px;    
+}
+
+.ds-quick-template-container-text {
+    padding: 5px 0px;
+}
+#ds-quick-template-description {
+    
+}
+
+/*Positions and sizes for main container contents*/
+#selection-html-quick-templates {
+    width: 23%;
+    height: 30px !important;
+}
+#ds-editor-modal-html-quick-template-input {
+    width: 50%;
+    height: 28px;
+    margin: 0;
+}
+#ds-editor-modal-html-quick-template-generate {
+    width: 23%;
+    height: 30px;
+    margin: 0;
+    float: right;
+}
+
+#ds_select_insert_marker {
+    display: inline-block;
+}
+#ds_web_playlist_selected {
+    width: 28px;
+    height: 28px;
+    float: right;
+
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/editor/icon_selected.png")
+}
+.ds_display_none {
+    display: none !important;
+}
+
+
+/*Show text cursor only if selected/highlighted container has no marker for active freemove or draggable*/
+#myDSX.FullWidthRow .ds-container-selected:not(.ds-block-access) [contenteditable="true"],
+#myDSX.FullWidthRow .ds-container-highlight:not(.ds-block-access) [contenteditable="true"]{
+    cursor: url("../img/editor/cursor-text.cur"), text;
+}
+/*Show grab cursor if selected/highlighted container HAS marker for active freemove*/
+#myDSX.FullWidthRow .ds-container-selected.ds-block-access [contenteditable="true"],
+#myDSX.FullWidthRow .ds-container-highlight.ds-block-access [contenteditable="true"]{
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+}
+
+#myDSX.FullWidthRow .ds-container-selected:not(.ds-container-editmode) .ds-freemove [contenteditable="true"],
+#myDSX.FullWidthRow .ds-container-highlight:not(.ds-container-editmode) .ds-freemove [contenteditable="true"]{
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+}
+#myDSX.FullWidthRow .ds-container-selected.ds-container-editmode .ds-freemove [contenteditable="true"],
+#myDSX.FullWidthRow .ds-container-highlight.ds-container-editmode .ds-freemove [contenteditable="true"]{
+    cursor: url("../img/editor/cursor-text.cur"), text;
+}
+
+/*Custom cursor for custom templates (not in IE)*/
+.ds-custom-template .ds-container:not(.ui-draggable):not(.ds-block-access).ds-container-editmode [contenteditable="true"] {
+    cursor: url("../img/editor/cursor-text.cur"), text;
+}
+
+/*Remove default border from menu toolbar (base-template.css:452)*/
+#table-menu-main td {
+    border: none;
+}
+
+/*Make sure draggable containers have grab cursor selected*/
+.ui-draggable .ds-content {
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+}
+
+/*Element containing workbench, used to draw border on it*/
+#workbench-content {
+    border: 1px solid black;
+    display: inline-block;
+
+    margin: 4px;
+    overflow: hidden;
+}
+
+/*Workbench containing entire html code of template*/
+#workbench-area {
+    width: 1280px;
+    height: 720px;
+
+    /*Needed for free drag'n'drop*/
+    position: relative;
+}
+
+/*Needed for correct calculations within workbench*/
+#workbench-area div {
+    /*Count padding/border to inside width*/
+    -webkit-box-sizing: border-box;/* Safari, Chrome and Opera > 12.1 */
+       -moz-box-sizing: border-box;/*Mozilla*/
+        -ms-box-sizing: border-box; /*Internet Explorer*/
+         -o-box-sizing: border-box;/*Opera < 12.1*/
+            box-sizing: border-box;/*IE*/
+}
+
+/*Needed for correct display of fix templates in editor.
+Overriding setting of grid-framework.less (row 18)*/
+#workbench-area .row {
+    margin-left: 0px !important;
+}
+
+/*A 100x50 pixel grid used as orientation help for custom container*/
+.grid-100-50::before {
+    content: " ";
+    pointer-events: none;
+    z-index: 200;
+    
+    position: absolute;
+    left:0%;
+    top:0%;
+    width:100%;
+    height:100%;
+    display:inline-block;
+    
+    background-color: transparent;
+    background-size: 100px 50px;    
+    background-image:
+        repeating-linear-gradient(-90deg, #fff, #fff 1px, transparent 1px, transparent 100px),
+        repeating-linear-gradient(0deg, #fff, #fff 1px, transparent 1px, transparent 50px);
+}
+
+/*Disable text selection on this element*/
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+/*Empty identifier used for number inputs to limit values between min and max value*/
+.ds-input-check-value {}
+
+
+
+/*############################################################################*/
+/*TOOLBAR ####################################################################*/
+
+/*By default hidden debug buttons, used to bind certain test functions to them.*/
+.ds-debug-button {
+    margin: 2px;
+    padding: 1px;
+    border: solid 2px green;
+}
+
+
+/*Marker for button representing media container*/
+.ds-editor-button-media {}
+
+/*Appearance for disabled buttons*/
+.ds-editor-button-img:disabled {
+    background-color: gray;
+}
+
+#toolbar-main-main {
+    width: 1280px;
+    height: 40px;
+    position: relative;
+}
+
+/*Generic css class to adjust appearance of toolbar buttons*/
+.ds-editor-button-img {
+    background-repeat: no-repeat;
+    background-size: 20px, 20px;
+    background-position: center;
+
+    width: 32px;
+    height: 32px;
+    
+    vertical-align: middle;
+    
+    background-color: rgb(62, 69, 77);
+    border: none;
+    color: #fff;
+    
+    float: left;
+    
+    cursor: -webkit-pointer;
+    cursor: -moz-pointer;
+    cursor: pointer;
+    
+    /*Count padding/border to inside width*/
+    -webkit-box-sizing: border-box;/* Safari, Chrome and Opera > 12.1 */
+       -moz-box-sizing: border-box;/*Mozilla*/
+        -ms-box-sizing: border-box; /*Internet Explorer*/
+         -o-box-sizing: border-box;/*Opera < 12.1*/
+            box-sizing: border-box;/*IE*/
+}
+
+/*Generic css class to adjust appearance of toolbar select menus*/
+.ds-editor-selectmenu {
+    height: 24px !important;
+    
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    
+    float: left;
+    
+    /*Used to fix css conflict*/
+    width: auto;
+}
+
+.ds-editor-button-group {
+    background-color: rgb(62, 69, 77);
+    display: inline-block;
+}
+
+.ds-editor-element-left {
+    float: left;
+    /*margin-right: 4px;*/
+}
+
+.ds-editor-element-right {
+    float: right;
+    /*margin-right: 4px;*/
+}
+
+/*Change color when hovering over editor-button*/
+.ds-editor-button-enabled {
+    background-color: rgb(23, 209, 255);
+}
+
+/*Change color when hovering over editor-button*/
+.ds-editor-button-highlight {
+    background-color: rgb(23, 130, 198);
+}
+
+/*Specify appearance of info labels of toolbar groups*/
+.ds-editor-label {
+    text-transform: uppercase;
+    text-align: left;
+    
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    
+    padding-bottom: 4px;
+}
+
+/*##################*/
+
+/*Make option bigger and centered (image inside)*/
+.ds-option {
+}
+#selection-container-create-new-original option::before{
+    display: inline-block;
+    background-size: 20px, 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    width: 24px;
+    height: 24px;
+    
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    
+}
+
+
+#selection-container-create-new-original option[value="img"]::before{
+    content: "";
+    background-image: url("../img/editor/btn-container-image.png");
+}
+#selection-container-create-new-original option[value="text"]::before{
+    content: "";
+    background-image: url("../img/editor/btn-container-text.png");
+}
+#selection-container-create-new-original option[value="web"]::before{
+    content: "";
+    background-image: url("../img/editor/btn-container-web.png");
+}
+#selection-container-create-new-original option[value="vid"]:before{
+    content: "";
+    background-image:  url("../img/editor/btn-container-vid.png");
+}
+#selection-container-create-new-original option[value="html"]:before{
+    content: "";
+    background-image:  url("../img/editor/btn-container-html.png");
+}
+#selection-container-create-new-original option[value="twitter"]:before{
+    content: "";
+    background-image: url("../img/editor/btn-container-t2.png");
+}
+#selection-container-create-new-original option[value="time"]:before{
+    content: "";
+    background-image: url("../img/editor/btn-container-time.png");
+}
+#selection-container-create-new-original option[value="menu"]:before{
+    content: "";
+    background-image: url("../img/editor/btn-container-menu.png");
+}
+#selection-container-create-new-original option[value="slideshow"]:before{
+    content: "";
+    background-image: url("../img/editor/btn-container-slideshow.png");
+}
+
+/*##################*/
+
+/*Mark element as discontinued but still offer its functionality*/
+.development-halted {
+    color: #28a4c9;/*Text color*/
+    border: 1px solid #28a4c9;/*border*/
+    /*display: none;*/
+}
+
+/*A table cell containing input elements acting as toolbar*/
+td.toolbar-cell {}
+
+/*Icon for BOLD button*/
+.ds-editor-button-img.button-style-bold {
+    background-image: url("../img/editor/btn-style-bold.png") !important; 
+}
+
+/*Icon for ITALIC button*/
+.ds-editor-button-img.button-style-italic {
+    background-image: url("../img/editor/btn-style-italic.png") !important; 
+}
+
+/*Icon for UNDERLINE button*/
+.ds-editor-button-img.button-style-underline {
+    background-image: url("../img/editor/btn-style-underline.png") !important; 
+}
+
+/*Icon for ALIGNMENT_LEFT button*/
+.ds-editor-button-img.button-align-left {
+    background-image: url("../img/editor/btn-align-left.png") !important; 
+}
+
+/*Icon for ALIGNMENT_CENTER button*/
+.ds-editor-button-img.button-align-center {
+    background-image: url("../img/editor/btn-align-center.png") !important; 
+}
+
+/*Icon for ALIGNMENT_RIGHT button*/
+.ds-editor-button-img.button-align-right {
+    background-image: url("../img/editor/btn-align-right.png") !important; 
+}
+
+/*Icon for ALIGNMENT_FULL button*/
+.ds-editor-button-img.button-align-full {
+    background-image: url("../img/editor/btn-align-full.png") !important; 
+}
+
+/*Icon for CONTAINER_DELETE button*/
+.ds-editor-button-img.button-container-delete {
+    background-image: url("../img/editor/btn-delete.png");
+}
+
+/*Icon for TEXT_CONTAINER_SETTING button*/
+.ds-editor-button-img.button-container-text {
+    background-image: url("../img/editor/btn-container-text.png");
+}
+/*Icon for IMAGE_CONTAINER_SETTING button*/
+.ds-editor-button-img.button-container-image {
+    background-image: url("../img/editor/btn-container-image.png");
+}
+/*Icon for VID_CONTAINER_SETTING button*/
+.ds-editor-button-img.button-container-vid {
+    background-image: url("../img/editor/btn-container-vid.png");
+}
+/*Icon for WEB_CONTAINER_SETTING button*/
+.ds-editor-button-img.button-container-web {
+    background-image: url("../img/editor/btn-container-web.png");
+}
+/*Icon for HTML_CONTAINER_SETTING button*/
+.ds-editor-button-img.button-container-html {
+    background-image: url("../img/editor/btn-container-html.png");
+}
+/*Icon for TIME_CONTAINER_SETTING button*/
+.ds-editor-button-img.button-container-time {
+    background-image: url("../img/editor/btn-container-time.png");
+}
+/*Icon for TWITTER_CONTAINER_SETTING button*/
+.ds-editor-button-img.button-container-twitter {
+    background-image: url("../img/editor/btn-container-t2.png");
+}
+/*Icon for MENU_CONTAINER_SETTING button*/
+.ds-editor-button-img.button-container-menu {
+    background-image: url("../img/editor/btn-container-menu.png");
+}
+/*Icon for SLIDESHOW_CONTAINER_SETTING button*/
+.ds-editor-button-img.button-container-slideshow {
+    background-image: url("../img/editor/btn-container-slideshow.png");
+}
+
+/*Icon for CONTAINER_DUPLICATE button*/
+.ds-editor-button-img.button-container-duplicate {
+    background-image: url("../img/editor/btn-container-duplicate.png");
+}
+
+/*Icon for CONTAINER_PADDING button*/
+.ds-editor-button-img.button-container-padding {
+    background-image: url("../img/editor/btn-container-padding.png");
+}
+
+/*Icon for CONTAINER_FREEMOVE button*/
+.ds-editor-button-img.button-container-freemove {
+    background-image: url("../img/editor/btn-container-freemove.png");
+}
+
+/*Icon for EDITOR_SAVE button*/
+.ds-editor-button-img.button-editor-save {
+    background-image: url("../img/editor/btn-editor-save.png");
+}
+
+/*##############*/
+
+.sp-replacer {
+    float: left;
+}
+
+.sp-preview{
+    width: 32px !important;
+    height: 32px !important;
+}
+.sp-preview:hover::before {
+    background-image: url("../img/editor/btn-colorpicker-highlight.png"); 
+}
+.sp-disabled .sp-preview:hover::before {
+    background-image: url("../img/editor/btn-colorpicker-disabled.png"); 
+}
+.sp-disabled .sp-preview::before {
+    background-image: url("../img/editor/btn-colorpicker-disabled.png"); 
+}
+
+.sp-preview::before {
+    background-image: url("../img/editor/btn-colorpicker.png"); 
+    position: absolute;
+    content: '';
+    pointer-events: none;
+    width: 32px;
+    height: 32px;
+    z-index: 10;
+    
+    background-repeat: no-repeat;
+    background-size: 32px, 32px;
+    background-position: center;
+}
+
+/*Container with color spans*/
+.sp-palette .sp-thumb-el {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+/*############################################################################*/
+/*CONTAINER ##################################################################*/
+
+#workbench-area [id^=myDSXE] {
+    outline: rgb(23, 130, 198) dashed 1px;
+    outline-offset: -1px;
+}
+
+/*Set to relative position, otherwise jQuery UI Resizable has problems with
+freemove container set on specific sub containers*/
+.ds-content {
+    position: relative;
+}
+
+/*Hide outline on custom containers when selected (selection handled by overlay)*/
+#workbench-area .ds-custom-template [id^=myDSXE].ds-container-selected {
+    outline-width: 0px;
+}
+
+/*Generic class to hide element*/
+.ds-element-hide {
+    display: none;
+}
+
+/*Unused marker used to identify container with included image data*/
+.ds-image-container-1 {} /*simple setup*/
+.ds-image-container-2 {} /*using .bgimage*/
+.ds-image-container-3 {} /*masking image*/
+
+/*Unused marker used to identify container with included text data*/
+.ds-text-container-1 {}
+
+/*Unused marker used to identify container with included web data*/
+.ds-web-container-1 {}
+
+/*Unused marker used to identify container with included video data*/
+.ds-vid-container-1 {}
+
+/*Unused marker used to identify container with included html data*/
+.ds-html-container-1 {}
+
+/*Unused marker used to identify container with included twitter data*/
+.ds-twitter-container-1 {}
+
+/*Unused marker used to identify container with included time data*/
+.ds-time-container-1 {}
+
+/*Unused marker used to identify container with included menu data*/
+.ds-menu-container-1 {}
+
+/*Unused marker used to identify container with included slideshow data*/
+.ds-slideshow-container-1 {}
+
+/*Unused marker used to identify elements that can be deleted*/
+.ds-delete-this {}
+
+/*Visual feedback during mouseover on custom ds-container*/
+.ds-container-highlight {
+    /*HIGHLIGHT IS ALWAYS DISPLAYED
+    outline: rgb(23, 130, 198) dashed 1px;
+    outline-offset: -1px;
+    */
+}
+
+/*Visual active selection feedback on container*/
+.ds-container-selected {
+    /*HANDLED BY OVERLAY
+    outline: rgb(23, 130, 198) solid 1px !important;
+    outline-offset: -1px;
+    */
+}
+/*Visual active selection feedback on custom ds-container*/
+.ds-container.ds-container-selected {
+    /*
+    outline-offset: -6px;
+    */
+}
+
+/*Custom container is currently in edit mode*/
+.ds-container-editmode {
+    /*HANDLED BY OVERLAY
+    outline: rgb(23, 130, 198) solid 1px;
+    outline-offset: -1px !important;
+    */
+}
+
+/*# DRAGGABLE #############*/
+
+/*Helper divs used to align container with neighboring ones*/
+.drag-line {
+    outline: 0.5px solid black;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    /*opacity: 1 !important;*/
+}
+
+.drag_line_freemove {
+    
+}
+
+/*Empty class used to mark elements NOT triggering drag event*/
+.ds-prevent-drag {}
+
+/*# RESIZABLE #############*/
+
+#nwgrip, #free_nwgrip {
+    background-image: url("../img/editor/resize-handle-nw.png") !important; 
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+}
+#negrip, #free_negrip {
+    background-image: url("../img/editor/resize-handle-ne.png") !important; 
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+}
+#swgrip, #free_swgrip {
+    background-image: url("../img/editor/resize-handle-sw.png") !important; 
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+}
+#segrip, #free_segrip {
+    background-image: url("../img/editor/resize-handle-se.png") !important; 
+    background-size: cover;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+#free_nwgrip {
+    top: 0%;
+    left: 0%;
+}
+#free_negrip {
+    top: 0%;
+    right: 0%;
+}
+#free_swgrip {
+    bottom: 0%;
+    left: 0%;
+}
+#free_segrip {
+    bottom: 0%;
+    right: 0%;
+}
+
+/*Adjust position, as it is set within container per default*/
+#segrip {
+    right: -5px;
+    bottom: -5px;
+    /*z-index: auto !important;*/
+}
+
+/*Element contains html text data (editable)*/
+.ds-html-content {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+/*Element contains html result data (finished setup)*/
+.ds-html-result {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+/*Empty classes indicating if element right now displays text or code*/
+.ds-html-view-text {}
+.ds-html-view-code {}
+
+/*############################################################################*/
+/*OVERLAY ####################################################################*/
+
+/*Unused marker used to identify container used for visual overlay effects.*/
+.ds-overlay-selection {
+    pointer-events:none;
+    
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+
+/*Editmode overlay for custom template*/
+.ds-overlay-editmode {
+    border: rgb(23, 130, 198) solid 1px;
+}
+
+/*Highlight for fix template (need border)*/
+.ds-overlay-highlight {
+    border: red dashed 1px;
+}
+/*Selected overlay for fix template (need border)*/
+.ds-overlay-selected {
+    border: rgb(23, 130, 198) solid 1px;
+}
+
+/*Highlight for custom template (use outline)*/
+.ds-container .ds-overlay-highlight {
+    border: red dashed 1px;
+}
+/*Selected overlay for custom template (hide, not needed)*/
+.ds-container .ds-overlay-selected {
+    border: rgb(23, 130, 198) solid 1px;
+}
+
+/*Empty class used to identify temporary div overlay for resizing event*/
+.ds-overlay-resize {}
+
+/*Empty class used to identify temporary div overlay for dragging event*/
+.ds-overlay-drag {
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+}
+
+/*Overlay used to prevent access to container while freemove is active*/
+.ds-overlay-freemove-blockade {
+
+}
+
+/*############################################################################*/
+/*CONTAINER HELPER ###########################################################*/
+
+/*Generic empty class to mark GUI elements used as container helper*/
+.ds-container-helper {
+    cursor: -webkit-pointer;
+    cursor: -moz-pointer;
+    cursor: pointer;
+}
+
+/*Invert color of image*/
+.ds-container-helper-highlight {
+   -webkit-filter: invert(1);
+   filter: invert(1);
+}
+
+/*###################################*/
+/*# TEXT-CONTAINER ##################*/
+
+/*Appearance/Position for helper cluster in fix template (inner)*/
+#myDSX.FullWidthRow .ds-text-container-1 .ds-helper-cluster {
+    position:absolute; 
+    z-index:99;
+    
+    right: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/*Appearance/Position for helper cluster in custom template (inner)*/
+.ds-custom-template .ds-text-container-1 .ds-helper-cluster {
+    position:absolute; 
+    z-index:99;
+    
+    /*right: -16px;*/
+    right: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.ds-column-add {
+    background-image: url("../img/editor/btn-column-add.png") !important; 
+    background-size: cover;
+    
+    width: 16px;
+    height: 16px;
+    margin-bottom: 1px;
+}
+
+.ds-column-remove {
+    background-image: url("../img/editor/btn-column-remove.png") !important; 
+    background-size: cover;
+    
+    width: 16px;
+    height: 16px;
+    margin-top: 1px;
+}
+
+/*###################################*/
+/*# HTML-CONTAINER ##################*/
+
+/*Display outline of html-container with dynamic content (might not be loaded correctly, so
+at least show the defined dimensions of the container)*/
+#previewmodal .ds-html-dynamic-content {
+    outline: rgb(23, 130, 198) dashed 1px;
+}
+
+/*Appearance/Position for helper cluster in fix template (inner)*/
+#myDSX.FullWidthRow .ds-html-container-1 .ds-helper-cluster {
+    position:absolute; 
+    z-index:99;
+    
+    right: 0%;
+    top: 0%;
+}
+
+/*Appearance/Position for helper cluster in custom template (inner)*/
+.ds-custom-template .ds-html-container-1 .ds-helper-cluster {
+    position:absolute; 
+    z-index:99;
+    
+    right: 0%;
+    top: 0%;
+}
+
+/*Button to switch view in html container*/
+.ds-html-switch {
+    border: black solid thin;
+    padding: 2px;
+    margin: 1px;
+    float: left;
+    
+    color: black;
+    background-color: white;
+}
+
+/*Button to drop data into html container*/
+.ds-html-drop {
+    border: black solid thin;
+    padding: 2px;
+    margin: 1px;
+    float: left;
+    
+    color: black;
+    background-color: white;
+}
+
+/*###################################*/
+/*# MENU-CONTAINER ##################*/
+
+/*Appearance/Position for helper cluster in fix template (inner)*/
+#myDSX.FullWidthRow .ds-menu-container-1 .ds-helper-cluster {
+    position:absolute; 
+    z-index:99;
+    
+    right: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/*Appearance/Position for helper cluster in custom template (inner)*/
+.ds-custom-template .ds-menu-container-1 .ds-helper-cluster {
+    position:absolute; 
+    z-index:99;
+    
+    /*right: -16px;*/
+    right: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/*Helper cluster that is positioned on the bottom*/
+.ds-helper-cluster-bottom {
+    right: 50% !important;
+    top: 80% !important;
+    transform: translate(50%, -50%) !important;
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+
+.ds-row-add {
+    background-image: url("../img/editor/btn-column-add.png") !important; 
+    background-size: cover;
+    
+    width: 16px;
+    height: 16px;
+    margin-bottom: 1px;
+    float: left;
+}
+.ds-row-remove {
+    background-image: url("../img/editor/btn-column-remove.png") !important; 
+    background-size: cover;
+    
+    width: 16px;
+    height: 16px;
+    margin-bottom: 1px;
+    float: left;
+}
+
+
+.dsmenucard {}
+.dsmenucard_row2 {}
+.dsmenucard_row3 {}
+.dsmenucard_row4 {}
+.dsmenucard_row5 {}
+.dsmenucard_row6 {}
+.dsmenucard_row7 {}
+.dsmenucard_row8 {}
+.dsmenucard_row9 {}
+.dsmenucard_row10 {}
+.dsmenucard_row11 {}
+.dsmenucard_row12 {}
+
+/*########################################*/
+/*# SLIDESHOW-CONTAINER ##################*/
+
+/*Appearance/Position for helper cluster in fix template (inner)*/
+#myDSX.FullWidthRow .ds-slideshow-container-1 .ds-helper-cluster {
+    position:absolute; 
+    z-index:99;
+    
+    right: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/*Appearance/Position for helper cluster in custom template (inner)*/
+.ds-custom-template .ds-slideshow-container-1 .ds-helper-cluster {
+    position:absolute; 
+    z-index:99;
+    
+    right: 0%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/*Button to start individual slideshow*/
+.ds-slideshow-start {
+    background-image: url("../img/editor/btn-player-start.png") !important; 
+    background-size: cover;
+    
+    width: 16px;
+    height: 16px;
+    margin-bottom: 1px;
+}
+
+/*Button to stop individual slideshow*/
+.ds-slideshow-stop {
+    background-image: url("../img/editor/btn-player-stop.png") !important; 
+    background-size: cover;
+    
+    width: 16px;
+    height: 16px;
+    margin-bottom: 1px;
+}
+
+
+
+/*###############*/
+/*SLIDESHOW TABLE*/
+
+/*Color background of even table rows to make it visually more appealing*/
+#ds-modal-slideshow-table tr:nth-child(even) {
+    background-color: #e3e3e3;
+}
+
+/*Hide transition div for first entry in slideshow modal*/
+/*
+#ds-modal-slideshow-table .ds-modal-slideshow-row:first-of-type .modal-slideshow-row-div:nth-of-type(2) {
+    display:none;
+}*/
+
+/*Class used to identify element that contains the number information of image*/
+.modal-slideshow-title {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#ds-modal-slideshow-table thead,
+#ds-modal-slideshow-table tbody,
+#ds-modal-slideshow-table tfoot,
+#ds-modal-slideshow-table tr,
+#ds-modal-slideshow-table td {
+    display: block;
+}
+
+/*Make sure all content remains in parent*/
+#ds-modal-slideshow-table thead {
+    overflow: auto;
+}
+/*Make table body scrollable*/
+#ds-modal-slideshow-table tbody {
+    overflow-y: auto;
+    max-height: 400px;
+}
+
+/*Appearance of media library button in slideshow modal*/
+#ds-editor-modal-slideshow .ds-modal-media-library {
+    width: 25%;
+    float: right;
+    
+    margin-top: 0% !important;
+    margin-right: 0% !important;
+}
+
+/*Div container used in slideshow modal to group elements*/
+.modal-slideshow-row-div {
+    overflow: hidden;
+    padding: 1px;
+}
+
+/*Input used to set image url*/
+.modal-slideshow-url {
+    width: 70% !important;
+    float: left;
+}
+
+/*Input used to set image display duration*/
+.modal-slideshow-duration {
+    width: 20% !important;
+    font-size: small;
+}
+
+/*#####################*/
+/*SLIDESHOW RADIO GROUP*/
+
+.modal-slideshow-radiogroup {
+    /*height: 24px;*/
+}
+.modal-slideshow-radiogroup input {
+    visibility: hidden;/*With display:none, form grows larger for some reason*/
+}
+
+.modal-slideshow-radiogroup label {
+    background-color: rgb(62, 69, 77);
+    
+    background-repeat: no-repeat;
+    background-size: 16px, 16px;
+    background-position: center;
+
+    width: 24px;
+    height: 24px;
+    
+    display: inline-block;
+    margin-bottom: 0% !important;/*Override wp setting*/
+}
+
+/*Visual highlight to selected radio button*/
+.modal-slideshow-radiogroup-selected {
+   background-color: rgb(23, 130, 198) !important;
+}
+
+.modal-slideshow-radiogroup input:checked + img {
+   border:2px solid #f00;
+}
+
+.modal-slideshow-transition-center {
+    background-image: url("../img/editor/btn-round.png");
+}
+.modal-slideshow-transition-left {
+    background-image: url("../img/editor/btn-arrow-from-left.png");
+}
+.modal-slideshow-transition-right {
+    background-image: url("../img/editor/btn-arrow-from-right.png");
+}
+.modal-slideshow-transition-top {
+    background-image: url("../img/editor/btn-arrow-from-top.png");
+}
+.modal-slideshow-transition-bottom {
+    background-image: url("../img/editor/btn-arrow-from-bottom.png");
+}
+
+/*########################################*/
+/*# FREEMOVE-CONTAINER ###################*/
+
+/*First size setting for freemove container, overridden by inline values.*/
+.ds-freemove {
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    position: relative;
+}
+
+/*Appearance/Position for helper cluster in fix template (inner)*/
+#myDSX.FullWidthRow .ds-freemove > .ds-helper-cluster {
+    position:absolute; 
+    z-index:99;
+    
+    right: 50%;
+    bottom: 0%;
+    transform: translate(50%, 0%);
+    
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+/*Appearance/Position for helper cluster in custom template (inner)*/
+.ds-custom-template .ds-freemove > .ds-helper-cluster {
+    position:absolute; 
+    z-index:99;
+    
+    right: 50%;
+    bottom: 0%;
+    transform: translate(50%, 0%);
+    
+    padding-bottom: 3px;
+    padding-right: 3px;
+}
+
+/*Button to drop data into html container*/
+.ds-switch-freemove {
+    border: black solid thin;
+    padding: 2px;
+    margin: 1px;
+    float: left;
+    
+    color: black;
+    background-color: white;
+}
+
+/*############################################################################*/
+/*MODAL ######################################################################*/
+
+.ds-editor-modal-window {}
+
+.ds-editor-modal-input {
+    width: 100%;
+}
+.ds-editor-modal-textarea {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    
+    height: 21em;
+    max-height: 41em;
+    min-height: 11em;
+    
+    font-family: "Open Sans", sans-serif !important;
+    font-size: medium;
+    
+}
+
+.ds-modal-button-cancel {
+    float:left;
+}
+.ds-modal-button-save {
+    float:right;
+    margin-right: 0px !important;
+}
+
+/*H2 title of editor modals*/
+.ds-editor-modal-title {}
+
+/*Label elements used to display info text for radio buttons*/
+.ds-editor-modal-label-info {}
+
+/*Radio group containing divs, inputs and p*/
+#ds-editor-modal-padding-group-radio{
+    
+}
+
+.ds-modal-input-col {
+    width: 75%;
+}
+.ds-modal-button-col {
+    width: 25%;
+}
+
+/*Appearance of media library button in vid modal*/
+#ds-editor-modal-vid .ds-modal-media-library {
+    width: 100%;
+}
+
+/*############################################################################*/
+/*UNDER DEVELOPMENT ##########################################################*/
+
+.ds-editor-button-topic-text {}
+
+/*Class used to identify group containing buttons for text operations*/
+.button-group-text {}
+
+/*Pseudo element displayed behind all set slideshow images*/
+/*
+.ds-slideshow-container-1::before {
+    content: "Slideshow Container";
+    text-align: center;
+    vertical-align: middle;
+    
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    display: inline-block;
+    background-color: red;    
+}
+*/
+
+/*Identifier used for content that had been generated as generic example*/
+.ds-template-generic {
+    
+}
+
+/*
+.ds-template-generic-button {
+    width:100%; 
+    position:absolute;
+    
+    top:1%;
+    left:0%;
+    text-align:center;
+    background-color:red; 
+    font-weight:bold;
+    color:white;
+    
+    cursor: -webkit-pointer;
+    cursor: -moz-pointer;
+    cursor: pointer;
+    
+}
+*/
+.ds-editor-element-header1 {
+	float:left;
+	display:inline-block;
+}
+.ds-editor-element-header2 {
+	position:absolute;
+	left:220px;
+	width:256px;
+}
+.ds-editor-element-header3 {
+	position:absolute;
+	left:500px;
+	width:211px;
+}
+.ds-editor-element-header4 {
+	position:absolute;
+	left:730px;
+	width:552px;
+}
+.ds-editor-element-header4 select#selection-text-font-family-original {
+	width:140px;
+}
+.ds-editor-element-header4 select#selection-text-font-size-original {
+	width:60px;
+}
+.ds-editor-element-header4 select#selection-text-insert-html-original {
+	width:70px;
+}
+#ds-editor-modal-vid-input-1, #ds-editor-modal-vid-input-2, #ds-editor-modal-vid-input-3 {
+	margin-top:5px;
+}
+#slideselection_list li.copy_elem {
+	float:left;
+	cursor:pointer;
+	width:310px;
+	height:126px;
+	border:1px solid grey;
+	margin-right:5px;
+}
+#slideselection_list li.copy_elem.copy_selected {
+	border:3px solid red;
+}
+#slideselection_list li.copy_elem .copy_preview {
+	position:relative;
+	float:left;
+	width:124px;
+	height:124px;
+}
+#slideselection_list li.copy_elem.copy_selected .copy_preview {
+	width:120px;
+	height:120px;
+}
+#slideselection_list li.copy_elem .copy_preview img {
+	position: absolute;
+	top: 0; bottom: 0; left: 0; right: 0;
+	margin: auto;
+	max-width:120px;
+	max-height:120px;
+}
+#slideselection_list li.copy_elem .copy_data {
+	float:right;
+	width:182px;
+	height:122px;
+	margin-top:5px;
+}
+#slideselection_list li.copy_elem.copy_selected .copy_data {
+	width:180px;
+	height:120px;
+	margin-top:3px;
+}

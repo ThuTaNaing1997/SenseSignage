@@ -1,0 +1,728 @@
+/* 
+    Created on : 04.04.2016
+    Author     : Dennis Jensch
+
+    Contains settings that are needed to be included for display to ensure
+    everything is working correctly.
+*/
+
+body {
+    color: black;
+}
+
+/*############################################################################*/
+/*TEMPLATE ###################################################################*/
+
+/*Outer most div container containing ALL content of the custom template*/
+.ds-custom-template {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#allDSScreens {
+    overflow:hidden;
+}
+
+/*############################################################################*/
+/*CONTAINER ##################################################################*/
+
+/*Set size as default, in case functions.js is not working*/
+.bgimage {
+    width: 100%;
+    height: 100%;
+}
+
+/*Outer padding div*/
+.ds-padding {
+    /*padding: 0px;SET WITH JS*/
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    
+    max-width: 100%;
+    max-height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+
+/*Set inner padding values to either of two allowed div containers*/
+.ds-padding > .ds-text-container-1,
+.ds-padding > .ds-content {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative !important;
+}
+
+/*Container has to be relative.*/
+.ds-freemove {
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    position: relative;
+}
+
+/*Outer container for custom templates, containing inner content container*/
+.ds-container {
+    /*Need absolute position, otherwise, later html element are influenced*/
+    position:absolute !important;
+}
+
+/*Outer content-container with real content within*/
+/*Set to relative position, otherwise jQuery UI Resizable has problems with
+freemove container set on specific sub containers*/
+.ds-content {
+    width: 100%;
+    height: 100%;
+    position: relative;/*DJ_2016-07-01 Necessary for freemove*/
+}
+
+/*Marker used to identify container with included text data*/
+.ds-text-container-1 {
+    word-wrap: break-word;
+    
+    /*These values are taken from grid.css row definitions*/
+    /*overflow: hidden;*/
+    height: 100%;
+}
+/*Marker used to identify container with included html data*/
+.ds-html-container-1 {
+    height: 100%;
+    overflow: hidden;
+}
+
+.ds-tools-container-1 {
+    height: 100%;
+    overflow: hidden;
+}
+
+/*Marker used to identify container with included slideshow data*/
+.ds-slideshow-container-1 {
+    height: 100%;
+    overflow: hidden;
+}
+
+.ds-image-container-2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.ds-menu-container-1 {
+    height: 100%;
+}
+
+.ds-menu-header {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    height: 15%;
+    text-align: center;
+}
+.ds-menu-main {
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 70%;
+}
+.ds-menu-footer {
+    padding-top: 1%;
+    padding-bottom: 3%;
+    height: 15%;
+    text-align: center;
+}
+
+/*Row containing two columns for text*/
+.ds-menu-content-row {
+    width: 100%;
+    height: 100%;
+}
+
+/*Left column (used for menu text)*/
+.ds-menu-content-main {
+    height: 100%;
+    width:50%;
+
+    /*overflow: hidden;*/
+    float: left;
+}
+
+/*Right column (used for price text)*/
+.ds-menu-content-other {
+    height: 100%;
+    width: 50%;
+    
+    text-align: right;
+    /*overflow: hidden;*/
+    
+    float: left;
+}
+
+.ds-menu-container-1 div {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.ds-tools-container-1 .ds-html-result {
+    width: 100%;
+    height: 100%;
+}
+
+/*############################################################################*/
+/*TEXT APPEARANCE ############################################################*/
+
+/*Override values on body*/
+body {
+    line-height: inherit !important;/*Special for IE*/
+    line-height: initial !important;/*All the other browsers*/
+}
+
+/*Inherit styles so that defaults will be loaded*/
+.ds-text-col font {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+/*IE sets text in paragraphs, let them also inherit styles*/
+.ds-text-col p {
+    font-family: inherit;
+    font-size: inherit;
+    /*color: #444444;*/
+    color: #000000;
+    
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/*Override wordpress setting to make sure text is displayed correctly*/
+.ds-content [contenteditable="true"] font {
+    line-height: 1em;
+}
+
+/*Default settings for contentEditable content*/
+.ds-content [contenteditable="true"],
+.ds-content [contenteditable="true"] font {
+    
+}
+
+.ds-content font[face="Open Sans"]{
+    font-family: "Open Sans", sans-serif !important;
+}
+.ds-content font[face="Roboto"]{
+    font-family: "Roboto", sans-serif !important;
+}
+.ds-content font[face="Lato"]{
+    font-family: "Lato", sans-serif !important;
+}
+.ds-content font[face="Oswald"]{
+    font-family: "Oswald", sans-serif !important;
+}
+.ds-content font[face="Roboto Condensed"]{
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+.ds-content font[face="Montserrat"]{
+    font-family: "Montserrat", sans-serif !important;
+}
+.ds-content font[face="Source Sans Pro"]{
+    font-family: "Source Sans Pro", sans-serif !important;
+}
+.ds-content font[face="Raleway"]{
+    font-family: "Raleway", sans-serif !important;
+}
+.ds-content font[face="PT Sans"]{
+    font-family: "PT Sans", sans-serif !important;
+}
+.ds-content font[face="Droid Sans"]{
+    font-family: "Droid Sans", sans-serif !important;
+}
+.ds-content font[face="Ubuntu"]{
+    font-family: "Ubuntu", sans-serif !important;
+}
+
+.ds-content font[face="Poiret One"]{
+    font-family: "Poiret One", cursive !important;
+}
+.ds-content font[face="Indie Flower"]{
+    font-family: "Indie Flower", cursive !important;
+}
+
+.ds-content font[face="Times New Roman"]{
+    font-family: "Times New Roman", serif !important;
+}
+.ds-content font[face="Slabo 27px"]{
+    font-family: "Slabo 27px", serif !important;
+}
+
+/*################*/
+
+/*############################################################################*/
+/* RANGY #####################################################################*/
+
+/*##############################*/
+/*### SIZES ###*/
+
+/*see end of file*/
+
+/*##############################*/
+/*### FONTS ###*/
+
+.ds_rangy_font-family_Open-Sans{
+    font-family: "Open Sans", sans-serif !important;
+}
+.ds_rangy_font-family_Roboto{
+    font-family: "Roboto", sans-serif !important;
+}
+.ds_rangy_font-family_Lato {
+    font-family: "Lato", sans-serif !important;
+}
+.ds_rangy_font-family_Oswald {
+    font-family: "Oswald", sans-serif !important;
+}
+.ds_rangy_font-family_Roboto-Condensed {
+    font-family: "Roboto Condensed", sans-serif !important;
+}
+.ds_rangy_font-family_Montserrat {
+    font-family: "Montserrat", sans-serif !important;
+}
+.ds_rangy_font-family_Source-Sans-Pro{
+    font-family: "Source Sans Pro", sans-serif !important;
+}
+.ds_rangy_font-family_Raleway{
+    font-family: "Raleway", sans-serif !important;
+}
+.ds_rangy_font-family_PT-Sans {
+    font-family: "PT Sans", sans-serif !important;
+}
+.ds_rangy_font-family_Droid-Sans {
+    font-family: "Droid Sans", sans-serif !important;
+}
+.ds_rangy_font-family_Ubuntu {
+    font-family: "Ubuntu", sans-serif !important;
+}
+
+/*##############################*/
+
+.ds_rangy_font-family_Poiret-One {
+    font-family: "Poiret One", cursive !important;
+}
+.ds_rangy_font-family_Indie-Flower {
+    font-family: "Indie Flower", cursive !important;
+}
+
+/*##############################*/
+
+.ds_rangy_font-family_Times-New-Roman {
+    font-family: "Times New Roman", serif !important;
+}
+.ds_rangy_font-family_Slabo-27px {
+    font-family: "Slabo 27px", serif !important;
+}
+.ds_rangy_font-family_Lora {
+    font-family: "Lora", serif !important;
+}
+
+/*##############################*/
+/*### TOGGLES ###*/
+
+.ds_rangy_bold {
+    font-weight: bold;
+}
+.ds_rangy_italic {
+    font-style: italic;
+}
+.ds_rangy_underline {
+    text-decoration: underline;
+}
+
+/*############################################################################*/
+/* TRANSITION / ANIMATION ####################################################*/
+
+/*##############################*/
+/* Slideshow transition classes */
+
+/*Fade animation, appearing in the center*/
+.ds-slideshow-transition-center {
+    -webkit-animation: ds-transition-center 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: ds-transition-center 2s; /* Firefox < 16 */
+        -ms-animation: ds-transition-center 2s; /* Internet Explorer */
+         -o-animation: ds-transition-center 2s; /* Opera < 12.1 */
+            animation: ds-transition-center 2s;
+}
+
+/*Fade animation, appearing in the center*/
+.ds-slideshow-transition-center-disappear {
+    -webkit-animation: ds-transition-center-disappear 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: ds-transition-center-disappear 2s; /* Firefox < 16 */
+        -ms-animation: ds-transition-center-disappear 2s; /* Internet Explorer */
+         -o-animation: ds-transition-center-disappear 2s; /* Opera < 12.1 */
+            animation: ds-transition-center-disappear 2s;
+}
+
+/*Fading in from the left side*/
+.ds-slideshow-transition-left {
+    -webkit-animation: ds-transition-left 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: ds-transition-left 2s; /* Firefox < 16 */
+        -ms-animation: ds-transition-left 2s; /* Internet Explorer */
+         -o-animation: ds-transition-left 2s; /* Opera < 12.1 */
+            animation: ds-transition-left 2s;
+}
+
+/*Fading in from the right side*/
+.ds-slideshow-transition-right {
+    -webkit-animation: ds-transition-right 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: ds-transition-right 2s; /* Firefox < 16 */
+        -ms-animation: ds-transition-right 2s; /* Internet Explorer */
+         -o-animation: ds-transition-right 2s; /* Opera < 12.1 */
+            animation: ds-transition-right 2s;
+}
+
+/*Fading in from the top*/
+.ds-slideshow-transition-top {
+    -webkit-animation: ds-transition-top 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: ds-transition-top 2s; /* Firefox < 16 */
+        -ms-animation: ds-transition-top 2s; /* Internet Explorer */
+         -o-animation: ds-transition-top 2s; /* Opera < 12.1 */
+            animation: ds-transition-top 2s;
+}
+
+/*Fading in from the bottom*/
+.ds-slideshow-transition-bottom {
+    -webkit-animation: ds-transition-bottom 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: ds-transition-bottom 2s; /* Firefox < 16 */
+        -ms-animation: ds-transition-bottom 2s; /* Internet Explorer */
+         -o-animation: ds-transition-bottom 2s; /* Opera < 12.1 */
+            animation: ds-transition-bottom 2s;
+}
+
+/*###################*/
+/* Transition Center */
+
+@-webkit-keyframes ds-transition-center {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-moz-keyframes ds-transition-center {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-ms-keyframes ds-transition-center {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-o-keyframes ds-transition-center {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes ds-transition-center {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+/*###################*/
+/* Transition Center */
+
+@-webkit-keyframes ds-transition-center-disappear {
+    from {opacity: 1; visibility: visible;}
+    /*50% {opacity: 0;}*/
+    to {opacity: 0; visibility: visible;}
+}
+@-moz-keyframes ds-transition-center-disappear {
+    from {opacity: 1; visibility: visible;}
+    /*50% {opacity: 0;}*/
+    to {opacity: 0; visibility: visible;}
+}
+@-ms-keyframes ds-transition-center-disappear {
+    from {opacity: 1; visibility: visible;}
+    /*50% {opacity: 0;}*/
+    to {opacity: 0; visibility: visible;}
+}
+@-o-keyframes ds-transition-center-disappear {
+    from {opacity: 1; visibility: visible;}
+    /*50% {opacity: 0;}*/
+    to {opacity: 0; visibility: visible;}
+}
+@keyframes ds-transition-center-disappear {
+    from {opacity: 1; visibility: visible;}
+    /*50% {opacity: 0;}*/
+    to {opacity: 0; visibility: visible;}
+}
+
+/*###################*/
+/* Transition Left */
+
+@-webkit-keyframes ds-transition-left {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+@-moz-keyframes ds-transition-left {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+@-ms-keyframes ds-transition-left {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+@-o-keyframes ds-transition-left {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+@keyframes ds-transition-left {
+    from {
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+/*###################*/
+/* Transition Right */
+
+@-webkit-keyframes ds-transition-right {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+@-moz-keyframes ds-transition-right {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+@-ms-keyframes ds-transition-right {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+@-o-keyframes ds-transition-right {
+    from {
+        left: 100%;
+    }
+    to {
+        left: 0%;
+    }
+}
+@keyframes ds-transition-right {
+    from {
+        left: 100%;
+    }
+	to {
+        left: 0%;
+    }
+}
+
+/*###################*/
+/* Transition Top */
+
+@-webkit-keyframes ds-transition-top {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+@-moz-keyframes ds-transition-top {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+@-ms-keyframes ds-transition-top {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+@-o-keyframes ds-transition-top {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+@keyframes ds-transition-top {
+    from {
+        top: -100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+
+/*###################*/
+/* Transition Bottom */
+
+@-webkit-keyframes ds-transition-bottom {
+    from {
+        top: 100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+@-moz-keyframes ds-transition-bottom {
+    from {
+        top: 100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+@-ms-keyframes ds-transition-bottom {
+    from {
+        top: 100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+@-o-keyframes ds-transition-bottom {
+    from {
+        top: 100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+@keyframes ds-transition-bottom {
+    from {
+        top: 100%;
+    }
+    to {
+        top: 0%;
+    }
+}
+
+/*############################################################################*/
+/*FONT-SIZE IN TEMPLATE ######################################################*/
+
+/*Text-Container content displayed outside of editor (overflow:hidden)*/
+.ds-text-col {
+    height: 100%;
+    white-space: pre-wrap;/*Display TAB not as single whitespace*/
+    
+    /*Display scrollbar if too much content*/
+    overflow: hidden;
+    
+    /*These values are taken from grid.css column definitions*/
+    float: left;
+    position: relative;
+    box-sizing: border-box;
+    
+    font-family: "Times New Roman";
+    font-size: 2.5vh;
+}
+
+.ds-menu-container-1 {
+    font-family: "Times New Roman";
+    font-size: 2.5vh;
+}
+
+.ds-content font[size="1"]{
+    font-size: 1.4vh
+}
+.ds-content font[size="2"]{
+    font-size: 1.7vh;
+}
+.ds-content font[size="3"]{
+    font-size: 2.2vh;
+}
+.ds-content font[size="4"]{
+    font-size: 2.5vh;
+}
+.ds-content font[size="5"]{
+    font-size: 3.3vh;
+}
+.ds-content font[size="6"]{
+    font-size: 4.4vh;
+}
+.ds-content font[size="7"]{
+    font-size: 6.8vh;
+}
+
+
+
+.ds_rangy_font-size_1 {
+    font-size: 1.4vh;
+}
+.ds_rangy_font-size_2 {
+    font-size: 1.7vh;
+}
+.ds_rangy_font-size_3 {
+    font-size: 2.2vh;
+}
+.ds_rangy_font-size_4 {
+    font-size: 2.5vh;
+}
+.ds_rangy_font-size_5 {
+    font-size: 3.3vh;
+}
+.ds_rangy_font-size_6 {
+    font-size: 4.4vh;
+}
+.ds_rangy_font-size_7 {
+    font-size: 6.8vh;
+}
+.ds_rangy_font-size_8 {
+    font-size: 11.1vh;
+}
+.ds_rangy_font-size_9 {
+    font-size: 15.4vh;}
+
+.ds_rangy_font-size_10 {
+    font-size: 20.0vh;
+}
+.ds_rangy_font-size_11 {
+    font-size: 24.4vh;
+}
+.ds_rangy_font-size_12 {
+    /*font-size: 20.2vh;*/
+    font-size: 28.8vh;
+}
+
+.ds-menu-container-1 h1,
+.ds-text-container-1 h1 {
+    
+}
+
+.ds-menu-container-1 h2,
+.ds-text-container-1 h2 {
+    
+}
+
+.ds-menu-container-1 h3,
+.ds-text-container-1 h3 {
+    
+}

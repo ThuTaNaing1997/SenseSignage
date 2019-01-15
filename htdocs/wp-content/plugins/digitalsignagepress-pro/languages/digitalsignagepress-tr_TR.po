@@ -1,0 +1,1158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: digitalsignagepress\n"
+"POT-Creation-Date: 2016-06-15 12:01+0200\n"
+"PO-Revision-Date: 2017-01-03 15:10+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr_TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: pages/navigation_header.php\n"
+"X-Poedit-SearchPath-1: pages/admin.php\n"
+"X-Poedit-SearchPath-2: pages/editor.php\n"
+
+msgid "It's a plugin to allow Digital Signage via WordPress"
+msgstr "WordPress üzerinden Digital Signage izin veren bir eklentidir"
+
+msgid "Are you sure you want to permanently delete this file?"
+msgstr "Bu dosyayı kalıcı olarak silmek istediğinizden emin misiniz?"
+
+msgid "Are you sure you want to permanently delete this folder and all of its content? (this may take a moment)"
+msgstr "Bu klasörü ve içeriğini kalıcı olarak silmek istediğinizden emin misiniz? (Bu biraz zaman alabilir)"
+
+msgid "New Playlist"
+msgstr "Yeni Oynatma Listesi"
+
+msgid "Playlist"
+msgstr "Oynatma Listesi"
+
+msgid "Devices"
+msgstr "Cihazlar"
+
+msgid "Videowalls"
+msgstr "Videowall'leriniz"
+
+msgid "Customers"
+msgstr "Müşteriler"
+
+msgid "Users"
+msgstr "Kullanıcılar"
+
+msgid "Media"
+msgstr "Medya"
+
+msgid "License"
+msgstr "Lisans"
+
+msgid "Everything"
+msgstr "Tümü"
+
+msgid "Group"
+msgstr "Grup"
+
+msgid "Branch"
+msgstr "Branche"
+
+msgid "Discription"
+msgstr "Açıklama"
+
+msgid "Zipcode"
+msgstr "Posta Kodu"
+
+msgid "City"
+msgstr "Şehir"
+
+msgid "Street"
+msgstr "Cadde/Sokak"
+
+msgid "House number"
+msgstr "Kapı No"
+
+msgid "Country"
+msgstr "Ülke"
+
+msgid "FILTER BY:"
+msgstr "Filtrele:"
+
+msgid "Search Filter"
+msgstr "Arama kriteri"
+
+msgid "use * as wildcard"
+msgstr "* kullanarak arama yapabilirsiniz"
+
+msgid "Add New Customer"
+msgstr "Yeni müşteri ekle"
+
+msgid "Edit"
+msgstr "Düzenle"
+
+msgid "Delete"
+msgstr "Sil"
+
+msgid "Are you sure you want to permanently delete this customer?"
+msgstr "Bu müşteriyi kalıcı olarak silmek istediğinize emin misiniz?"
+
+msgid "Devicename"
+msgstr "Cihaz adı"
+
+msgid "Playlistname"
+msgstr "Oynatma Listesi Adı"
+
+msgid "Videowallname"
+msgstr "Videowall adı"
+
+msgid "Customer"
+msgstr "Müşteri"
+
+msgid "Location"
+msgstr "Lokasyon"
+
+msgid "Change Date"
+msgstr "Değişiklik Tarihi"
+
+msgid "Last Request"
+msgstr "Son istek"
+
+msgid "Online"
+msgstr "Çevrim içi"
+
+msgid "Offline"
+msgstr "Çevrim dışı"
+
+msgid "Not Updated"
+msgstr "Güncel değil"
+
+msgid "Move selected Device(s) to Playlist:"
+msgstr "Seçili cihaz(lar)ı oynatma listesine taşı:"
+
+msgid "No Playlist"
+msgstr "Oynatma Listesi Yok"
+
+msgid "Videowall"
+msgstr "Videowall"
+
+msgid "Check"
+msgstr "Kontrol"
+
+msgid "Are you sure you want to permanently delete this device?"
+msgstr "Bu cihazı kalıcı olarak silmek istediğinize emin misiniz?"
+
+msgid "Number of Devices"
+msgstr "Cihaz sayısı"
+
+msgid "Select or deselect all Devices at once"
+msgstr "Tüm cihazları seç / seçimi kaldır"
+
+msgid "Are you sure you want to permanently delete this devicewall?"
+msgstr "Bu videowall'ı kalıcı olarak silmek istediğinize emin misiniz?"
+
+msgid "Are you sure you want to permanently delete this playlist?"
+msgstr "Bu oynatma listesini kalıcı olarak silmek istediğinize emin misiniz?"
+
+msgid "Devices that use this playlist will have their playlist entry removed."
+msgstr "Bu oynatma listesini kullanan cihazların oynatma listesi bilgisi kaldırılacak."
+
+msgid "Media Library"
+msgstr "Medya kütüphanesi"
+
+msgid "Add New Folder"
+msgstr "Yeni klasör ekle"
+
+msgid "Drop Images/Movies here or"
+msgstr "Yüklenecek video/resimleri sürükleyin veya"
+
+msgid "Upload"
+msgstr "Yükle"
+
+msgid "ADD NEW FOLDER"
+msgstr "YENİ KLASÖR EKLE"
+
+msgid "Preview"
+msgstr "Önizleme"
+
+msgid "Name"
+msgstr "İsim"
+
+msgid "Orientation"
+msgstr "Yönlendirme"
+
+msgid "Resolution"
+msgstr "Çözünürlük"
+
+msgid "Filesize"
+msgstr "Dosya boyutu"
+
+msgid "Uploaded"
+msgstr "Yükleme"
+
+msgid "Modified"
+msgstr "Düzenleme"
+
+msgid "Replace"
+msgstr "Değiştir"
+
+msgid "User Details"
+msgstr "Kullanıcı Detayları"
+
+msgid "Login Name"
+msgstr "Kullanıcı adı"
+
+msgid "New Password"
+msgstr "Yeni şifre"
+
+msgid "Password"
+msgstr "Şifre"
+
+msgid "First Name"
+msgstr "Adı"
+
+msgid "Last Name"
+msgstr "Soyadı"
+
+msgid "No Limitation"
+msgstr "Kısıtlama yok"
+
+msgid "Manage User"
+msgstr "Kullancıyı yönet"
+
+msgid "Can't manage users"
+msgstr "Kullanıcı yönetimi yapılamıyor"
+
+msgid "Can create new and manage existing Users"
+msgstr "Kullanıcı yaratma/düzenleme yetkisi yok"
+
+msgid "SAVE"
+msgstr "KAYDET"
+
+msgid "User Name"
+msgstr "Kullanıcı adı"
+
+msgid "Full Name"
+msgstr "Adı Soyadı"
+
+msgid "Position"
+msgstr "Pozisyon"
+
+msgid "Are you sure you want to permanently delete this user?"
+msgstr "Bu kullanıcıyı kalıcı olarak silmek istediğinize emin misiniz?"
+
+msgid "Never"
+msgstr "Asla"
+
+msgid "Add New Device"
+msgstr "Yeni Cihaz Ekle"
+
+msgid "PAGE"
+msgstr "SAYFA"
+
+msgid "Add New Videowall"
+msgstr "Yeni Videowall Ekle"
+
+msgid "New Slide"
+msgstr "Yeni Slayt"
+
+msgid "Slideduration"
+msgstr "Slayt süresi"
+
+msgid "Sec"
+msgstr "Sn"
+
+msgid "None of your slides has a slideduration"
+msgstr "Hiçbir slaytınızın oynatma süresi yoktur"
+
+msgid "The current page orientation is portrait; do you really want to change this for all slides in this playlist?"
+msgstr "Şu anki sayfa yapısı DİKEY. bunu tüm slaytlar için değiştirmek istiyor musunuz?"
+
+msgid "The current page orientation is landscape; do you really want to change this for all slides in this playlist?"
+msgstr "Şu anki sayfa yapısı YATAY. bunu tüm slaytlar için değiştirmek istiyor musunuz?"
+
+msgid "Close"
+msgstr "Kapat"
+
+msgid "Your changes have not been saved. Do you wish to leave the page?"
+msgstr "Değişiklikleriniz henüz kaydedilmedi. Yine de sayfadan çıkmak istiyor musunuz?"
+
+msgid "can never be played, enddate is in the past."
+msgstr "hiçbir zaman oynatılamaz. Bitiş tarihi geçmiştedir."
+
+msgid "has startdate after enddate."
+msgstr "başlangıç tarihi bitiş tarihinden sonra."
+
+msgid "has start after end for day of month."
+msgstr "başlama tarihi ayın son gününden sonra."
+
+msgid "Your playlist has no slides that can be played, latest enddate is in the past."
+msgstr "Oynatma listenizdeki slaytlar oynatılamaz. son bitiş tarihi geçmişe kayıtlıdır."
+
+# FILENAME is a keyword here
+msgid "Are you sure you want to delete FILENAME"
+msgstr "FILENAME adlı dosyayı silmek istediğinizden emin misiniz?"
+
+msgid "Name of this Slide"
+msgstr "Bu slaytın adı"
+
+msgid "custom editor"
+msgstr "özel düzenleme aracı"
+
+msgid "Signage Playlist Name:"
+msgstr "Oynatma Listesi Adı:"
+
+msgid "Create New Slide"
+msgstr "Yeni Slayt Oluştur"
+
+msgid "Slides of this Playlist"
+msgstr "Bu Oynatma Listesindeki Slaytlar"
+
+msgid "Sec."
+msgstr "Sn."
+
+msgid "Save"
+msgstr "Kaydet"
+
+msgid "Choose landscape or portrait layout as your page orientation."
+msgstr "Sayfa yönlendirmesi için dikey veya yatay yönlendirme seçimi yapınız"
+
+msgid "Choose between favorite list and regular for template selection."
+msgstr "Şablon seçimi için favori listesi veya listeden seçiniz"
+
+msgid "Favorite"
+msgstr "Favori"
+
+msgid "Choose the page or menu card template or use custom template to freely place elements on the entire page."
+msgstr "Tüm sayfa üzerine istediğiniz gibi medya yerleştirmek için, sayfa, menü kartı veya özel şablonu seçiniz."
+
+msgid "Scheduling of"
+msgstr "Zamanlanıyor"
+
+msgid "Number of seconds this slide will be shown each repetition. Use 0 for endless."
+msgstr "Bu slaytın her tekrarda kaç saniye gösterileceği. Sınırsız için 0 yazınız."
+
+msgid "show 24h every Day"
+msgstr "Her gün 24 saat göster"
+
+msgid "define scheduling"
+msgstr "zamanlamayı tanımlayın"
+
+msgid "Here you can limit that the slide is only visible during certain times each week. Leave empty to not restrict show time."
+msgstr "Slaydın haftanın sadece belli zamanlarında görünür olmasını buradan ayarlayabilirsiniz. Boş bırakırsanız kısıtlama yoktur."
+
+msgid "Limit Showtime by Weekdays"
+msgstr "Gösterim zamanını haftalarla sınırlayın"
+
+msgid "en"
+msgstr "tr"
+
+msgid "Save Anyway"
+msgstr "Yine de kaydet"
+
+msgid "Proceed"
+msgstr "Devam"
+
+msgid "Cancel"
+msgstr "İptal"
+
+msgid "Customer Details"
+msgstr "Müşteri detayları"
+
+msgid "Description"
+msgstr "Açıklama"
+
+msgid "Available Devices"
+msgstr "Uygun cihazlar"
+
+msgid "No pages are configured with the [digitalsignage] shortcode."
+msgstr "[digitalsignage] kısa kodu ile konfigüre edilmiş sayfa bulunamadı"
+
+msgid "Please add it to one."
+msgstr "Lütfen bir tanesine ekleyiniz"
+
+msgid "No device belongs to this customer"
+msgstr "Bu müşteriye ait cihaz bulunamadı"
+
+msgid "VIEW"
+msgstr "GÖR"
+
+msgid "All Items"
+msgstr "Tümü"
+
+msgid "One Row"
+msgstr "Bir Satır"
+
+msgid "Row"
+msgstr "Satır"
+
+msgid "Device Details"
+msgstr "Cihaz Detayları"
+
+msgid "No Program"
+msgstr "Program Yok"
+
+msgid "No Customer"
+msgstr "Müşteri Yok"
+
+msgid "Browser of allocated Device"
+msgstr "Tüm atanmış cihazları gezin"
+
+msgid "Allow other device to use this URL"
+msgstr "Diğer cihazların da bu URL'yi kullanmasına izin ver"
+
+msgid "Enter these URLs into your device to see this playlist on your device"
+msgstr "Bu URL'leri cihazlarınıza girerek, oynatma listelerini görüntüleyebilirsiniz."
+
+msgid "N/A"
+msgstr "UYGUN DEĞİL"
+
+msgid "Licensing for DigitalSignagePress"
+msgstr "DigitalSignagePress Lisanslaması"
+
+msgid "To use our DigitalSignagePress Plugin, please follow the next steps to activate it."
+msgstr "DigitalSignagePress eklentisini kullanmak için, çıkacak adımları izleyerek aktive ediniz."
+
+msgid "Step 1: Enter License Key"
+msgstr "Schritt 1: Lisans Kodunu Girin"
+
+msgid "Enter your license key"
+msgstr "Lisans Kodunuzu Girin"
+
+msgid "You'll find your License Key inside your confirmation email after you"
+msgstr "Lisans kodunuz, alım sonrası size gönderilen doğrulama e-postasının "
+
+msgid "purchased a license"
+msgstr "içindedir"
+
+msgid "Step 2: Activate License"
+msgstr "Schritt 2: Lisansı aktive edin"
+
+msgid "active"
+msgstr "aktif"
+
+msgid "Deactivate License"
+msgstr "Lisansı deaktive edin"
+
+msgid "Activate License"
+msgstr "Lisansı Aktif Et"
+
+msgid "Step 3: Install DigitalSignagePress Theme"
+msgstr "Schritt 3: DigitalSignagePress Temasını Kurun"
+
+msgid "installed"
+msgstr "Kurulu"
+
+msgid "Activation is <b>not</b> required."
+msgstr "Aktivasyon gerekli <b>değildir</b>."
+
+msgid "Please download the DigitalSignagePress Theme and install it.<br>You <b>don't</b> need to <b>activate</b> it, only install it."
+msgstr "LÜtfen, DigitalSignagePress temasını indirip kurunuz. <br>Aktive etmeniz <b>gerekmemektedir</b>. Sadece kurunuz ."
+
+msgid "Background of Slide"
+msgstr "Slay arkaplanı"
+
+msgid "Media for Element"
+msgstr "Medya seçiniz"
+
+msgid "Background Image"
+msgstr "Arkaplan Resmi"
+
+msgid "Background Color"
+msgstr "Arkaplan Rengi"
+
+msgid "Image"
+msgstr "Resim"
+
+msgid "Color"
+msgstr "Renk"
+
+msgid "Menucard"
+msgstr "Menü Kartı"
+
+msgid "Slideshow"
+msgstr "Slayt gösterisi"
+
+msgid "Font"
+msgstr "Yazı Tipi"
+
+msgid "Size"
+msgstr "Boyut"
+
+msgid "Bold"
+msgstr "Kalın"
+
+msgid "Italic"
+msgstr "İtalik"
+
+msgid "Underline"
+msgstr "Altı Çizgili"
+
+msgid "Align Left"
+msgstr "Sola Daya"
+
+msgid "Align Center"
+msgstr "Ortala"
+
+msgid "Align Right"
+msgstr "Sağa Daya"
+
+msgid "Align Full"
+msgstr "Satıra Yay"
+
+msgid "ADD"
+msgstr "EKLE"
+
+msgid "Duplicate"
+msgstr "Çoğalt"
+
+msgid "Padding"
+msgstr "Kenarlar"
+
+msgid "Playlists"
+msgstr "Oynatma Listeleri"
+
+msgid "Create a new playlist."
+msgstr "Yeni Oynatma Listesi Yarat."
+
+msgid "View and edit existing playlists."
+msgstr "Oynatma Listelerini Gör / Düzenle."
+
+msgid "Manage your viewing devices and generate urls for viewing your content on them."
+msgstr "Görüntüleme cihazlarınızı listeleyin ve içeriklerin görüntüleneceği URL leri yaratın."
+
+msgid "Configure videowalls - show your content across multiple devices."
+msgstr "Videowall lerinizi konfigüre edin - İçeriğinizi birden çok ekrana yayarak gösterin"
+
+msgid "Manage your customers that own the devices."
+msgstr "Cihazların sahibi olan müşterilerinizi yönetin."
+
+msgid "Slides"
+msgstr "Slaytlar"
+
+msgid "Showing"
+msgstr "Aktif"
+
+msgid "Format"
+msgstr "Format"
+
+msgid "Slidenames"
+msgstr "Slayt Adları"
+
+msgid "Last Change"
+msgstr "Son Güncelleme"
+
+msgid "Valid From"
+msgstr "Başlama Tarihi"
+
+msgid "Valid To"
+msgstr "Bitiş Tarihi"
+
+msgid "Are you sure you want to remove this slide from the playlist?"
+msgstr "Bu slaytı oynatma listesinden çıkarmak istediğinize emin misiniz?"
+
+msgid "Display Orientation"
+msgstr "Gösterim Yönlendirmesi"
+
+msgid "Display configuration"
+msgstr "Görüntü Konfigürasyonu"
+
+msgid "Resolution width"
+msgstr "Çözünürlük Eni"
+
+msgid "Bezel compensation width"
+msgstr "Kenar kompanse genişliği"
+
+msgid "Resolution height"
+msgstr "Çözünürlük Yüksekliği"
+
+msgid "Bezel compensation height"
+msgstr "Kenar kompanse yüksekliği"
+
+msgid "Rows"
+msgstr "Satırlar"
+
+msgid "Columns"
+msgstr "Kolonlar"
+
+msgid "Videowall Details"
+msgstr "Videowall Detayları"
+
+msgid "PREVIEW OF YOUR PLAYLIST"
+msgstr "OYNATMA LİSTESİNİ ÖNİZLE"
+
+msgid "Slide"
+msgstr "Slayt"
+
+msgid "Last Edit"
+msgstr "Son Güncelleme"
+
+msgid "nameless device"
+msgstr "Adsız Cihaz"
+
+msgid "nameless playlist"
+msgstr "Adsız Oynatma Listesi"
+
+msgid "nameless customer"
+msgstr "Adsız Müşteri"
+
+msgid "nameless videowall"
+msgstr "Adsız Videowall"
+
+msgid "nameless user"
+msgstr "Adsız Kullanıcı"
+
+msgid "nameless slide"
+msgstr "Adsız Slayt"
+
+msgid "Enter Website URL"
+msgstr "Web sayfası URL'sini girin"
+
+msgid "Enter Video URL"
+msgstr "Video URL'sini girin"
+
+msgid "Enter a URL to a video file on a webserver or a youtube link or choose a video file from the media library."
+msgstr "Medya kütüphanesinden bir video seçin, veya web/youtube linki giriniz."
+
+msgid "You may also add fallback videos for browser that don't support the primary video."
+msgstr "Videonun desteklenmemesi olasılığına karşılık, yedek video linki de girebilirsiniz."
+
+msgid "To guarantee best compatibility, please provide at least files with formats of MP4 and OGG."
+msgstr "En iyi uyumluluğu sağlamak için, OGG veya MP4 formatında videolar yükleyiniz."
+
+msgid "Edit your Code"
+msgstr "Kodunuzu düzenleyin"
+
+msgid "Set padding of Content"
+msgstr "İçeriğin kenar boşluklarını ayarlayın"
+
+msgid "Select to which element this padding should be applied"
+msgstr "Bu kenar boşluklarının hangi bölümlere uygulanacağını seçin"
+
+msgid "Only Text"
+msgstr "Sadece metin"
+
+msgid "Content"
+msgstr "İçerik"
+
+msgid "Setup Slideshow"
+msgstr "Slayt gösterisini ayarlayın"
+
+msgid "Slide-in Effect"
+msgstr "Kayarak girme efekti"
+
+msgid "REMOVE"
+msgstr "KALDIR"
+
+msgid "Change"
+msgstr "Değiştir"
+
+msgid "Name of this Folder"
+msgstr "Bu klasörün adı"
+
+msgid "Insert into page"
+msgstr "Sayfaya ekle"
+
+msgid "Create new empty Slide"
+msgstr "Yeni boş slayt yarat"
+
+msgid "Copy existing Slide"
+msgstr "Varolan slaytı kopyala"
+
+msgid "Copy to Playlist"
+msgstr "Oynatma listesine kopyala"
+
+msgid "New Folder"
+msgstr "Yeni Klasör"
+
+msgid "Active"
+msgstr "Aktif"
+
+msgid "More Options"
+msgstr "İlave Seçenekler"
+
+msgid "Limit Showtime by Day of Month"
+msgstr "Gösterim Günlerini Kısıtlayın"
+
+msgid "Limit Showtime by Date"
+msgstr "Bitiş Tarihini Belirleyin"
+
+msgid "Text"
+msgstr "Metin"
+
+msgid "Tags"
+msgstr "Etiketler"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "Website"
+msgstr "Web Sayfası"
+
+msgid "Choose"
+msgstr "Seçiniz"
+
+msgid "Choose Image"
+msgstr "Resim Seçiniz"
+
+msgid "Choose Video"
+msgstr "Video Seçiniz"
+
+msgid "This call only works in a WordPress environment"
+msgstr "Bu istek sadece Wordpress ortamında geçerlidir"
+
+msgid "Not supported in fix template"
+msgstr "Sabit şablonda desteklenmez"
+
+msgid "Add Column"
+msgstr "Kolon Ekle"
+
+msgid "Remove Column"
+msgstr "Kolonu Kaldır"
+
+msgid "Add Row"
+msgstr "Satır Ekle"
+
+msgid "Remove Row"
+msgstr "Satırı Kaldır"
+
+msgid "Text Column"
+msgstr "Metin Kolonu"
+
+msgid "New Text Column"
+msgstr "Yeni Metin Kolonu"
+
+msgid "Price"
+msgstr "Fiyat"
+
+msgid "Edit Html-Content"
+msgstr "HTML İçeriği Düzenleyin"
+
+msgid "Header"
+msgstr "Başlık"
+
+msgid "Footer"
+msgstr "Alt Bölüm"
+
+msgid "Menu"
+msgstr "Menü"
+
+msgid "Start the slideshow"
+msgstr "Slayt Gösterisini Başlat"
+
+msgid "Stop the slideshow"
+msgstr "Slayt Gösterisini Durdur"
+
+msgid "Duration"
+msgstr "Süre"
+
+msgid "Center"
+msgstr "Orta"
+
+msgid "left"
+msgstr "sol"
+
+msgid "right"
+msgstr "sağ"
+
+msgid "top"
+msgstr "üst"
+
+msgid "bottom"
+msgstr "alt"
+
+msgid "Add New User"
+msgstr "Yeni Kullanıcı Ekle"
+
+msgid "Partly Never"
+msgstr "Hiçbirzaman"
+
+msgid "ERROR: no customer"
+msgstr "HATA: Müşteri Yok"
+
+msgid "ERROR: no playlist"
+msgstr "HATA: Oynatma Listesi Yok"
+
+msgid "Layout"
+msgstr "Düzen"
+
+msgid "Date"
+msgstr "Tarih"
+
+msgid "Span"
+msgstr "Açıklık"
+
+msgid "Settings"
+msgstr "Ayarlar"
+
+msgid "Logout"
+msgstr "Çıkış"
+
+msgid "Download"
+msgstr "İndir"
+
+msgid "If you do not schedule something the slide will be always active"
+msgstr "Eğer bir takvim belirlemezseniz, slayt her zaman aktif olur"
+
+msgid "User to edit could not be found."
+msgstr "Düzenlenecek Kullanıcı Kaydı Bulunamadı."
+
+msgid "Unrecoverable error while editing user."
+msgstr "Kullanıcı Düzenlenirken Düzeltilemez Hata."
+
+msgid "Username already taken."
+msgstr "Bu kullanıcı adı zaten var."
+
+msgid "A required field was not filled, could not create user..."
+msgstr "zorunlu bir alan boş bırakıldı, kullanıcı yaratılamadı..."
+
+msgid "This Device has the latest playlist."
+msgstr "Bu cihazda son oynatma listesi mevcuttur."
+
+msgid "This Device hasn't yet downloaded the latest playlist."
+msgstr "Bu cihaz, henüz son oynatma listesini indirmemiştir."
+
+msgid "Here you can limit that this slide is only visible between the two given dates."
+msgstr "Bu slaytın sadece belli tarihler arasında aktif olmasını buradan ayarlayabilirsiniz."
+
+msgid "Here you can limit that this slide is only visible between two days of a month. This will be repeated for every month."
+msgstr "Bu slaytın sadece ayın belli günleri arasında aktif olmasını buradan ayarlayabilirsiniz. Her ay tekrar edecektir. "
+
+msgid "Enter this URL into your device with SMIL support."
+msgstr "SMIL desteği olan cihazınıza bu URL'yi giriniz."
+
+msgid "Choose landscape or portrait layout as your videowall orientation"
+msgstr "Videowall yönlendirmesi için dikey veya yatay düzeni seçin"
+
+msgid "Set up the parameters of the display type your video wall consists of"
+msgstr "Videowall'unuzun sahip olduğu parametreleri ayarlayın"
+
+msgid "Remove this slide from the playlist."
+msgstr "Bu slaytı oynatma listesinden çıkarın."
+
+msgid "Delete this playlist."
+msgstr "Bu oynatma listesini silin."
+
+msgid "This slide is currently active."
+msgstr "Bu slayt şu anda aktif."
+
+msgid "This slide is currently not showing because of scheduling."
+msgstr "Bu slayt, takvim ayarlarından dolayı şu an gösterilmemektedir."
+
+msgid "An error occurred during upload.."
+msgstr "Yükleme sırasında bir hata oldu.."
+
+msgid "An error occurred during update.."
+msgstr "Güncelleme sırasında bir hata oldu.."
+
+msgid "Invalid file format."
+msgstr "Hatalı dosya formatı."
+
+msgid "Couldn't get user info."
+msgstr "Kullanıcı bilgisi alınamadı."
+
+msgid "A username and password are required."
+msgstr "Kullanıcı adı ve şifre gereklidir."
+
+msgid "We check whether your browser supports cookies."
+msgstr "Tarayıcınızın Cookie desteklediği kontrol ediliyor."
+
+msgid "This device number is already occupied by a different monitor, please enter the URL of a different device for this monitor."
+msgstr "Bu cihaz numarası, zaten bir başka monitörce alınmış. Lütfen bu monitör için, başka bir cihazın URL'sini giriniz."
+
+msgid "This device number is already occupied by a different monitor, please enter the URL of a different device for this monitor.<br>Please use this URL only on one monitor at the same time.<br>If this is the right monitor for this URL please follow these steps:<br>1) navigate to Devices<br>2) edit this device<br>3) press the button \"Allow other device to use this URL\"<br>4) refresh this page on this monitor/browser or restart the monitor"
+msgstr "Bu cihaz numarası, zaten bir başka monitörce alınmış. Lütfen bu monitör için, başka bir cihazın URL'sini giriniz.<br>Lütfen bu URL'yi aynı anda sadece tek bir monitörde kullanınız.<br>Eğer bu monitör bu URL için doğru monitör ise şunları yapın:<br>1)Cihazlar menüsüne gidin<br>(2)İlgili cihazı Düzenle deyin.<br>3) \"Diğer cihazların da bu URL'yi kullanmasına izin ver\"\"\" düğmesine basın<br>4)Monitördeki sayfayı tekrar yükleyin veya cihazı yeniden başlatın"
+
+msgid "There seems to be a problem with your license. Please verify your license data."
+msgstr "Lisansınız ile ilgili bir problem tespit edildi. Lütfen lisans verilerinizi kontrol ediniz."
+
+msgid "Number of Playlists"
+msgstr "Oynatma Listesi Sayısı"
+
+msgid "Number of Slides"
+msgstr "Slayt Sayısı"
+
+msgid "Number of Customers"
+msgstr "Müşteri Sayısı"
+
+msgid "Number of Devicewalls"
+msgstr "Videowall sayısı"
+
+msgid "Updated Devices"
+msgstr "Güncel Cihazlar"
+
+msgid "Unused Devices"
+msgstr "Kullanılmayan Cihazlar"
+
+msgid "Offline Devices"
+msgstr "Çevrim dışı cihazlar"
+
+msgid "Online Devices"
+msgstr "Çevrim içi cihazlar"
+
+msgid "You must choose an existing file to replace!"
+msgstr "Değiştirmek için varolan bir dosyayı seçmelisiniz!"
+
+msgid "Upload a new file"
+msgstr "Yeni bir dosya yükleyin"
+
+# FILENAME is a keyword here
+msgid "Choose a new file to replace FILENAME"
+msgstr "FILENAME dosyasını değiştirmek için yeni bir dosya seçin"
+
+msgid "All links to the old file will be updated."
+msgstr "Eski dosyayı gösteren bütün bağlantılar güncellenecektir."
+
+msgid "Once the upload is finished, this can not be undone!"
+msgstr "Yükleme bitince, işlem geri alınamayacaktır!"
+
+msgid "You do not have permission to upload files."
+msgstr "Dosya yükleme yetkiniz yok."
+
+msgid "Replace media"
+msgstr "Medyayı dğeiştir"
+
+msgid "Replace the current file and automatically update all links to it."
+msgstr "Seçili dosyayı değiştir ve bütün bağlantılarını güncelle."
+
+msgid "Could not find file to replace."
+msgstr "Değiştirilecek dosya bulunamadı."
+
+msgid "File not usable. Unknown extension."
+msgstr "Dosya kullanılamıyor. Bilinmeyen uzantı."
+
+msgid " could not be deleted, please check file permissions."
+msgstr " silinemedi. Lütfen dosya yetkilerini kontrol ediniz."
+
+msgid "Complete the setup now."
+msgstr "Kurulumu şimdi tamamla."
+
+# PLUGIN is a keyword here
+msgid "Please enter your PLUGIN license key to enable updates."
+msgstr "Güncellemeleri alabilmek için lütfen PLUGIN lisansınızı giriniz."
+
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr "%1$s için yeni bir versiyon mevcut. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Versiyon %3$s için detayları gör.</a>"
+
+msgid "There is a new version of %1$s available. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr "%1$s için yeni bir versiyon mevcut. <a target=\"_blank\" class=\"thickbox\" href=\"%2$s\">Versiyon %3$s için detayları gör.</a> veya <a href=\"%4$s\">şimdi güncelle</a>."
+
+msgid "All"
+msgstr "Tümü"
+
+msgid " of "
+msgstr " / "
+
+msgid "Start Date"
+msgstr "Başlama Tarihi"
+
+msgid "End Date"
+msgstr "Bitiş Tarihi"
+
+msgid "Signage Playlist"
+msgstr "Signage Oynatma Listesi"
+
+msgid "Nick"
+msgstr "Takma Ad"
+
+msgid "This Device is online."
+msgstr "Bu cihaz çevrim içidir."
+
+msgid "This Device made no contact with the server for some time."
+msgstr "Bu cihaz bir süredir sunucu ile iletişime geçmedi."
+
+msgid "MON"
+msgstr "PZT"
+
+msgid "TUE"
+msgstr "SAL"
+
+msgid "WED"
+msgstr "ÇAR"
+
+msgid "THU"
+msgstr "PER"
+
+msgid "FRI"
+msgstr "CUM"
+
+msgid "SAT"
+msgstr "CMT"
+
+msgid "SUN"
+msgstr "PAZ"
+
+msgid "Border"
+msgstr "Sınır"
+
+msgid "Su"
+msgstr "Pz"
+
+msgid "Mo"
+msgstr "Pt"
+
+msgid "Tu"
+msgstr "Sa"
+
+msgid "We"
+msgstr "Ça"
+
+msgid "Th"
+msgstr "Pe"
+
+msgid "Fr"
+msgstr "Cu"
+
+msgid "Sa"
+msgstr "Ct"
+
+msgid "Sunday"
+msgstr "Pazar"
+
+msgid "Monday"
+msgstr "Pazartesi"
+
+msgid "Tuesday"
+msgstr "Salı"
+
+msgid "Wednesday"
+msgstr "Çarşamba"
+
+msgid "Thursday"
+msgstr "Perşembe"
+
+msgid "Friday"
+msgstr "Cuma"
+
+msgid "Saturday"
+msgstr "Cumartesi"
+
+msgid "January"
+msgstr "Ocak"
+
+msgid "February"
+msgstr "Şubat"
+
+msgid "March"
+msgstr "Mart"
+
+msgid "April"
+msgstr "Nisan"
+
+msgid "May"
+msgstr "Mayıs"
+
+msgid "June"
+msgstr "Haziran"
+
+msgid "July"
+msgstr "Temmuz"
+
+msgid "August"
+msgstr "Ağustos"
+
+msgid "September"
+msgstr "Eylül"
+
+msgid "October"
+msgstr "Ekim"
+
+msgid "November"
+msgstr "Kasım"
+
+msgid "December"
+msgstr "Aralık"
+
+msgid "Jan"
+msgstr "Oca"
+
+msgid "Feb"
+msgstr "Şub"
+
+msgid "Mar"
+msgstr "Mar"
+
+msgid "Apr"
+msgstr "Nis"
+
+msgid "Jun"
+msgstr "Haz"
+
+msgid "Jul"
+msgstr "Tem"
+
+msgid "Aug"
+msgstr "Ağu"
+
+msgid "Sep"
+msgstr "Eyl"
+
+msgid "Oct"
+msgstr "Eki"
+
+msgid "Nov"
+msgstr "Kas"
+
+msgid "Dec"
+msgstr "Ara"
+
+msgid "Quick Template Generation"
+msgstr "Hızlı Şablon Yaratma"
+
+msgid "Template"
+msgstr "Şablon"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Select a template type"
+msgstr "Şablon tipi seçiniz"
+
+msgid "Enter a Facebook username"
+msgstr "Facebook kullanıcı adı giriniz"
+
+msgid "Enter a Twitter username"
+msgstr "Twitter kullanıcı adı giriniz"
+
+msgid "Generate"
+msgstr "Yarat"
+
+msgid "EMPTY"
+msgstr "BOŞ"
+
+msgid "SELECT THIS"
+msgstr "BUNU SEÇ"
+
+msgid "Navigation"
+msgstr "Navigasyon"
+
+msgid "Show WordPress navigation"
+msgstr "WordPress navigasyonunu göster"
+
+msgid "Hide WordPress navigation"
+msgstr "WordPress navigasyonunu gizle"
+
+msgid "Device Limit"
+msgstr "Cihaz Limiti"
+
+msgid "If this problem persists, make sure that your browser supports cookies and does not delete them upon restart."
+msgstr "Bu sorun devam ederse, tarayıcınızın Cooki'leri desteklediğine emin olun ve açılışta silmeyin."
+
+msgid "This plugin requires at least PHP 5.5 or higher."
+msgstr "Bu eklenti PHP 5.5 veya üst versiyon gerektirir."
+
+#~ msgid "Slidesnames"
+#~ msgstr "Slayt adları"
+
+#~ msgid "Colums"
+#~ msgstr "Kolonlar"
+
+#~ msgid "Scheduling of "
+#~ msgstr "Takvimlenme"
+
+#~ msgid "%s"
+#~ msgstr "test"

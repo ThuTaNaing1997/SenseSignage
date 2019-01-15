@@ -1,0 +1,369 @@
+body {
+  background: #ECECEC;
+}
+
+h1 {
+  color: #333;
+}
+
+h2 {
+  color: #444;
+}
+
+h3 {
+  color: #444;
+}
+
+h4 {
+  color: #555;
+}
+
+h5, label {
+  color: #555;
+}
+
+h6 {
+  color: #666;
+}
+
+/* -------------------- Base Text Color -------------------------*/
+p,
+.bgcolor-2 .box-bg p,
+.bgcolor-2 .box-bg h1,
+.bgcolor-2 .box-bg h5,
+.bgcolor-2 .box-bg li,
+ul li,
+ol li,
+.header-navi li a,
+nav li a,
+.resp-tab-item,
+.eventfact-name p,
+.ts-skin tbody tr,
+.lead-form input[type=text],
+.input-1,
+.input-2,
+.select-1,
+.conversion-form-1 select, input[type=text],
+.section .headline {
+  color: #666;
+}
+
+#titletabs div.lable {
+  color: #FFF;
+}
+
+/* -------------------- Base Background Color -------------------------*/
+.box-bg,
+.box-bgimage,
+.resp-tabs-container,
+.bgmap .row .teaser-box-2,
+.resp-vtabs .resp-tabs-container,
+.resp-vtabs li.resp-tab-active,
+.resp-tab-active, .eventfact-lable,
+#nav li a:active,
+.pageheader,
+.section input,
+.soforthilfe .soforthilfe-form {
+  background-color: #fff;
+}
+
+/* -------------------- Box Shadow -------------------------*/
+.box-shadow {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.box-bgimage .box-bg,
+.box-bgimage .box-bgimage,
+.box-bgimage .resp-tabs-container {
+  background-color: transparent;
+}
+
+.bgcolor-1 {
+  background-color: #3E454C;
+}
+
+.bgcolor-2 {
+  background-color: #f0f;
+  border: 1px solid #000;
+}
+
+.bgcolor-3{
+  background-color: #00f;
+  border: 1px solid #000;
+}
+
+.bgcolor-2 h2,
+.bgcolor-2 h4 {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/* -------------------- Text Prime Color 1 -------------------------*/
+a,
+.bgcolor-1 p,
+.bgcolor-1 h2,
+.bgcolor-1 h4,
+.bgcolor-1 h5,
+.bgcolor-1 a,
+.bgcolor-2 h3,
+.bgcolor-2 a,
+nav li a.active,
+.teaser-content h5,
+.teaser-content h5 a,
+.eventfact-name h4,
+.ts-skin thead th,
+span.required,
+.info-box-content h2,
+.info-button-small-hback,
+a.info-button-small-hback,
+.info-button-small,
+a.info-button-small,
+li a.info-button-small,
+.info-button-big,
+a.info-button-big,
+li a.info-button-big,
+#breadcrumb-nav li a,
+.resp-tab-active,
+h2.resp-accordion,
+.page-navigation li,
+.news-prev a,
+.news-back a,
+.news-next a,
+.page-navigation li a,
+.phone-lead-bottom,
+.phone-lead-bottom p {
+  color: rgba(0, 75, 139, 1);
+}
+
+/* -------------------- Text Prime Hover Color 1 -------------------------*/
+a:hover,
+#nav > ul > li:hover > a,
+#nav > ul:not(:hover) > li.active > a,
+#nav li ul li a:hover,
+#nav li ul:not(:hover) li.active a,
+#breadcrumb-nav li a:hover,
+#breadcrumb-nav li a.act,
+.header-navi li a:hover,
+nav li a:hover,
+.page-navigation li a:hover{
+  color: #2091C9;
+}
+
+/* -------------------- Background Prime Color 1 -------------------------*/
+.lead-button-small,
+a.lead-button-small,
+li a.lead-button-small,
+a.lead-button-big,
+.lead-button-big,
+.lead-button-big-hback,
+a.lead-button-big-hback,
+a.button,
+a.button-1,
+.lead-button,
+.eventfact-icon,
+.ts-skin tbody tr td:last-child,
+.rwslider .prev,
+.rwslider .next,
+.teaser-box-2 .button,
+.teaser-box-3 .button,
+.btt .col_12 button#back-to-top,
+.info-btn-bg,
+.conversion-form-1,
+.lead-image-header,
+.page-navigation li:hover,
+.page-navigation li.current,
+.news-prev a:hover,
+.news-back a:hover,
+.news-next a:hover,
+.soforthilfe .conversion-box-1 .button-1{
+  background-color: #1783C6;
+}
+
+/* -------------------- Background Prime Hover Color 1 -------------------------*/
+.info-button-small-hback:hover,
+.info-button-small:hover,
+.lead-button-small:hover,
+.lead-button-big:hover,
+.info-button-big:hover,
+a.button:hover,
+a.button-1:hover,
+.lead-button-big-hback:hover,
+.info-button-big-hback:hover,
+.btt .col_12 button#back-to-top:hover,
+.rwslider .prev:hover,
+.rwslider .next:hover,
+.teaser-category-flag,
+.teaser-date-flag,
+.teaser-box-2 a.button:hover,
+.teaser-box-3 a.button:hover,
+.ts-skin tbody tr:hover,
+.lead-button:hover{
+  background-color: #2091C9;
+}
+
+/* -------------------- Background Prime Color 1 Transparent -------------------------*/
+.slider-content,
+.pageheader .pageheader-headline,
+.teaser-box-5 .teaser-content,
+.pageheader-convrsion-box,
+.lead-image-header-content,
+.soforthilfe .soforthilfe-flag{
+  background-color: rgba(0, 75, 139, 0.8);
+}
+
+
+/* -------------------- Text Contrast Color 1 -------------------------*/
+.bgcolor-2 .box-content p,
+.bgcolor-2 h1,
+.bgcolor-2 h5,
+.bgcolor-2 li,
+.teaser-box-4.bgcolor-2 a,
+.bgcolor-2 .teaser-box-4 a,
+.lead-button-small,
+a.lead-button-small,
+li a.lead-button-small,
+a.lead-button-big,
+.lead-button-big,
+.lead-button-big-hback,
+a.lead-button-big-hback,
+a.button,
+a.button-1,
+footer.bgcolor-2 h3,
+footer.bgcolor-2 a,
+.pageheader .pageheader-headline,
+.pageheader p,
+.pageheader-convrsion-box .row h1,
+.pageheader-convrsion-box .row h2,
+.pageheader-convrsion-box .row h3,
+.slider-headline,
+.slider-subheadline,
+.slider-copy p,
+.teaser-category-flag,
+.teaser-date-flag,
+.teaser-box-5 .teaser-content h5 a,
+.teaser-box-5 .teaser-content h4 a,
+.teaser-box-5 .teaser-content h3 a,
+.teaser-box-5 .teaser-content h2 a,
+.teaser-box-5 .teaser-content h1 a,
+.ts-skin tbody tr:hover,
+.lead-form-header h2,
+.lead-form-header,
+.lead-form-header p,
+.lead-button,
+.pageheader .pageheader-subheadline,
+.page-navigation li:hover,
+.page-navigation li.current,
+.news-prev a:hover,
+.news-back a:hover,
+.news-next a:hover,
+.conversion-form-1 p,
+.soforthilfe .soforthilfe-flag .textrotate,
+.lead-image-header-content h1,
+.lead-image-header-content p,
+footer label{
+  color: #fff;
+}
+
+/* -------------------- Text Hover Contrast Color 1 -------------------------*/
+.info-button-small-hback:hover,
+.info-button-small:hover,
+.lead-button-small:hover,
+.lead-button-big:hover,
+.info-button-big:hover,
+a.button:hover,
+a.button-1:hover,
+.lead-button-big-hback:hover,
+.info-button-big-hback:hover {
+  color: #fff;
+}
+
+/* -------------------- Background Contrast Transparent Color 1 -------------------------*/
+header .FullWidthRow,
+nav .FullWidthRow,
+.teaser-box-1 .teaser-content,
+.teaser-box-6 .teaser-content,
+#nav li ul {
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* -------------------- Background Light Contrast Color 1 -------------------------*/
+.info-button-small,
+a.info-button-small,
+li a.info-button-small,
+.info-button-big,
+.info-button-big-hback,
+.button-file,
+.product-filter,
+.section,
+input[type=text],
+textarea,
+.info-box,
+ul#breadcrumb-nav,
+.page-navigation li,
+.news-prev a,
+.news-back a,
+.news-next a,
+.phone-lead {
+  background-color: #efefef;
+}
+/* -------------------- Border -------------------------*/
+.box-border{
+  border: 1px solid #333;
+}
+
+/* -------------------- NO Border -------------------------*/
+button,
+.lead-button-big, .ds_disabled_button,
+input[type=button]{
+  border: none;
+}
+
+
+/* -------------------- Text Shadow -------------------------*/
+.info-button-small-hback:hover,
+.info-button-small:hover,
+.lead-button-small:hover,
+.lead-button-small,
+a.lead-button-small,
+li a.lead-button-small,
+.slider-subheadline,
+.pageheader .pageheader-subheadline,
+.pageheader h1,
+.pageheader h2,
+.pageheader p,
+.soforthilfe .soforthilfe-flag .textrotate{
+  text-shadow: rgba(0, 0, 0, 0.5);
+}
+
+/* -------------------- Rounded Corners -------------------------*/
+.lead-form input[type=text],
+.lead-button,
+.slider-content,
+.info-button-big,
+.lead-button-big,
+.teaser-box-2 a.button,
+.teaser-box-3 a.button,
+.info-btn-bg,
+#back-to-top,
+input,
+.teaser-box-1 .teaser-content,
+.teaser-box-6 .teaser-content,
+.teaser-box-5 .teaser-test-wrap,
+.page-navigation li,
+.news-prev a,
+.news-back a,
+.news-next a,
+.soforthilfe .conversion-box-1 .button-1{
+  /*border-radius: 5px;*/
+}
+
+/* -------------------- SVG Button Fill -------------------------*/
+.btt .col_12 button#back-to-top .arrow-icon-fill,
+.gridslider .next .arrow-icon-fill,
+.gridslider .prev .arrow-icon-fill,
+.arrow-icon-fill,
+.teaser-box-2 .button .arrow-icon-fill,
+.teaser-box-3 .button .arrow-icon-fill,
+.slider .cycle-next .arrow-icon-fill,
+.slider .cycle-prev .arrow-icon-fill {
+  fill: #fff;
+}

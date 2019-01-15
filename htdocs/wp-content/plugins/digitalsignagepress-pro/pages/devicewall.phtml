@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table#t01, table#t01 th, table#t01 td {
+                border-top: 3px solid black;
+                border-bottom: 3px solid black;
+                border-left: 3px solid black;
+                border-right: 3px solid black;
+                border-collapse: collapse;
+            }
+            table#t01 th, table#t01 td {
+                text-align: center;
+                color: white;
+                height: 3em;
+                width: 4em;
+		vertical-align: middle;
+		font-size: 2em;
+            }
+            table#t01 {
+                width: 48px;
+                table-layout: fixed;
+		background-color: grey;
+                background-repeat: no-repeat;
+                background-size: cover;
+                float: left;
+                overflow: scroll;
+            }
+        </style>
+    </head>
+    <body onload="performGeneralLayout( <?php echo $devicewall['portrait']; ?>,  <?php echo $devicewall['wall_rows']; ?>, <?php echo $devicewall['wall_columns']; ?> )">
+        <form id="save_myDS_form" name="save_myDS_form"  method="post" action="<?php echo get_admin_url().'admin-post.php'; ?>">
+            <div class="content-panel col_12_nm mcontent" >
+                <div class="wrapper" >
+                    <div class="col_12_nm" >
+                        <div class="box-bg">
+                            <div class="col_02_nm" title="<?php _e('Choose landscape or portrait layout as your videowall orientation','digitalsignagepress'); ?>" >
+                                <div class="device-teaser-header">
+                                    <?php _e('Display Orientation','digitalsignagepress'); ?>
+                                </div>
+                                <div class="col_12_nm" id="layout">
+                                    <div class="col_04_nm layout_selector">
+                                        <div class="col_square_ratio"></div>
+                                        <div class="selected_layout" id="selector_landscape">
+                                            <img id="btn-format-landscape-original" class="centered_element" src="<?php echo $plugindir.'/img/screen_landscape.gif'; ?>" alt="landscape" onclick="selectLandscape()" style="width: 95%;max-height:100%;">
+                                            <img id="btn-format-landscape-original_selected" class="centered_element_nopointer" src="<?php echo $plugindir.'/img/screen_landscape_selected.gif'; ?>" alt="landscape" style="width: 95%;max-height:100%;">
+                                        </div>
+                                    </div>
+                                    <div class="col_04_nm layout_selector">
+                                        <div class="col_square_ratio"></div>
+                                        <div class="" id="selector_portrait">
+                                            <img id="btn-format-portrait-original" class="centered_element" src="<?php echo $plugindir.'/img/screen_portrait.gif'; ?>" alt="portrait" onclick="selectPortrait()" style="height: 95%;max-width:100%;">
+                                            <img id="btn-format-portrait-original_selected" class="centered_element_nopointer" src="<?php echo $plugindir.'/img/screen_portrait_selected.gif'; ?>" alt="portrait" style="height: 95%;max-width:100%;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col_10_nm" title="<?php _e('Set up the parameters of the display type your video wall consists of','digitalsignagepress'); ?>" >
+                                <div class="device-teaser-header">
+                                  <?php _e('Display configuration','digitalsignagepress'); ?>
+                                </div>
+                                <div class="col_03_nm" >
+                                  <?php _e('Resolution width','digitalsignagepress'); ?>
+                                </div>
+                                <div class="col_03_nm" >
+                                    <input type="number" name="device_resolution_w" id="device_resolution_w" min="1" value="<?php echo $devicewall['resolution_w'];?>">px
+                                </div>
+                                <div class="col_03_nm" >
+                                  <?php _e('Bezel compensation width','digitalsignagepress'); ?>
+                                </div>
+                                <div class="col_03_nm" >
+                                    <input type="number" name="device_bezel_compensation_w" id="device_bezel_compensation_w" value="<?php echo $devicewall['bezel_compensation_w'];?>" onchange="handleBezelWidth()">px
+                                </div>
+                                <div class="col_03_nm" >
+                                  <?php _e('Resolution height','digitalsignagepress'); ?>
+                                </div>
+                                <div class="col_03_nm" >
+                                    <input type="number" name="device_resolution_h" id="device_resolution_h" min="1" value="<?php echo $devicewall['resolution_h'];?>">px
+                                </div>
+                                <div class="col_03_nm" >
+                                  <?php _e('Bezel compensation height','digitalsignagepress'); ?>
+                                </div>
+                                <div class="col_03_nm" >
+                                    <input type="number" name="device_bezel_compensation_h" id="device_bezel_compensation_h" value="<?php echo $devicewall['bezel_compensation_h'];?>" onchange="handleBezelHeight()">px
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col_12_nm box-bg" >
+                            <div class="row_01_nm">
+                                <?php _e('Rows','digitalsignagepress'); ?> <input type="number" name="device_wall_rows" id="device_wall_rows" min="1" max="10" value="3" onchange="handleRows()">
+                                <?php _e('Columns','digitalsignagepress'); ?> <input type="number" name="device_wall_columns" id="device_wall_columns" min="1" max="10" value="3" onchange="handleColumns()">
+                            </div>
+                            <div class="row_11_nm">
+                                <table id="t01" >
+                                    <tr>
+                                        <td>1/1</td>
+                                        <td>1/2</td>
+                                        <td>1/3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2/1</td>
+                                        <td>2/2</td>
+                                        <td>2/3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3/1</td>
+                                        <td>3/2</td>
+                                        <td>3/3</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col_12_nm box-bg" >
+                            <div class="device-teaser-header" >
+                                <?php _e('Videowall Details','digitalsignagepress'); ?>
+                            </div>
+                            <table class="device_table">
+                                <tr><td>Name</td><td colspan="2"><input type="text" name="device_name" id="device_name" value="<?php echo $devicewall['name'];?>"></td></tr>
+                                <tr><td><?php _e('Playlist','digitalsignagepress'); ?></td><td colspan="2">
+                                        <select id="device_programId" name="device_programId">
+                                            <?php
+                                            echo '<option value="-1">'. __('No Program','digitalsignagepress') . '</option>';
+                                            $programs = $wpdb->get_results('SELECT * FROM '.$wpdb->prefix.'ds_program ORDER BY id', ARRAY_A);
+                                            if ($programs) {
+                                            	foreach($programs as $program) {
+                                            		$programname = $program['name'];
+                                            		if (empty($programname)) {
+                                            			$programname = '('.__('nameless playlist','digitalsignagepress').')';
+                                            		}
+                                            		if ($program['id'] == $devicewall['programId']) {
+                                            			echo '<option value="'.$program['id'].'" selected="selected">'.$programname.'</option>';
+                                            		} else {
+                                            			echo '<option value="'.$program['id'].'">'.$programname.'</option>';
+                                            		}
+                                            	}
+                                            }
+                                            ?>
+                                        </select>
+				</td>
+				</tr>
+                                <tr><td><?php _e('Location','digitalsignagepress'); ?></td><td colspan="2"><input type="text" name="device_location" id="device_location" value="<?php echo $devicewall['location'];?>"></td></tr>
+                                <tr><td><?php _e('Street','digitalsignagepress'); ?></td><td colspan="2"><input type="text" name="device_street" id="device_street" value="<?php echo $devicewall['street'];?>"></td></tr>
+                                <tr><td><?php _e('City','digitalsignagepress'); ?></td><td colspan="2"><input type="text" name="device_city" id="device_city" value="<?php echo $devicewall['city'];?>"></td></tr>
+                                <tr><td><?php _e('Zipcode','digitalsignagepress'); ?></td><td colspan="2"><input type="text" name="device_zipcode" id="device_zipcode" value="<?php echo $devicewall['zipcode'];?>"></td></tr>
+                                <tr><td></td><td colspan="2"><input id="svfrm" class="big-btn lead-button-big" onclick="svform();" value="<?php _e('SAVE','digitalsignagepress'); ?>" type="button"></td></tr>
+                            </table>
+                        </div>
+                        <?php
+                        if(count($devicewall['devicewalldevices']) > 0) {
+			?>
+                        <div class="col_12_nm box-bg" >
+                            <table class="device_table">
+                                <tr><th colspan="3"><?php _e('Enter these URLs into your device to see this playlist on your device','digitalsignagepress'); ?></th></tr>
+                                <?php
+                                $pages = $wpdb->get_results('SELECT ID, post_title, guid FROM '.$wpdb->prefix.'posts WHERE post_type = "page" AND post_content LIKE "%[digitalsignage]%" ORDER BY ID', ARRAY_A);
+                                if (count($pages) > 0) {
+                                    foreach ($devicewall['devicewalldevices'] as $devicewalldevice) {
+					$shown = false;
+                                        foreach ($pages as $page) {
+                                            $post_url = get_permalink($page['ID']);
+                                         if (empty($post_url)) {
+                                                $post_url = $page['guid'];
+                                            }
+                                         if (strpos($post_url, '?') > -1) {
+                                             $post_url .= '&device='.$devicewalldevice['deviceId'];
+                                         } else {
+                                             $post_url .= '?device='.$devicewalldevice['deviceId'];
+                                            }
+				    	if(!$shown) {
+                                         echo '<tr><td>'.$devicewall['name'].'('.$devicewalldevice['pos_y'].'/'.$devicewalldevice['pos_x'].')</td><td colspan="2"><a href="'.$post_url.'">'.$post_url.'</a></td></tr>';
+					$shown = true;
+					} else {
+					echo '<tr><td></td><td colspan="2"><a href="'.$post_url.'">'.$post_url.'</a></td></tr>';
+					}
+                                        }
+                                    }
+                                } else {
+                                    ?>
+                                    <tr><td colspan="3"><?php _e('No pages are configured with the [digitalsignage] shortcode.','digitalsignagepress'); ?></td></tr>
+                                    <tr><td colspan="3"><?php _e('Please add it to one.','digitalsignagepress'); ?></td></tr>
+				<?php
+        			}
+        			?>
+                            </table>
+                        </div>
+                        <?php
+                        }
+                        ?>
+                    </div>
+                </div>
+                <input type="hidden" name="device_portrait" id="device_portrait" value="<?php echo $devicewall['portrait'];?>">
+                <input type="hidden" name="device_id" id="device_id" value="<?php echo $device['id'];?>">
+                <input type="hidden" name="devicewall_id" id="devicewall_id" value="<?php echo $devicewall['id'];?>">
+                <input type="hidden" name="action" value="mydssavedevicewallaction">
+                </form>
+                </body>
+                </html>

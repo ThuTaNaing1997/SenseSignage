@@ -1,0 +1,1417 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DigitalSignagePressPlugin\n"
+"POT-Creation-Date: 2016-06-15 12:01+0200\n"
+"PO-Revision-Date: 2017-04-05 15:47+0200\n"
+"Last-Translator: 2017-04-05\n"
+"Language-Team: Romeu Pacheco | Purple Profile\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: digitalsignagepress.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+msgid "It's a plugin to allow Digital Signage via WordPress"
+msgstr "É plugin para permitir a Digital Signage através do WordPress"
+
+msgid "Are you sure you want to permanently delete this file?"
+msgstr "Tem certeza que deseja eliminar permanentemente este arquivo?"
+
+msgid ""
+"Are you sure you want to permanently delete this folder and all of its "
+"content? (this may take a moment)"
+msgstr ""
+"Tem certeza que deseja eliminar permanentemente este diretório e todo o seu "
+"conteúdo? (isto pode demorar alguns minutos)"
+
+msgid "New Playlist"
+msgstr "Nova Lista de reprodução"
+
+msgid "Playlist"
+msgstr "Listas de reprodução"
+
+msgid "Devices"
+msgstr "Dispositivos"
+
+msgid "Videowalls"
+msgstr "Videowalls"
+
+msgid "Customers"
+msgstr "Clientes"
+
+msgid "Users"
+msgstr "Utilizadores"
+
+msgid "Media"
+msgstr "Ficheiros"
+
+msgid "License"
+msgstr "Licença"
+
+msgid "Everything"
+msgstr "Tudo"
+
+msgid "Group"
+msgstr "Grupo"
+
+msgid "Branch"
+msgstr "Marca"
+
+msgid "Discription"
+msgstr "Descrição"
+
+msgid "Zipcode"
+msgstr "Código postal"
+
+msgid "City"
+msgstr "Cidade"
+
+msgid "Street"
+msgstr "Rua"
+
+msgid "House number"
+msgstr "Número"
+
+msgid "Country"
+msgstr "País"
+
+msgid "FILTER BY:"
+msgstr "FILTRAR POR:"
+
+msgid "Search Filter"
+msgstr "Buscar filtro"
+
+msgid "use * as wildcard"
+msgstr "usar * como wildcard"
+
+msgid "Add New Customer"
+msgstr "Adicionar Novo Cliente"
+
+msgid "Edit"
+msgstr "Editar"
+
+msgid "Delete"
+msgstr "Eliminar"
+
+msgid "Are you sure you want to permanently delete this customer?"
+msgstr "Tem a certeza de que pretende eliminar permanentemente este cliente?"
+
+msgid "Devicename"
+msgstr "Nome do dispositivo"
+
+msgid "Playlistname"
+msgstr "Nome da lista"
+
+msgid "Videowallname"
+msgstr "Nome do videowall"
+
+msgid "Customer"
+msgstr "Cliente"
+
+msgid "Location"
+msgstr "Localização"
+
+msgid "Change Date"
+msgstr "Mudar Data"
+
+msgid "Last Request"
+msgstr "Última solicitação"
+
+msgid "Online"
+msgstr "Online"
+
+msgid "Offline"
+msgstr "Offline"
+
+msgid "Not Updated"
+msgstr "Não atualizado"
+
+msgid "Move selected Device(s) to Playlist:"
+msgstr "Mover os dispositivos selecionados para a lista de reprodução:"
+
+msgid "No Playlist"
+msgstr "Não há lista de reprodução"
+
+msgid "Videowall"
+msgstr "Videowall"
+
+msgid "Check"
+msgstr "Verificar"
+
+msgid "Are you sure you want to permanently delete this device?"
+msgstr "Tem certeza que deseja eliminar permanentemente este dispositivo?"
+
+msgid "Number of Devices"
+msgstr "Número de dispositivos"
+
+msgid "Select or deselect all Devices at once"
+msgstr "Selecionar ou desselecionar todos os dispositivos de uma vez"
+
+msgid "Are you sure you want to permanently delete this devicewall?"
+msgstr "Tem certeza que deseja eliminar permanentemente este dispositivo?"
+
+msgid "Are you sure you want to permanently delete this playlist?"
+msgstr ""
+"Tem certeza que deseja eliminar permanentemente esta lista de reprodução?"
+
+msgid "Devices that use this playlist will have their playlist entry removed."
+msgstr ""
+"Os dispositivos que usam esta lista de reprodução terão sua entrada de lista "
+"de reprodução apagada."
+
+msgid "Media Library"
+msgstr "Biblioteca multimédia"
+
+msgid "Add New Folder"
+msgstr "Adicionar Nova Pasta"
+
+msgid "Drop Images/Movies here or"
+msgstr "Solte as Imagens/Vídeos aqui ou"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "ADD NEW FOLDER"
+msgstr "ADICIONAR NOVA PASTA"
+
+msgid "Preview"
+msgstr "Pré-visualização"
+
+msgid "Name"
+msgstr "Nome"
+
+msgid "Orientation"
+msgstr "Orientação"
+
+msgid "Resolution"
+msgstr "Resolução"
+
+msgid "Filesize"
+msgstr "Tamanho do arquivo"
+
+msgid "Uploaded"
+msgstr "Enviado"
+
+msgid "Modified"
+msgstr "Modificado"
+
+msgid "Replace"
+msgstr "Substituir"
+
+msgid "User Details"
+msgstr "Detalhes de Utilizador"
+
+msgid "Login Name"
+msgstr "Nome de utilizador"
+
+msgid "New Password"
+msgstr "Nova Password"
+
+msgid "Password"
+msgstr "Password"
+
+msgid "First Name"
+msgstr "Primeiro Nome:"
+
+msgid "Last Name"
+msgstr "Último Nome:"
+
+msgid "No Limitation"
+msgstr "Sem Limitação ( ADMIN )"
+
+msgid "Manage User"
+msgstr "Gestão Utilizador"
+
+msgid "Can't manage users"
+msgstr "Não é possível gerir utilizadores"
+
+msgid "Can create new and manage existing Users"
+msgstr "Pode criar novos e gerir utilizadores existentes"
+
+msgid "SAVE"
+msgstr "GUARDAR"
+
+msgid "User Name"
+msgstr "Utilizador"
+
+msgid "Full Name"
+msgstr "Nome completo"
+
+msgid "Position"
+msgstr "Posição"
+
+msgid "Are you sure you want to permanently delete this user?"
+msgstr ""
+"Tem a certeza de que pretende eliminar permanentemente este utilizador?"
+
+msgid "Never"
+msgstr "Nunca"
+
+msgid "Add New Device"
+msgstr "Adicionar novo dispositivo"
+
+msgid "PAGE"
+msgstr "PÁGINA"
+
+msgid "Add New Videowall"
+msgstr "Adicionar novo Videowall"
+
+msgid "New Slide"
+msgstr "Novo Slide"
+
+msgid "Slideduration"
+msgstr "Duração do slide"
+
+msgid "Sec"
+msgstr "Seg"
+
+msgid "None of your slides has a slideduration"
+msgstr "Nenhum dos seus slides possui duração"
+
+msgid ""
+"The current page orientation is portrait; do you really want to change this "
+"for all slides in this playlist?"
+msgstr ""
+"A orientação da página atual é retrato. Você realmente deseja alterar isso "
+"para todos os slides nesta lista de reprodução?"
+
+msgid ""
+"The current page orientation is landscape; do you really want to change this "
+"for all slides in this playlist?"
+msgstr ""
+"A orientação da página atual é paisagem. Você realmente deseja alterar isso "
+"para todos os slides nesta lista de reprodução?"
+
+msgid "Close"
+msgstr "Fechar "
+
+msgid "Your changes have not been saved. Do you wish to leave the page?"
+msgstr "Suas alterações ainda não foram salvas. Deseja mesmo sair da página?"
+
+msgid "can never be played, enddate is in the past."
+msgstr "nunca poderá ser reproduzido, a data de finalização está no passado."
+
+msgid "has startdate after enddate."
+msgstr "tem data de inicialização após data de finalização."
+
+msgid "has start after end for day of month."
+msgstr "tem início após fim para o dia do mês."
+
+msgid ""
+"Your playlist has no slides that can be played, latest enddate is in the "
+"past."
+msgstr ""
+"Sua lista de reprodução não tem slides que possam ser reproduzidos, a data "
+"final mais recente está no passado."
+
+msgid "Are you sure you want to delete FILENAME"
+msgstr "Tem certeza que deseja eliminar FILENAME"
+
+msgid "Name of this Slide"
+msgstr "Nome do Slide"
+
+msgid "custom editor"
+msgstr "Personalizado"
+
+msgid "Signage Playlist Name:"
+msgstr "Nome da lista de reprodução:"
+
+msgid "Create New Slide"
+msgstr "Criar Novo Slide"
+
+msgid "Slides of this Playlist"
+msgstr "Slides da lista"
+
+msgid "Sec."
+msgstr "Seg."
+
+msgid "Save"
+msgstr "Guardar"
+
+msgid "Choose landscape or portrait layout as your page orientation."
+msgstr ""
+"Escolha o layout paisagem (horizontal) ou retrato (vertical) como a "
+"orientação da página."
+
+msgid "Choose between favorite list and regular for template selection."
+msgstr "Escolha entre lista de favoritos e regular para seleção de modelo."
+
+msgid "Favorite"
+msgstr "Favoritas"
+
+msgid ""
+"Choose the page or menu card template or use custom template to freely place "
+"elements on the entire page."
+msgstr ""
+"Escolha o modelo da página ou do menu ou usar o modelo personalizado para "
+"colocar elementos livremente em toda a página."
+
+msgid "Scheduling of"
+msgstr "Definir programação para "
+
+msgid ""
+"Number of seconds this slide will be shown each repetition. Use 0 for "
+"endless."
+msgstr ""
+"Número de segundos que este slide será mostrado em cada repetição. Use 0 "
+"(zero) para infinito."
+
+msgid "show 24h every Day"
+msgstr "exibir 24h todos os dias"
+
+msgid "define scheduling"
+msgstr "definir programação"
+
+msgid ""
+"Here you can limit that the slide is only visible during certain times each "
+"week. Leave empty to not restrict show time."
+msgstr ""
+"Aqui você pode limitar que o slide só é visível durante certas vezes por "
+"semana. Deixe vazio para não restringir o tempo de exibição."
+
+msgid "Limit Showtime by Weekdays"
+msgstr "Limite de exibição por dias da semana"
+
+msgid "en"
+msgstr "em"
+
+msgid "Save Anyway"
+msgstr "Salvar de qualquer maneiras"
+
+msgid "Proceed"
+msgstr "Avançar"
+
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgid "Customer Details"
+msgstr "Detalhes do cliente"
+
+msgid "Description"
+msgstr "Descrição"
+
+msgid "Available Devices"
+msgstr "Dispositivos disponíveis"
+
+msgid "No pages are configured with the [digitalsignage] shortcode."
+msgstr "Nenhuma página foi configurada com o código curto [digitalsignage]."
+
+msgid "Please add it to one."
+msgstr "Por favor, adicione-o a um."
+
+msgid "No device belongs to this customer"
+msgstr "Nenhum dispositivo pertence a este cliente"
+
+msgid "VIEW"
+msgstr "VER"
+
+msgid "All Items"
+msgstr "Todos os itens"
+
+msgid "One Row"
+msgstr "Uma Linha"
+
+msgid "Row"
+msgstr "Linha"
+
+msgid "Device Details"
+msgstr "Detalhes do dispositivo"
+
+msgid "No Program"
+msgstr "Nenhum programa"
+
+msgid "No Customer"
+msgstr "Nenhum cliente"
+
+msgid "Browser of allocated Device"
+msgstr "Navegador do dispositivo alocado"
+
+msgid "Allow other device to use this URL"
+msgstr "Permitir que outro dispositivo use esse URL"
+
+msgid "Enter these URLs into your device to see this playlist on your device"
+msgstr ""
+"Insira estes URLs em seu dispositivo para ver esta lista de reprodução em "
+"seu dispositivo"
+
+msgid "N/A"
+msgstr "N/A"
+
+msgid "Licensing for DigitalSignagePress"
+msgstr "Licenciamento para DigitalSignagePress"
+
+msgid ""
+"To use our DigitalSignagePress Plugin, please follow the next steps to "
+"activate it."
+msgstr ""
+"Para usar nosso Plugin DigitalSignagePress, siga os próximos passos para "
+"ativá-lo."
+
+msgid "Step 1: Enter License Key"
+msgstr "Passo 1: Introduza a chave de licença"
+
+msgid "Enter your license key"
+msgstr "insira a sua chave de licença"
+
+msgid "You'll find your License Key inside your confirmation email after you"
+msgstr "Chave de Licença será enviada por email"
+
+msgid "purchased a license"
+msgstr "Comprou uma licença"
+
+msgid "Step 2: Activate License"
+msgstr "Passo 2: Ativar Licença"
+
+msgid "active"
+msgstr "ativo"
+
+msgid "Deactivate License"
+msgstr "Desativar Licença"
+
+msgid "Activate License"
+msgstr "Ativar Licença"
+
+msgid "Step 3: Install DigitalSignagePress Theme"
+msgstr "Passo 3: Instalar o Tema do DigitalSignagePress"
+
+msgid "installed"
+msgstr "instalado"
+
+msgid "Activation is <b>not</b> required."
+msgstr "A ativação <b>não</b> é necessária."
+
+msgid ""
+"Please download the DigitalSignagePress Theme and install it.<br>You "
+"<b>don't</b> need to <b>activate</b> it, only install it."
+msgstr ""
+"Por favor, faça o download do tema DigitalSignagePress e instale-o. Você <b> "
+"não precisa ativá-lo </ b>, somente instale-o."
+
+msgid "Background of Slide"
+msgstr "Fundo do slide"
+
+msgid "Media for Element"
+msgstr "Elementos "
+
+msgid "Background Image"
+msgstr "Imagem de fundo"
+
+msgid "Background Color"
+msgstr "Cor de fundo"
+
+msgid "Image"
+msgstr "Imagem"
+
+msgid "Color"
+msgstr "Cor"
+
+msgid "Menucard"
+msgstr "Menu"
+
+msgid "Slideshow"
+msgstr "Apresentação de Slides"
+
+msgid "Font"
+msgstr "Fonte"
+
+msgid "Size"
+msgstr "Tamanho"
+
+msgid "Bold"
+msgstr "Negrito"
+
+msgid "Italic"
+msgstr "Itálico"
+
+msgid "Underline"
+msgstr "Sublinhado"
+
+msgid "Align Left"
+msgstr "Alinhar à esquerda"
+
+msgid "Align Center"
+msgstr "Centro"
+
+msgid "Align Right"
+msgstr "Alinhar à direita"
+
+msgid "Align Full"
+msgstr "Alinhar completamente"
+
+msgid "ADD"
+msgstr "ADICIONAR"
+
+msgid "Duplicate"
+msgstr "Duplicar"
+
+msgid "Padding"
+msgstr "Preenchimento"
+
+msgid "Playlists"
+msgstr "Listas de reprodução"
+
+msgid "Create a new playlist."
+msgstr "Criar uma nova lista de reprodução"
+
+msgid "View and edit existing playlists."
+msgstr "Ver e editar listas de reprodução existentes."
+
+msgid ""
+"Manage your viewing devices and generate urls for viewing your content on "
+"them."
+msgstr ""
+"Gerenciar seus dispositivos de visualização e gerar urls para visualizar seu "
+"conteúdo neles."
+
+msgid "Configure videowalls - show your content across multiple devices."
+msgstr ""
+"Configurar videowalls - mostrar seu conteúdo através de múltiplos "
+"dispositivos."
+
+msgid "Manage your customers that own the devices."
+msgstr "Gerencie os seus clientes proprietários dos dispositivos."
+
+msgid "Slides"
+msgstr "Slides"
+
+msgid "Showing"
+msgstr "Ativo"
+
+msgid "Format"
+msgstr "Formato"
+
+msgid "Slidenames"
+msgstr "Nomes de slides"
+
+msgid "Last Change"
+msgstr "Última alteração"
+
+msgid "Valid From"
+msgstr "Válido desde"
+
+msgid "Valid To"
+msgstr "Válido até"
+
+msgid "Are you sure you want to remove this slide from the playlist?"
+msgstr "Tem certeza que deseja eliminar este slide da lista de reprodução?"
+
+msgid "Display Orientation"
+msgstr "Mostrar orientação"
+
+msgid "Display configuration"
+msgstr "Mostrar configuração"
+
+msgid "Resolution width"
+msgstr "Resolução  ( width )"
+
+msgid "Bezel compensation width"
+msgstr "Largura de compensação da moldura"
+
+msgid "Resolution height"
+msgstr "Altura de resolução"
+
+msgid "Bezel compensation height"
+msgstr "Altura de compensação da moldura"
+
+msgid "Rows"
+msgstr "Filas"
+
+msgid "Columns"
+msgstr "Colunas"
+
+msgid "Videowall Details"
+msgstr "Detalhes do Videowall"
+
+msgid "PREVIEW OF YOUR PLAYLIST"
+msgstr "PRÉ-VISUALIZAÇÃO DA LISTA DE REPRODUÇÃO"
+
+msgid "Slide"
+msgstr "Slide"
+
+msgid "Last Edit"
+msgstr "Última edição"
+
+msgid "nameless device"
+msgstr "dispositivo sem nome"
+
+msgid "nameless playlist"
+msgstr "lista de reprodução sem nome"
+
+msgid "nameless customer"
+msgstr "Cliente sem nome"
+
+msgid "nameless videowall"
+msgstr "videowall sem nome"
+
+msgid "nameless user"
+msgstr "Utilizador sem nome"
+
+msgid "nameless slide"
+msgstr "Slide sem nome"
+
+msgid "Enter Website URL"
+msgstr "Digite o URL do Website"
+
+msgid "Enter Video URL"
+msgstr "Digite o URL do Vídeo"
+
+msgid ""
+"Enter a URL to a video file on a webserver or a youtube link or choose a "
+"video file from the media library."
+msgstr ""
+"Digite um URL para um arquivo de vídeo em um servidor web, um link do "
+"youtube ou escolha um arquivo de vídeo da biblioteca de mídia."
+
+msgid ""
+"You may also add fallback videos for browser that don't support the primary "
+"video."
+msgstr ""
+"Você também pode adicionar vídeos alternativos para o navegador que não "
+"suportam o vídeo principal."
+
+msgid ""
+"To guarantee best compatibility, please provide at least files with formats "
+"of MP4 and OGG."
+msgstr ""
+"Para garantir a melhor compatibilidade, recomendamos arquivos com formatos "
+"em MP4 e OGG."
+
+msgid "Edit your Code"
+msgstr "Edite seu código"
+
+msgid "Set padding of Content"
+msgstr "Definir o preenchimento de Conteúdo"
+
+msgid "Select to which element this padding should be applied"
+msgstr "Selecione para qual elemento esse preenchimento deve ser aplicados"
+
+msgid "Only Text"
+msgstr "Somente texto"
+
+msgid "Content"
+msgstr "Conteúdo"
+
+msgid "Setup Slideshow"
+msgstr "Configurar a apresentação de slides"
+
+msgid "Slide-in Effect"
+msgstr "Efeito deslizante (Slide-in)"
+
+msgid "REMOVE"
+msgstr "ELIMINAR"
+
+msgid "Change"
+msgstr "Alterar"
+
+msgid "Name of this Folder"
+msgstr "Nome deste diretório"
+
+msgid "Insert into page"
+msgstr "Inserir na página"
+
+msgid "Create new empty Slide"
+msgstr "Criar um novo Slide vazio"
+
+msgid "Copy existing Slide"
+msgstr "Copiar um Slide existente"
+
+msgid "Copy to Playlist"
+msgstr "Copiar uma lista de reprodução"
+
+msgid "New Folder"
+msgstr "Nova pasta"
+
+msgid "Active"
+msgstr "Ativo"
+
+msgid "More Options"
+msgstr "Mais opções"
+
+msgid "Limit Showtime by Day of Month"
+msgstr "Limitar a exibição por Dia do Mês"
+
+msgid "Limit Showtime by Date"
+msgstr "Limitar a exibição por Data"
+
+msgid "Text"
+msgstr "Texto"
+
+msgid "Tags"
+msgstr "Etiquetas (Tags)"
+
+msgid "Video"
+msgstr "Vídeo"
+
+msgid "Website"
+msgstr "Website"
+
+msgid "Choose"
+msgstr "Selecionar"
+
+msgid "Choose Image"
+msgstr "Selecionar Imagem"
+
+msgid "Choose Video"
+msgstr "Selecionar Vídeo"
+
+msgid "This call only works in a WordPress environment"
+msgstr "Esta chamada só funciona em um ambiente do Desenvolvimento"
+
+msgid "Not supported in fix template"
+msgstr "Não é suportado no modelo de correção"
+
+msgid "Add Column"
+msgstr "Adicionar coluna"
+
+msgid "Remove Column"
+msgstr "Remover coluna"
+
+msgid "Add Row"
+msgstr "Adicionar linha"
+
+msgid "Remove Row"
+msgstr "Remover linha"
+
+msgid "Text Column"
+msgstr "Coluna de texto"
+
+msgid "New Text Column"
+msgstr "Nova coluna de Texto"
+
+msgid "Price"
+msgstr "Preço"
+
+msgid "Edit Html-Content"
+msgstr "Editar conteúdo Html"
+
+msgid "Header"
+msgstr "Cabeçalho"
+
+msgid "Footer"
+msgstr "Rodapé de página"
+
+msgid "Menu"
+msgstr "Menu"
+
+msgid "Start the slideshow"
+msgstr "Iniciar a apresentação de slides"
+
+msgid "Stop the slideshow"
+msgstr "Parar a apresentação de slides"
+
+msgid "Duration"
+msgstr "Duração"
+
+msgid "Center"
+msgstr "Centro"
+
+msgid "left"
+msgstr "esquerda"
+
+msgid "right"
+msgstr "direita"
+
+msgid "top"
+msgstr "topo"
+
+msgid "bottom"
+msgstr "fundo"
+
+msgid "Add New User"
+msgstr "Adicionar Novo Utilizador"
+
+msgid "Partly Never"
+msgstr "Em parte nunca"
+
+msgid "ERROR: no customer"
+msgstr "ERROR: sem cliente"
+
+msgid "ERROR: no playlist"
+msgstr "ERRO: nenhuma lista de reprodução"
+
+msgid "Layout"
+msgstr "Layout"
+
+msgid "Date"
+msgstr "Data"
+
+msgid "Span"
+msgstr "Amplitude (duração)"
+
+msgid "Settings"
+msgstr "Ajustes"
+
+msgid "Logout"
+msgstr "Sair"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "If you do not schedule something the slide will be always active"
+msgstr "Se você não programar algo, o slide estará sempre ativo."
+
+msgid "User to edit could not be found."
+msgstr "Não foi possível encontrar o utilizador a editar."
+
+msgid "Unrecoverable error while editing user."
+msgstr "Erro irrecuperável ao editar o utilizador."
+
+msgid "Username already taken."
+msgstr "Nome de utilizador já em uso."
+
+msgid "A required field was not filled, could not create user..."
+msgstr ""
+"Um campo obrigatório não foi preenchido, não foi possível criar o "
+"utilizador ..."
+
+msgid "This Device has the latest playlist."
+msgstr "Este dispositivo tem a lista de reprodução mais recentesss."
+
+msgid "This Device hasn't yet downloaded the latest playlist."
+msgstr "Este dispositivo ainda não baixou a lista de reprodução mais recente."
+
+msgid ""
+"Here you can limit that this slide is only visible between the two given "
+"dates."
+msgstr ""
+"Aqui você pode limitar para que este slide seja visível apenas entre as duas "
+"datas determinadas."
+
+msgid ""
+"Here you can limit that this slide is only visible between two days of a "
+"month. This will be repeated for every month."
+msgstr ""
+"Aqui você pode limitar para que este slide seja visível apenas entre dois "
+"dias de um mês. Isto será repetido para cada mês."
+
+msgid "Enter this URL into your device with SMIL support."
+msgstr "Introduza este URL no seu dispositivo com suporte SMIL."
+
+msgid "Choose landscape or portrait layout as your videowall orientation"
+msgstr "Escolha o layout paisagem ou retrato como sua orientação de videowall."
+
+msgid "Set up the parameters of the display type your video wall consists of"
+msgstr "Configure os parâmetros do tipo de exibição que seu videowall possui"
+
+msgid "Remove this slide from the playlist."
+msgstr "Retirar este slide da lista de reprodução."
+
+msgid "Delete this playlist."
+msgstr "Eliminar esta lista de reprodução."
+
+msgid "This slide is currently active."
+msgstr "Este slide está ativo."
+
+msgid "This slide is currently not showing because of scheduling."
+msgstr "Este slide não está sendo exibido devido a programação."
+
+msgid "An error occurred during upload.."
+msgstr "Ocorreu um erro durante o upload…"
+
+msgid "An error occurred during update.."
+msgstr "Ocorreu um erro durante a atualização…"
+
+msgid "Invalid file format."
+msgstr "Formato de arquivo inválido."
+
+msgid "Couldn't get user info."
+msgstr "Não foi possível obter informações do utilizador."
+
+msgid "A username and password are required."
+msgstr "É obrigatório um nome de utilizador e uma password."
+
+msgid "We check whether your browser supports cookies."
+msgstr "Verificamos se o seu navegador suporta cookies."
+
+msgid ""
+"This device number is already occupied by a different monitor, please enter "
+"the URL of a different device for this monitor."
+msgstr ""
+"Este número de dispositivo já está ocupado por um monitor diferente, insira "
+"o URL de um dispositivo diferente para este monitor."
+
+msgid ""
+"This device number is already occupied by a different monitor, please enter "
+"the URL of a different device for this monitor.<br>Please use this URL only "
+"on one monitor at the same time.<br>If this is the right monitor for this "
+"URL please follow these steps:<br>1) navigate to Devices<br>2) edit this "
+"device<br>3) press the button \"Allow other device to use this URL\"<br>4) "
+"refresh this page on this monitor/browser or restart the monitor"
+msgstr ""
+"Este número de dispositivo já está ocupado por um monitor diferente, insira "
+"o URL de um dispositivo diferente para este monitor.<br>Por favor, utilize "
+"este URL apenas em um monitor. <br>Se este é o monitor certo para este URL, "
+"siga estas etapas:<br>1) navegue para Dispositivos<br>2) edite este "
+"dispositivo <br> 3) pressione o botão \"Permitir que outro dispositivo use "
+"este URL\"<br>4) atualize esta página neste monitor/navegador ou reinicie o "
+"monitor"
+
+msgid ""
+"There seems to be a problem with your license. Please verify your license "
+"data."
+msgstr ""
+"Parece haver um problema com sua licença. Verifique os seus dados de licença."
+
+msgid "Number of Playlists"
+msgstr "Número de listas de reprodução"
+
+msgid "Number of Slides"
+msgstr "Número de Slides"
+
+msgid "Number of Customers"
+msgstr "Número de clientes"
+
+msgid "Number of Devicewalls"
+msgstr "Número de Dispositivos"
+
+msgid "Updated Devices"
+msgstr "Dispositivos atualizados"
+
+msgid "Unused Devices"
+msgstr "Dispositivos sem uso"
+
+msgid "Offline Devices"
+msgstr "Dispositivos offline"
+
+msgid "Online Devices"
+msgstr "Dispositivos online"
+
+msgid "You must choose an existing file to replace!"
+msgstr "Você deve escolher um arquivo existente para substituir!"
+
+msgid "Upload a new file"
+msgstr "Enviar um novo arquivo"
+
+msgid "Choose a new file to replace FILENAME"
+msgstr "Escolha um novo arquivo para substituir FILENAME"
+
+msgid "All links to the old file will be updated."
+msgstr "Todos os links para o arquivo antigo serão atualizados."
+
+msgid "Once the upload is finished, this can not be undone!"
+msgstr "Quando o upload terminar, não poderá voltar atrás!"
+
+msgid "You do not have permission to upload files."
+msgstr "Não tem permissão para enviar arquivos."
+
+msgid "Replace media"
+msgstr "Substituir mídia"
+
+msgid "Replace the current file and automatically update all links to it."
+msgstr ""
+"Substituir o arquivo atual e atualizar automaticamente todos os links para "
+"ele."
+
+msgid "Could not find file to replace."
+msgstr "Não foi possível localizar o arquivo a ser substituído."
+
+msgid "File not usable. Unknown extension."
+msgstr "Arquivo não utilizável. Extensão desconhecida."
+
+msgid " could not be deleted, please check file permissions."
+msgstr " não foi possível excluir, favor verificar as permissões do arquivo."
+
+msgid "Complete the setup now."
+msgstr "Conclua a configuração agora."
+
+msgid "Please enter your PLUGIN license key to enable updates."
+msgstr "Introduza a sua chave de licença PLUGIN para activar as actualizações."
+
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Existe uma nova versão de %1$s disponível. <a target=“_blank” "
+"class=“thickbox” href=“%2$s”>Veja os detalhes da versão %3$s</a>."
+
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Existe uma nova versão de %1$s disponível. <a target=“_blank” "
+"class=“thickbox” href=“%2$s”>Veja os detalhes da versão %3$s</a> ou <a "
+"href=“%4$s”>atualize agora</a>."
+
+msgid "All"
+msgstr "Todos"
+
+msgid " of "
+msgstr "de"
+
+msgid "Start Date"
+msgstr "Data de início"
+
+msgid "End Date"
+msgstr "Data do Fim"
+
+msgid "Signage Playlist"
+msgstr "Lista de reprodução"
+
+msgid "Nick"
+msgstr "Nick"
+
+msgid "This Device is online."
+msgstr "Este dispositivo está online"
+
+msgid "This Device made no contact with the server for some time."
+msgstr "Este dispositivo não faz nenhum contato com o servidor há algum tempo."
+
+msgid "MON"
+msgstr "SEG"
+
+msgid "TUE"
+msgstr "TER"
+
+msgid "WED"
+msgstr "QUA"
+
+msgid "THU"
+msgstr "QUI"
+
+msgid "FRI"
+msgstr "SEX"
+
+msgid "SAT"
+msgstr "SAB"
+
+msgid "SUN"
+msgstr "DOM"
+
+msgid "Border"
+msgstr "Borda"
+
+msgid "Su"
+msgstr "Dom"
+
+msgid "Mo"
+msgstr "Seg"
+
+msgid "Tu"
+msgstr "Ter"
+
+msgid "We"
+msgstr "Qua"
+
+msgid "Th"
+msgstr "Qui"
+
+msgid "Fr"
+msgstr "Sex"
+
+msgid "Sa"
+msgstr "Sab"
+
+msgid "Sunday"
+msgstr "Domingo"
+
+msgid "Monday"
+msgstr "Segunda"
+
+msgid "Tuesday"
+msgstr "Terça"
+
+msgid "Wednesday"
+msgstr "Quarta"
+
+msgid "Thursday"
+msgstr "Quinta"
+
+msgid "Friday"
+msgstr "Sexta"
+
+msgid "Saturday"
+msgstr "Sábado"
+
+msgid "January"
+msgstr "Janeiro"
+
+msgid "February"
+msgstr "Fevereiro"
+
+msgid "March"
+msgstr "Março"
+
+msgid "April"
+msgstr "Abril"
+
+msgid "May"
+msgstr "Maio"
+
+msgid "June"
+msgstr "Junho"
+
+msgid "July"
+msgstr "Julho"
+
+msgid "August"
+msgstr "Agosto"
+
+msgid "September"
+msgstr "Setembro"
+
+msgid "October"
+msgstr "Outubro"
+
+msgid "November"
+msgstr "Novembro"
+
+msgid "December"
+msgstr "Dezembro"
+
+msgid "Jan"
+msgstr "Jan"
+
+msgid "Feb"
+msgstr "Fev"
+
+msgid "Mar"
+msgstr "Mar"
+
+msgid "Apr"
+msgstr "Abr"
+
+msgid "Jun"
+msgstr "Jun"
+
+msgid "Jul"
+msgstr "Jul"
+
+msgid "Aug"
+msgstr "Ago"
+
+msgid "Sep"
+msgstr "Set"
+
+msgid "Oct"
+msgstr "Out"
+
+msgid "Nov"
+msgstr "Nov"
+
+msgid "Dec"
+msgstr "Dez"
+
+msgid "Quick Template Generation"
+msgstr "Geração de Modelos Rápidos"
+
+msgid "Template"
+msgstr "Modelo"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Select a template type"
+msgstr "Selecionar um tipo de modelo"
+
+msgid "Enter a Facebook username"
+msgstr "Digite o nome de utilizador do Facebook"
+
+msgid "Enter a Twitter username"
+msgstr "Digite o nome de utilizador do Twitter"
+
+msgid "Generate"
+msgstr "Gerar"
+
+msgid "EMPTY"
+msgstr "VAZIO"
+
+msgid "SELECT THIS"
+msgstr "SELECIONAR ESTE"
+
+msgid "Navigation"
+msgstr "Navegação"
+
+msgid "Show WordPress navigation"
+msgstr "Mostrar navegação"
+
+msgid "Hide WordPress navigation"
+msgstr "Ocultar navegação"
+
+msgid "Device Limit"
+msgstr "Limite de dispositivos"
+
+msgid ""
+"If this problem persists, make sure that your browser supports cookies and "
+"does not delete them upon restart."
+msgstr ""
+"Se esse problema persistir, verifique se o navegador suporta cookies e não "
+"os exclui ao reiniciar."
+
+msgid "This plugin requires at least PHP 5.5 or higher."
+msgstr "Este plugin requer ao menos o PHP 5.5 ou superior."
+
+msgid "Select a playlist"
+msgstr "Escolha a Lista"
+
+msgid "Or embed a playlist"
+msgstr "Não há lista de reprodução"
+
+msgid "Tool Selection"
+msgstr "Selecionar Ferramenta"
+
+msgid "Tools"
+msgstr "Ferramentas "
+
+msgid "Timezone"
+msgstr "Fuso horário UTC"
+
+msgid "RSS"
+msgstr "RSS"
+
+msgid "RSS source"
+msgstr "Fonte RSS"
+
+msgid "Enter a RSS URL"
+msgstr "Digite o URL do RSS"
+
+msgid "Enter amount of items"
+msgstr "Insira o número de itens"
+
+msgid "Item limit"
+msgstr "Limite de dispositivos"
+
+msgid "Display description"
+msgstr "Descrição"
+
+msgid "Clock"
+msgstr "Relógio"
+
+msgid "No RSS data found"
+msgstr "Não foram encontrados dados RSS"
+
+msgid "Invalid http code"
+msgstr "Código http inválido"
+
+msgid "Cannot get data from this url"
+msgstr "Não é possível obter dados deste URL"
+
+msgid "Weather"
+msgstr "Clima"
+
+msgid "Unit"
+msgstr "Unidade"
+
+msgid "Display Forecast"
+msgstr "Mostrar Forecast"
+
+msgid "Today"
+msgstr "Hoje"
+
+msgid "Tomorrow"
+msgstr "Amanhã"
+
+msgid "No weather data for settings: city([CITY]) zipcode([ZIPCODE])"
+msgstr ""
+"Sem dados meteorológicos para configurações: Cidade([CITY]) Código "
+"Postal([ZIPCODE])"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid "Help getting necessary data"
+msgstr "Ajuda para obter os dados necessários"
+
+msgid "How to get Access Token"
+msgstr "Como obter o token de acesso"
+
+msgid "http://web-settler.com/generate-instagram-access-token/"
+msgstr "http://web-settler.com/generate-instagram-access-token/"
+
+msgid "Get user ID"
+msgstr "Buscar ID do utilizador"
+
+msgid "https://smashballoon.com/instagram-feed/find-instagram-user-id/"
+msgstr "https://smashballoon.com/instagram-feed/find-instagram-user-id/"
+
+msgid "Own Access Token"
+msgstr "Token de acesso"
+
+msgid "Target User ID"
+msgstr "Destino do ID do utilizador"
+
+msgid "Column Number"
+msgstr "Coluna"
+
+msgid "max 10"
+msgstr "max 10"
+
+msgid "max 20"
+msgstr "max 20"
+
+msgid "No images found"
+msgstr "Não foram encontradas imagens"
+
+msgid "Instagram request had failed"
+msgstr "Instagram falhou"
+
+msgid "Failed to get Instagram data"
+msgstr "Falha ao obter dados Instagram"
+
+msgid "Drag and drop the slides into the calendar to manage its scheduling"
+msgstr "Arraste e solte os slides no calendário para gerir a programação"
+
+msgid ""
+"Information: This calendar uses Drag&Drop. You can simply drag the slides on "
+"the left into the calender"
+msgstr ""
+"Informações: Este calendário usa Drag & Drop. Pode simplesmente arrastar os "
+"slides à esquerda para a agenda."
+
+msgid "Still missing necessary settings"
+msgstr "Ainda falta as configurações necessárias"
+
+msgid "invalid"
+msgstr "inválido"
+
+msgid "no connection"
+msgstr "Sem conexão"
+
+#~ msgid "Affiliate"
+#~ msgstr "Afiliados"
+
+#~ msgid "A user name is required, could not create user..."
+#~ msgstr ""
+#~ "Um nome de usuário é obrigatório, não foi possível criar o utilizador ..."
+
+#~ msgid "Media Replacement"
+#~ msgstr "Substituição de ficheiro"
+
+#~ msgid "Back"
+#~ msgstr "Voltar"
+
+#~ msgid "You do not have permission to install plugin updates"
+#~ msgstr "Não tem permissão para instalar atualizações de plug-in"
+
+#, fuzzy
+#~ msgid "Error"
+#~ msgstr "Ocorreu um erro durante o upload..."
+
+#~ msgid "Start Time"
+#~ msgstr "Hora de Início"
+
+#~ msgid "End Time"
+#~ msgstr "Hora do Fim"
+
+#, fuzzy
+#~ msgid "No Limit"
+#~ msgstr "Limite de dispositivos"
+
+#, fuzzy
+#~ msgid "Html"
+#~ msgstr "Alguns Shortcodes e HTML são permitidos"
+
+#~ msgid "Are you sure you want to remove this slide from the program?"
+#~ msgstr "Tem certeza de que deseja remover este slide do programa?"

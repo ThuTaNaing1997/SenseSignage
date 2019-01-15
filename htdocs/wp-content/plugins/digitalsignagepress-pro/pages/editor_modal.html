@@ -1,0 +1,274 @@
+﻿
+        <div id="ds-editor-modal-info" class="ds-editor-modal-window modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <div class="step-content-title cannotbeempty">
+                            <div class="titles active">
+                                <h2 class="ds-editor-modal-title">Information:</h2>
+                                <p>My test text</p>
+                                <div style="overflow:auto">
+                                    <input id="ds-editor-modal-info-save" class="ds-modal-button-save big-btn lead-button-big" type="button" data-dismiss="modal" value="OK">
+                                </div>  
+                            </div>     
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ds-editor-modal-web" class="ds-editor-modal-window modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <div class="step-content-title cannotbeempty">
+                            <div class="titles active">
+                                <h2 class="ds-editor-modal-title"><?php _e('Enter Website URL', 'digitalsignagepress'); ?>:</h2>
+                                <input id="ds-editor-modal-web-input-1" class="ds-editor-modal-input" type="text" autofocus="" value="" maxlength="999" autocomplete="off">
+                                <div>
+                                    <div class="ds-quick-template-container-text">
+                                        <label id="ds_pip_selection_container" class="ds-quick-template-text"><?php _e('Or embed a playlist', 'digitalsignagepress'); ?></label>
+                                    </div>
+                                    <div class="ds_collapsible">
+                                        <span><?php _e('Select a playlist', 'digitalsignagepress'); ?></span>
+                                        <div id="ds_select_insert_marker"></div>
+                                        <input id="ds_generated_playlist_url" type="hidden" value="">
+                                        <div id="ds_web_playlist_selected" class="ds_display_none"></div>
+                                    </div>
+                                </div>
+                                <div style="overflow:auto">
+                                    <input id="ds-editor-modal-web-cancel" class="ds-modal-button-cancel big-btn lead-button-big" type="button" data-dismiss="modal" onclick="handleModalWebTrigger(0)" value="<?php _e('Cancel', 'digitalsignagepress'); ?>">
+                                    <input id="ds-editor-modal-web-save" class="ds-modal-button-save big-btn lead-button-big" type="button" data-dismiss="modal" onclick="handleModalWebTrigger(1)" value="<?php _e('Save', 'digitalsignagepress'); ?>">
+                                </div>  
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ds-editor-modal-vid" class="ds-editor-modal-window modal fade" role="dialog">
+            <div class="modal-dialog" style="width:700px;">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <div class="step-content-title cannotbeempty">
+                            <div class="titles active">
+                                <h2 class="ds-editor-modal-title"><?php _e('Enter Video URL', 'digitalsignagepress'); ?>:</h2>
+                                <p style="font-style:italic"><?php _e('Enter a URL to a video file on a webserver or a youtube link or choose a video file from the media library.', 'digitalsignagepress'); ?></p>
+                                <table style="width:100%;">
+                                    <tr>
+                                        <td class="ds-modal-input-col">
+                                            <input id="ds-editor-modal-vid-input-1" class="ds-editor-modal-input" type="text" autofocus="" value="" maxlength="999" autocomplete="off">
+                                        </td>
+                                        <td class="ds-modal-button-col">
+                                            <input id="ds-editor-modal-vid-library-1" class="big-btn lead-button-big ds-modal-media-library" type="button" value="Media Library">
+                                        </td>
+                                    </tr>
+                                    <tr id="ds-editor-modal-vid-hidden-0" class="ds-element-hide">
+                                        <td colspan="2">
+                                            <p style="font-style:italic; padding-top:4px;"><?php _e("You may also add fallback videos for browser that don't support the primary video.",'digitalsignagepress');?><br><?php _e('To guarantee best compatibility, please provide at least files with formats of MP4 and OGG.', 'digitalsignagepress'); ?></p>
+                                        </td>
+                                    </tr>
+                                    <tr id="ds-editor-modal-vid-hidden-1" class="ds-element-hide">
+                                        <td class="ds-modal-input-col">
+                                            <input id="ds-editor-modal-vid-input-2" class="ds-editor-modal-input" type="text" autofocus="" value="" maxlength="999" autocomplete="off">
+                                        </td>
+                                        <td class="ds-modal-button-col">
+                                            <input id="ds-editor-modal-vid-library-2" class="big-btn lead-button-big ds-modal-media-library" type="button" value="Media Library">
+                                        </td>
+                                    </tr>
+                                    <tr id="ds-editor-modal-vid-hidden-2" class="ds-element-hide">
+                                        <td class="ds-modal-input-col">
+                                            <input id="ds-editor-modal-vid-input-3" class="ds-editor-modal-input" type="text" autofocus="" value="" maxlength="999" autocomplete="off">
+                                        </td>
+                                        <td class="ds-modal-button-col">
+                                            <input id="ds-editor-modal-vid-library-3" class="big-btn lead-button-big ds-modal-media-library" type="button" value="Media Library">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <div style="overflow:auto">
+                                    <input id="ds-editor-modal-vid-cancel" class="ds-modal-button-cancel big-btn lead-button-big" type="button" data-dismiss="modal" onclick="handleModalVidTrigger(0)" value="<?php _e('Cancel', 'digitalsignagepress'); ?>">
+                                    <input id="ds-editor-modal-vid-save" class="ds-modal-button-save big-btn lead-button-big" type="button" data-dismiss="modal" onclick="handleModalVidTrigger(1)" value="<?php _e('Save', 'digitalsignagepress'); ?>">
+                                </div>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ds-editor-modal-html" class="ds-editor-modal-window modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <div class="step-content-title cannotbeempty">
+                            <div class="titles active">
+                                <h2 class="ds-editor-modal-title"><?php _e('Edit your Code', 'digitalsignagepress'); ?>:</h2>
+                                <textarea id="ds-editor-modal-html-textarea-1" class="ds-editor-modal-textarea">
+                                    test
+                                </textarea>
+                                <div class="ds-editor-modal-html-quick-templates">
+                                    <div class="ds-quick-template-container-text">
+                                        <label id="ds-quick-template-description" class="ds-quick-template-text"><?php _e('Quick Template Generation', 'digitalsignagepress'); ?></label>
+                                    </div>
+                                    <div class="ds-quick-template-container-main ds-element-hide">
+                                        <select id="selection-html-quick-templates" class="ds-quick-template-selectmenu">
+                                            <option id="ds-quick-template-1" class="ds-option" value="empty" selected="selected"><?php _e('Template','digitalsignagepress'); ?></option>
+                                            <option id="ds-quick-template-2" class="ds-option" value="facebook" title="<?php _e('Text','digitalsignagepress'); ?>"><?php _e('Facebook','digitalsignagepress'); ?></option>
+                                            <option id="ds-quick-template-3" class="ds-option" value="twitter" title="<?php _e('Image','digitalsignagepress'); ?>"><?php _e('Twitter','digitalsignagepress'); ?></option>
+                                        </select>
+                                        <input id="ds-editor-modal-html-quick-template-input" type="text" placeholder="<?php _e('Select a template type','digitalsignagepress'); ?>">
+                                        <input id="ds-editor-modal-html-quick-template-generate" class="big-btn lead-button-big" type="button" value="<?php _e('Generate', 'digitalsignagepress'); ?>">
+                                    </div>
+                                </div>
+                                <div style="overflow:auto">
+                                    <input id="ds-editor-modal-html-cancel" class="ds-modal-button-cancel big-btn lead-button-big" type="button" data-dismiss="modal" onclick="handleModalHtmlTrigger(0)" value="<?php _e('Cancel', 'digitalsignagepress'); ?>">
+                                    <input id="ds-editor-modal-html-save" class="ds-modal-button-save big-btn lead-button-big" type="button" data-dismiss="modal" onclick="handleModalHtmlTrigger(1)" value="<?php _e('Save', 'digitalsignagepress'); ?>">
+                                </div>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ds-editor-modal-padding" class="ds-editor-modal-window modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <div class="step-content-title cannotbeempty">
+                            <div class="titles active">
+                                <h2 class="ds-editor-modal-title"><?php _e('Set padding of Content', 'digitalsignagepress'); ?>:</h2>
+                                <input id="ds-editor-modal-padding-input-1" class="ds-input-check-value ds-editor-modal-input" placeholder="Value in %"  min="0" max="99" value="" type="number">
+                                <form id="ds-editor-modal-padding-group-radio">
+                                    <p><?php _e('Select to which element this padding should be applied', 'digitalsignagepress'); ?></p>
+                                    <div id="ds-editor-modal-padding-hidden-target-text-1">
+                                        <input type="radio" id="ds-input-padding-target-text-1" name="paddingTarget" value="ds-text-container-1" checked>
+                                        <label class="ds-editor-modal-label-info" for="ds-input-padding-target-text-1"><?php _e('Only Text', 'digitalsignagepress'); ?></label>
+                                    </div>
+                                    <div id="ds-editor-modal-padding-hidden-target-container">
+                                        <input type="radio" id="ds-input-padding-target-container" name="paddingTarget" value="ds-content">
+                                        <label class="ds-editor-modal-label-info" for="ds-input-padding-target-container"><?php _e('Content', 'digitalsignagepress'); ?></label>
+                                    </div>
+                                </form>
+                                <div style="overflow:auto">
+                                    <input id="ds-editor-modal-padding-cancel" class="ds-modal-button-cancel big-btn lead-button-big" type="button" data-dismiss="modal" onclick="handleModalPaddingTrigger(0)" value="<?php _e('Cancel', 'digitalsignagepress'); ?>">
+                                    <input id="ds-editor-modal-padding-save" class="ds-modal-button-save big-btn lead-button-big" type="button" data-dismiss="modal" onclick="handleModalPaddingTrigger(1)" value="<?php _e('Save', 'digitalsignagepress'); ?>">
+                                </div>  
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="ds-editor-modal-slideshow" class="ds-editor-modal-window modal fade" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+                        <div class="step-content-title cannotbeempty">
+                            <div class="titles active">
+                                <h2 class="ds-editor-modal-title"><?php _e('Setup Slideshow', 'digitalsignagepress'); ?>:</h2>
+                                <table id="ds-modal-slideshow-table" style="width:100%;">
+                                    <thead style="height: 14px;">
+                                        <tr>
+                                            <td>
+                                            </td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="ds-modal-slideshow-row">
+                                            <td>
+                                                <div class="modal-slideshow-row-div">
+                                                    <span class="modal-slideshow-title"><?php _e('Image', 'digitalsignagepress'); ?> #1</span>
+                                                </div>
+                                                <div class="modal-slideshow-row-div">
+                                                    <div style="float:left; width:30%;">
+                                                        <span style="padding-right: 2px;"><?php _e('Slide-in Effect', 'digitalsignagepress'); ?>:</span>
+                                                    </div>
+                                                    <div style="float:left; width:70%;">
+                                                        <form class="modal-slideshow-radiogroup">
+                                                            <label class="modal-slideshow-transition-center" title="<?php _e('Center', 'digitalsignagepress'); ?>">
+                                                                <input type="radio" name="slideshow-animation" value="0" />
+                                                            </label>
+                                                            <label class="modal-slideshow-transition-left" title="<?php _e('Left', 'digitalsignagepress'); ?>">
+                                                                <input type="radio" name="slideshow-animation" value="1" />
+                                                            </label>
+                                                            <label class="modal-slideshow-transition-right" title="<?php _e('Right', 'digitalsignagepress'); ?>">
+                                                                <input type="radio" name="slideshow-animation" value="2" />
+                                                            </label>
+                                                            <label class="modal-slideshow-transition-top" title="<?php _e('Top', 'digitalsignagepress'); ?>">
+                                                                <input type="radio" name="slideshow-animation" value="3" />
+                                                            </label>
+                                                            <label class="modal-slideshow-transition-bottom" title="<?php _e('Bottom', 'digitalsignagepress'); ?>">
+                                                                <input type="radio" name="slideshow-animation" value="4" />
+                                                            </label>
+                                                        </form> 
+                                                    </div>
+                                                </div>
+                                                <div class="modal-slideshow-row-div">
+                                                    <input class="modal-slideshow-url" type="text" autofocus="" value="" maxlength="999" autocomplete="off">
+                                                    <input class="big-btn lead-button-big ds-modal-media-library" type="button" value="<?php _e('Media Library', 'digitalsignagepress'); ?>">
+                                                </div>
+                                                <div class="modal-slideshow-row-div">
+                                                    <div style="float:left; width:30%;">
+                                                        <span style="padding-right: 2px;"><?php _e('Duration', 'digitalsignagepress'); ?>:</span>
+                                                    </div>
+                                                    <div style="float:left; width:70%;">
+                                                        <input class="ds-editor-modal-input ds-input-check-value modal-slideshow-duration" title="Play Duration" min="1" max="99999" value="" type="number">
+                                                        <span style="padding-left: 2px;"><?php _e('Sec.', 'digitalsignagepress'); ?></span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <td style="text-align: center;">
+                                                <input id="ds-modal-slideshow-add" class="big-btn lead-button-big" title="Add further Image" type="button" value="<?php _e('ADD', 'digitalsignagepress'); ?>">
+                                                <input id="ds-modal-slideshow-remove" class="big-btn lead-button-big" title="Remove last Image" type="button" value="<?php _e('REMOVE', 'digitalsignagepress'); ?>">
+                                            </td>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                                <div style="overflow:auto">
+                                    <input id="ds-editor-modal-slideshow-cancel" class="ds-modal-button-cancel big-btn lead-button-big" type="button" data-dismiss="modal" onclick="handleModalSlideshowTrigger(0)" value="<?php _e('Cancel', 'digitalsignagepress'); ?>">
+                                    <input id="ds-editor-modal-slideshow-save" class="ds-modal-button-save big-btn lead-button-big" type="button" data-dismiss="modal" onclick="handleModalSlideshowTrigger(1)" value="<?php _e('Save', 'digitalsignagepress'); ?>">
+                                </div>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<div class="step-content signage format" id="titlecontent">
+	<div id="modal_copyslide" class="modal fade" role="dialog" style="z-index:10000;">
+		<div class="modal-dialog" style="width:97%;">
+			<div class="modal-content" style="height:800px;">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body" style="overflow:auto; height: 85%;">
+					<div id="tab_slideselection" class="step-content-title cannotbeempty">
+						<input type="hidden" name="active_copy_sel" id="active_copy_sel" value="-1">
+						<div id="tabcontent" class="titles active">
+							<div class="col_12_nm" style="margin-bottom:10px;">
+								<input type="button" onclick="ds_mkslide();" value="<?php _e('Create new empty Slide', 'digitalsignagepress'); ?>" class="big-btn lead-button-big">
+							</div>
+							<div class="col_12_nm">
+								<div class="ds-editor-label"><?php _e('Copy existing Slide', 'digitalsignagepress'); ?></div>
+								<ul id="slideselection_list"></ul>
+							</div>
+						</div> 				
+					</div>
+				</div>
+				<div class="modal-footer">
+						<input id="save_copyselection" class="big-btn lead-button-big" type="button" onclick="choosecopy()" data-dismiss="modal" value="<?php _e('Copy to Playlist', 'digitalsignagepress')?>" disabled="disabled"><input class="big-btn lead-button-big" type="button" data-dismiss="modal" value="<?php _e('Close', 'digitalsignagepress'); ?>">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+        

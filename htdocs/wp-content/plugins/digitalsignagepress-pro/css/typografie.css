@@ -1,0 +1,452 @@
+#wpbody {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p.align-left,
+h1.align-left,
+h2.align-left,
+h3.align-left,
+h4.align-left,
+h5.align-left,
+h6.align-left,
+td.align-left,
+input[type=text],
+input[type=checkbox],
+#nav li ul li a{
+  text-align: left;
+}
+
+p.align-center,
+h1.align-center,
+h2.align-center,
+h3.align-center,
+h4.align-center,
+h5.align-center,
+h6.align-center,
+td.align-center,
+.info-button-small,
+a.info-button-small,
+li a.info-button-small,
+p a.info-button-small,
+.phone-lead-bottom,
+.phone-lead-bottom p,
+.lead-form input[type=checkbox],
+.input-1, .input-2,
+.select-1,
+.conversion-form-1 select,
+nav .col_12,
+nav ul,
+nav li a,
+#nav li a,
+#nav ul,
+.teaser-box-4 .teaser-content,
+.conversion-box-1,
+.conversion-form-1,
+.eventfact-icon,
+.ts-skin tbody td .lead-button-big,
+.center{
+  text-align: center;
+}
+
+p.align-right,
+h1.align-right,
+h2.align-right,
+h3.align-right,
+h4.align-right,
+h5.align-right,
+h6.align-right,
+td.align-right,
+.header-navi{
+  text-align: right;
+}
+
+p.align-justify,
+h1.align-justify,
+h2.align-justify,
+h3.align-justify,
+h4.align-justify,
+h5.align-justify,
+h6.align-justify,
+td.align-justify {
+  text-align: justify;
+}
+
+#breadcrumb-nav li,
+footer li,
+footer .standorte li,
+.soforthilfe .soforthilfe-form li,
+#rwform li,
+.header-navi li,
+.language-navi li,
+nav li,
+.conversion-form-1 ul li,
+.page-navigation li,
+.news-prev a,
+.news-back a,
+.news-next a{
+  list-style-type: none;
+}
+
+.pageheader .pageheader-headline,
+.rwslider .slider-headline{
+  font-size: 46px;
+}
+
+.pageheader .pageheader-subheadline,
+.lead-form-header h2,
+.rwslider .slider-subheadline
+{
+  font-size: 42px;
+}
+
+label,
+.pageheader p{
+  font-size: 24px;
+}
+
+.box-content p {
+  line-height: 20px;
+}
+
+/*a, */.blau, .device-teaser-header, b, .big-icon-button {
+  text-decoration: none;
+  font-weight: 700;
+  /*text-transform: uppercase;*/
+  letter-spacing: 0.5px;
+}
+
+.big-icon-button{
+  color: #fff;
+}
+
+/* -------------------  Standard Type Size  ---------------------*/
+body,
+ul li,
+ol li,
+.big-button,
+.info-button-big,
+.info-button-big-hback,
+.lead-button-big,
+.lead-button-big-hback,
+a.button, a.button-1,
+.button-file,
+nav li,
+#nav > ul > li > a,
+#nav li ul a,
+.eventfact-name h4,
+.ts-skin tbody td,
+.eventfact-name p,
+.ts-skin thead th,
+.news .content-box-1 p,
+.col_03 .teaser-box-2 .teaser-content h5,
+.col_04 .teaser-box-2 .teaser-content p,
+footer h2,
+button{
+  font-size: 15px;
+}
+
+/* ------------------- 16 px Type Size ---------------------*/
+.phone-lead-bottom .phone-number,
+.phone-lead-bottom p .phone-number,
+.soforthilfe .soforthilfe-flag .textrotate,
+.lead-button,
+.section .headline,
+.info-box-content h2,
+.pageheader-copy p,
+.rwslider .slider-copy p,
+.col_04 .teaser-box-2 .teaser-content h5{
+  font-size: 16px;
+}
+
+/* ------------------- 12 px Type Size ---------------------*/
+footer label,
+footer .content-box-1 .col_03 p,
+footer .content-box-1 .col_02 p b,
+.phone-lead-bottom .phone-number-text,
+.phone-lead-bottom p .phone-number-text,
+.soforthilfe .soforthilfe-form p,
+.teaser-category-flag,
+.teaser-date-flag,
+.teaser-box-1 .teaser-content,
+.teaser-box-2 .teaser-content,
+.teaser-box-3 .teaser-content,
+.teaser-box-4 .teaser-content,
+.teaser-box-6 .teaser-content,
+.page-navigation,
+.page-navigation li,
+.news-prev a,
+.news-back a,
+.news-next a,
+.ts-skin tbody td .lead-button-big,
+.header-navi ul li a,
+#breadcrumb-nav li a{
+  font-size: 12px;
+}
+
+/* ------------------- 10 px Type Size ---------------------*/
+.small-button,
+.info-button-small,
+.info-button-small-hback,
+a.info-button-small-hback,
+a.info-button-small,
+li a.info-button-small,
+.lead-button-small,
+a.lead-button-small,
+.lead-button-small-hback,
+a.lead-button-small-hback,
+li a.lead-button-small,
+.col_03 .teaser-box-2 .teaser-content p{
+  font-size: 10px;
+}
+
+
+/* -------------------  Uppercase  ---------------------*/
+.big-button,
+.info-button-big,
+.info-button-big-hback,
+.lead-button-big,
+.lead-button-big-hback,
+a.button, a.button-1,
+.button-file,
+.soforthilfe .soforthilfe-flag .textrotate,
+.lead-image-header-content h1,
+.lead-form-header h2,
+.lead-button,
+.section .headline,
+nav li a,
+.pageheader .pageheader-headline,
+.rwslider .slider-headline,
+.teaser-content h5,
+.teaser-content h5 a,
+.teaser-category-flag,
+.eventfact-name h4,
+.ts-skin thead th{
+  text-transform: uppercase;
+}
+
+/* -------------------  Font Weight 700  ---------------------*/
+.big-button,
+.info-button-big,
+.info-button-big-hback,
+.lead-button-big,
+.lead-button-big-hback,
+a.button, a.button-1,
+.button-file,
+.small-button,
+.info-button-small,
+.info-button-small-hback,
+a.info-button-small-hback,
+a.info-button-small,
+li a.info-button-small,
+.lead-button-small,
+a.lead-button-small,
+.lead-button-small-hback,
+a.lead-button-small-hback,
+li a.lead-button-small,
+.phone-lead-bottom .phone-number,
+.phone-lead-bottom p .phone-number,
+.soforthilfe .soforthilfe-flag .textrotate,
+.lead-image-header-content h1,
+.lead-form-header h2,
+.lead-button,
+.section .headline,
+#nav,
+.pageheader .pageheader-headline,
+.pageheader .pageheader-subheadline,
+.rwslider .slider-headline,
+.rwslider .slider-subheadline,
+.eventfact-name h4,
+.ts-skin thead th{
+  font-weight: 700;
+}
+
+.box-content ul li {
+  list-style-position: outside;
+}
+
+footer .content-box-1 .col_02 p {
+  font-size: 9px;
+}
+
+/*############################################################################*/
+/*### HEADING DEFAULT SIZES ##################################################*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+}
+h1 {
+    font-size: 46px;
+}
+h2 {
+    font-size: 42px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 32px;
+}
+h5 {
+    font-size: 24px;
+}
+h6 {
+    font-size: 15px;
+}
+
+
+@media screen and (min-width: 2560px){
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 800;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 64px;
+    }
+    h3 {
+      font-size: 54px;
+    }
+    h4 {
+      font-size: 48px;
+    }
+    h5 {
+        font-size: 34px;
+    }
+    h6 {
+        font-size: 18px;
+    }
+}
+
+/*### HEADING DEFAULT SIZES ##################################################*/
+/*############################################################################*/
+
+/*Small Settings*/
+@media screen and (min-width: 320px) and (max-width: 1280px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-weight: 600;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 16px;
+    }
+    h5 {
+        font-size: 14px;
+    }
+    h6 {
+        font-size: 12px;
+    }
+    
+    .slider-headline{
+      font-size: 22px;
+    }
+
+    .lead-form-header h2,
+    .slider-subheadline{
+      font-size: 20px;
+    }
+
+    .info-box-content h2,
+    .teaser-content h5,
+    .teaser-content h5 a,
+    .teaser-box-4 .teaser-content h5 a {
+      font-size: 14px;
+    }
+
+    body,
+    p,
+    ul li,
+    ol li,
+    .phone-lead-bottom p .phone-number,
+    #nav > ul > li > a,
+    nav li a,
+    #nav li ul a,
+    .big-button,
+    .info-button-big,
+    .lead-button-big,
+    a.button, a.button-1,
+    .legal-info,
+    .lead-button,
+    .info-content p,
+    .slider-copy p,
+    .col_03 .teaser-box-5 .teaser-content h5 a {
+      font-size: 12px;
+    }
+
+    .teaser-content p,
+    nav.fixed .flag-phone .phone-number{
+      font-size: 11px;
+    }
+
+    .header-navi ul li a,
+    .col_04 .teaser-box-2 .teaser-content h5,
+    .col_06 .teaser-box-3 .teaser-content p,
+    .teaser-box-4 .teaser-content p,
+    .tabletcol_6 .col_02 .teaser-box-4 .teaser-content h5 a,
+    .col_04 .teaser-box-5 .teaser-content,
+    .phone-lead-bottom p .phone-number-text{
+      font-size: 10px;
+    }
+
+    .big-button,
+    .info-button-big,
+    .info-button-big-hback,
+    .lead-button-big,
+    .lead-button-big-hback,
+    a.button, a.button-1,
+    .button-file,
+    .small-button,
+    .info-button-small,
+    .info-button-small-hback,
+    a.info-button-small-hback,
+    a.info-button-small,
+    li a.info-button-small,
+    .lead-button-small,
+    a.lead-button-small,
+    .lead-button-small-hback,
+    a.lead-button-small-hback,
+    li a.lead-button-small,
+    .phone-lead-bottom .phone-number,
+    .phone-lead-bottom p .phone-number,
+    .soforthilfe .soforthilfe-flag .textrotate,
+    .lead-image-header-content h1,
+    .lead-form-header h2,
+    .lead-button,
+    .section .headline,
+    #nav,
+    .pageheader .pageheader-headline,
+    .pageheader .pageheader-subheadline,
+    .rwslider .slider-headline,
+    .rwslider .slider-subheadline,
+    .eventfact-name h4,
+    .ts-skin thead th{
+      font-weight: 600;
+    }
+}
+#allDSScreens_taken, #allDSScreens_license {
+    padding:12px;
+}

@@ -1,0 +1,1288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: digitalsignagepress\n"
+"POT-Creation-Date: 2016-06-15 12:01+0200\n"
+"PO-Revision-Date: 2016-12-13 16:25+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: pages/navigation_header.php\n"
+"X-Poedit-SearchPath-1: pages/admin.php\n"
+"X-Poedit-SearchPath-2: pages/editor.php\n"
+"X-Poedit-SearchPath-3: js/ds_admin.js\n"
+"X-Poedit-SearchPath-4: pages/programs.php\n"
+"X-Poedit-SearchPath-5: pages/devices.php\n"
+"X-Poedit-SearchPath-6: enterprise/devices_alternate.php\n"
+"X-Poedit-SearchPath-7: includes/ds_misc_function.php\n"
+"X-Poedit-SearchPath-8: pages/device.php\n"
+"X-Poedit-SearchPath-9: enterprise/devicewalls_alternate.php\n"
+"X-Poedit-SearchPath-10: pages/devicewall.phtml\n"
+"X-Poedit-SearchPath-11: enterprise/customers_alternate.php\n"
+"X-Poedit-SearchPath-12: enterprise/users.php\n"
+"X-Poedit-SearchPath-13: pages/customers.php\n"
+"X-Poedit-SearchPath-14: pages/customer.php\n"
+"X-Poedit-SearchPath-15: enterprise/user.php\n"
+"X-Poedit-SearchPath-16: digitalsignagepress.php\n"
+"X-Poedit-SearchPath-17: pages/ds_license_form.php\n"
+"X-Poedit-SearchPath-18: enterprise/media.php\n"
+"X-Poedit-SearchPath-19: enterprise/editor.php\n"
+"X-Poedit-SearchPath-20: enterprise/devices_alternate.php\n"
+"X-Poedit-SearchPath-21: enterprise/devicewalls_alternate.php\n"
+"X-Poedit-SearchPath-22: enterprise/multiupload.js\n"
+"X-Poedit-SearchPath-23: enterprise/users.php\n"
+"X-Poedit-SearchPath-24: pages/programs.php\n"
+"X-Poedit-SearchPath-25: pages/customers.php\n"
+"X-Poedit-SearchPath-26: pages/devices.php\n"
+
+msgid "It's a plugin to allow Digital Signage via WordPress"
+msgstr ""
+"Wordpress плагин для представления текстовой и видео информации на "
+"электронных носителях (Digital Signage)"
+
+msgid "Are you sure you want to permanently delete this file?"
+msgstr "Вы уверены, что хотите удалить этот файл?"
+
+msgid ""
+"Are you sure you want to permanently delete this folder and all of its "
+"content? (this may take a moment)"
+msgstr ""
+"Вы уверены, что хотите удалить эту папку и все файлы находящиеся в ней? (Это "
+"может занять некоторое время)"
+
+msgid "New Playlist"
+msgstr "Новый плейлист"
+
+msgid "Playlist"
+msgstr "Плейлист"
+
+msgid "Devices"
+msgstr "Приборы"
+
+msgid "Videowalls"
+msgstr "Видеостены"
+
+msgid "Customers"
+msgstr "Клиенты"
+
+msgid "Users"
+msgstr "Пользователи"
+
+msgid "Media"
+msgstr "Медиа"
+
+msgid "License"
+msgstr "Лицензия"
+
+msgid "Everything"
+msgstr "Все"
+
+msgid "Group"
+msgstr "Группа"
+
+msgid "Branch"
+msgstr "Отрасль"
+
+msgid "Discription"
+msgstr "Описание"
+
+msgid "Zipcode"
+msgstr "Почтовый индекс"
+
+msgid "City"
+msgstr "Город"
+
+msgid "Street"
+msgstr "Улица"
+
+msgid "House number"
+msgstr "Номер дома"
+
+msgid "Country"
+msgstr "Страна"
+
+msgid "FILTER BY:"
+msgstr "СОРТИРОВАТЬ ПО:"
+
+msgid "Search Filter"
+msgstr "Фильтр поиска"
+
+msgid "use * as wildcard"
+msgstr "Используйте * в качестве шаблона"
+
+msgid "Add New Customer"
+msgstr "Добавить нового клиента"
+
+msgid "Edit"
+msgstr "Редактировать"
+
+msgid "Delete"
+msgstr "Удалить"
+
+msgid "Are you sure you want to permanently delete this customer?"
+msgstr "Вы уверены, что хотите навсегда удалить этого клиента?"
+
+msgid "Devicename"
+msgstr "Название устройства"
+
+msgid "Playlistname"
+msgstr "Название плейлиста"
+
+msgid "Videowallname"
+msgstr "Название видеостены"
+
+msgid "Customer"
+msgstr "Клиент"
+
+msgid "Location"
+msgstr "Место нахождения"
+
+msgid "Change Date"
+msgstr "Дата изменения"
+
+msgid "Last Request"
+msgstr "Последний запрос"
+
+msgid "Online"
+msgstr "В сети"
+
+msgid "Offline"
+msgstr "Не в сети"
+
+msgid "Not Updated"
+msgstr "Не обновлено"
+
+msgid "Move selected Device(s) to Playlist:"
+msgstr "Перемещение выбранного устройств(а) в плейлист:"
+
+msgid "No Playlist"
+msgstr "Плейлист отсутствует"
+
+msgid "Videowall"
+msgstr "Видеостена"
+
+msgid "Check"
+msgstr "Выбрать"
+
+msgid "Are you sure you want to permanently delete this device?"
+msgstr "Вы уверены, что хотите удалить это устройство?"
+
+msgid "Number of Devices"
+msgstr "Количество устройств"
+
+msgid "Select or deselect all Devices at once"
+msgstr "Установите или снимите выделение со всех устройств одновременно"
+
+msgid "Are you sure you want to permanently delete this devicewall?"
+msgstr "Вы уверены, что хотите удалить эту видеостену?"
+
+msgid "Are you sure you want to permanently delete this playlist?"
+msgstr "Вы уверены, что хотите удалить этот плейлист?"
+
+msgid "Devices that use this playlist will have their playlist entry removed."
+msgstr "Устройства, использующие этот плейлист будут удалены."
+
+msgid "Media Library"
+msgstr "Медиа библиотека"
+
+msgid "Add New Folder"
+msgstr "Добавить новую папку"
+
+msgid "Drop Images/Movies here or"
+msgstr "Затяните изображения/видео файлы сюда или"
+
+msgid "Upload"
+msgstr "Загрузить"
+
+msgid "ADD NEW FOLDER"
+msgstr "ДОБАВИТЬ ПАПКУ"
+
+msgid "Preview"
+msgstr "Предварительный просмотр"
+
+msgid "Name"
+msgstr "Имя"
+
+msgid "Orientation"
+msgstr "Выравнивание"
+
+msgid "Resolution"
+msgstr "Разрешение"
+
+msgid "Filesize"
+msgstr "Размер файла"
+
+msgid "Uploaded"
+msgstr "Загружено"
+
+msgid "Modified"
+msgstr "Модификация"
+
+msgid "Replace"
+msgstr "Заменить"
+
+msgid "User Details"
+msgstr "Сведения о пользователе"
+
+msgid "Login Name"
+msgstr "Логин"
+
+msgid "New Password"
+msgstr "Новый пароль"
+
+msgid "Password"
+msgstr "Пароль"
+
+msgid "First Name"
+msgstr "Имя"
+
+msgid "Last Name"
+msgstr "Фамилия"
+
+msgid "No Limitation"
+msgstr "Keine Begrenzung"
+
+msgid "Manage User"
+msgstr "Управление учетными записями пользователей"
+
+msgid "Can't manage users"
+msgstr "Не может управлять пользователями"
+
+msgid "Can create new and manage existing Users"
+msgstr "Может создавать новых и управлять существующими пользователями"
+
+msgid "SAVE"
+msgstr "Сохранить"
+
+msgid "User Name"
+msgstr "Имя пользователя"
+
+msgid "Full Name"
+msgstr "Полное имя"
+
+msgid "Position"
+msgstr "Должность"
+
+msgid "Are you sure you want to permanently delete this user?"
+msgstr "Вы уверены, что хотите навсегда удалить этого пользователя?"
+
+msgid "Never"
+msgstr "Никогда"
+
+msgid "Add New Device"
+msgstr "Добавить новое устройство"
+
+msgid "PAGE"
+msgstr "страница"
+
+msgid "Add New Videowall"
+msgstr "Добавить видео стену"
+
+msgid "New Slide"
+msgstr "Новый слайд"
+
+msgid "Slideduration"
+msgstr "Длительность слайда"
+
+msgid "Sec"
+msgstr "Сек"
+
+msgid "None of your slides has a slideduration"
+msgstr "Ни один из ваших слайдов не имеет продолжительность"
+
+msgid ""
+"The current page orientation is portrait; do you really want to change this "
+"for all slides in this playlist?"
+msgstr ""
+"Ориентация текущей страницы - портрет; Вы действительно хотите изменить это "
+"для всех слайдов в этом списке воспроизведения?"
+
+msgid ""
+"The current page orientation is landscape; do you really want to change this "
+"for all slides in this playlist?"
+msgstr ""
+"Ориентация текущей страницы - ландшафт; Вы действительно хотите изменить это "
+"для всех слайдов в этом списке воспроизведения?"
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Your changes have not been saved. Do you wish to leave the page?"
+msgstr "Ваши изменения не были сохранены. Вы хотите покинуть страницу?"
+
+msgid "can never be played, enddate is in the past."
+msgstr "не может быть воспроизведен из-за даты окончания в прошедшем времени."
+
+msgid "has startdate after enddate."
+msgstr "имеет дату начала после даты окончания"
+
+msgid "has start after end for day."
+msgstr "имеет время начала после времени окончания того же дня."
+
+msgid ""
+"Your playlist has no slides that can be played, latest enddate is in the "
+"past."
+msgstr ""
+"Ваш плейлист не имеет слайдов, которые могут быть воспроизведены, из-за даты "
+"окончания в прошедшем времени."
+
+# FILENAME is a keyword here
+msgid "Are you sure you want to delete FILENAME"
+msgstr "Вы уверены, что хотите удалить FILENAME"
+
+msgid "Name of this Slide"
+msgstr "Название слайда"
+
+msgid "custom editor"
+msgstr "Пользовательский редактор"
+
+msgid "Signage Playlist Name:"
+msgstr "Название плейлиста:"
+
+msgid "Create New Slide"
+msgstr "Создать слайд"
+
+msgid "Slides of this Playlist"
+msgstr "Слайды этого списка воспроизведения"
+
+msgid "Sec."
+msgstr "сек."
+
+msgid "Save"
+msgstr "Сохранить"
+
+msgid "Choose landscape or portrait layout as your page orientation."
+msgstr "Выберите ландшафт или портрет макет в качестве ориентации страницы."
+
+msgid "Choose between favorite list and regular for template selection."
+msgstr "Показывать только избранные шаблоны"
+
+msgid "Favorite"
+msgstr "Избранные"
+
+msgid ""
+"Choose the page or menu card template or use custom template to freely place "
+"elements on the entire page."
+msgstr ""
+"Выберите страницу, карту или же используйте собственный шаблон чтобы "
+"свободно размещать элементы на всей странице."
+
+msgid "Scheduling of"
+msgstr "Планирование"
+
+msgid ""
+"Number of seconds this slide will be shown each repetition. Use 0 for "
+"endless."
+msgstr ""
+"Количество секунд, после которых будет показано повторение. Используйте 0 "
+"для бесконечности."
+
+msgid "show 24h every Day"
+msgstr "Показывать 24 часа, каждый день"
+
+msgid "define scheduling"
+msgstr "Планирование воиспроизведения"
+
+msgid ""
+"Here you can limit that the slide is only visible during certain times each "
+"week. Leave empty to not restrict show time."
+msgstr ""
+"Здесь вы можете ограничить показ слайда, который будет виден только в "
+"определенное время.Оставьте пустым, чтобы не ограничивать время показа."
+
+msgid "Limit Showtime by Weekdays"
+msgstr "Ограничить показ по дням недели"
+
+msgid "en"
+msgstr "ру"
+
+msgid "Save Anyway"
+msgstr "Сохранить"
+
+msgid "Proceed"
+msgstr "Продолжить"
+
+msgid "Cancel"
+msgstr "Отменить"
+
+msgid "Customer Details"
+msgstr "Реквизиты клиента"
+
+msgid "Description"
+msgstr "Описание"
+
+msgid "Available Devices"
+msgstr "Доступные устройства"
+
+msgid "No pages are configured with the [digitalsignage] shortcode."
+msgstr "Не существует страниц, созданных с [digitalsignage] шорткодом."
+
+msgid "Please add it to one."
+msgstr "Пожалуйста, добавьте его к одному."
+
+msgid "No device belongs to this customer"
+msgstr "Ни одно устройство не принадлежит этому клиенту"
+
+msgid "VIEW"
+msgstr "ПОСМОТРЕТЬ"
+
+msgid "All Items"
+msgstr "Показать все"
+
+msgid "One Row"
+msgstr "Одна строка"
+
+msgid "Row"
+msgstr "Строка"
+
+msgid "Device Details"
+msgstr "Сведения об устройстве"
+
+msgid "No Program"
+msgstr "Нет программы"
+
+msgid "No Customer"
+msgstr "Нет клиентов"
+
+msgid "Browser of allocated Device"
+msgstr "Браузер выделяемого устройства"
+
+msgid "Allow other device to use this URL"
+msgstr "Разрешить другому устройству использовать этот URL"
+
+msgid "Enter these URLs into your device to see this playlist on your device"
+msgstr ""
+"Введите эти URL-адреса в устройство, чтобы увидеть этот список "
+"воспроизведения на устройстве"
+
+msgid "N/A"
+msgstr "Не доступный"
+
+msgid "Licensing for DigitalSignagePress"
+msgstr "Лицензирование DigitalSignagePress"
+
+msgid ""
+"To use our DigitalSignagePress Plugin, please follow the next steps to "
+"activate it."
+msgstr ""
+"Для того, чтобы использовать DigitalSignagePress плагин, пожалуйста "
+"выполните следующие действия, чтобы активировать его."
+
+msgid "Step 1: Enter License Key"
+msgstr "Шаг 1: Введите лицензионный ключ"
+
+msgid "Enter your license key"
+msgstr "Введите лицензионный ключ"
+
+msgid "You'll find your License Key inside your confirmation email after you"
+msgstr ""
+"Вы найдете свой лицензионный ключ в вашей электронной почте после того, как "
+"вы"
+
+msgid "purchased a license"
+msgstr "приобрели лицензию"
+
+msgid "Step 2: Activate License"
+msgstr "Шаг 2: Активировать лицензию"
+
+msgid "active"
+msgstr "активный"
+
+msgid "Deactivate License"
+msgstr "Деактивировать лицензию"
+
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+msgid "Step 3: Install DigitalSignagePress Theme"
+msgstr "Шаг 3: Установка DigitalSignagePress Theme"
+
+msgid "installed"
+msgstr "установлена"
+
+msgid "Activation is <b>not</b> required."
+msgstr "Активация <b>не</b> требуется."
+
+msgid ""
+"Please download the DigitalSignagePress Theme and install it.<br>You "
+"<b>don't</b> need to <b>activate</b> it, only install it."
+msgstr ""
+"Пожалуйста, загрузите DigitalSignagePress шаблон и установите его. Вам <b>не "
+"нужно активировать</b> шаблон, только его установить."
+
+msgid "Background of Slide"
+msgstr "Фон слайда"
+
+msgid "Media for Element"
+msgstr "Медиа файлы для элементов"
+
+msgid "Background Image"
+msgstr "Изображение для заднего плана"
+
+msgid "Background Color"
+msgstr "Фоновый цвет"
+
+msgid "Image"
+msgstr "Изображение"
+
+msgid "Color"
+msgstr "Цвет"
+
+msgid "Menucard"
+msgstr "Карты меню"
+
+msgid "Slideshow"
+msgstr "Слайд-шоу"
+
+msgid "Font"
+msgstr "Шрифт"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Bold"
+msgstr "Жирный"
+
+msgid "Italic"
+msgstr "Курсив"
+
+msgid "Underline"
+msgstr "Подчеркивание"
+
+msgid "Align Left"
+msgstr "Выровнять по левому краю"
+
+msgid "Align Center"
+msgstr "Выровнять по центру"
+
+msgid "Align Right"
+msgstr "Выровнять по правому краю"
+
+msgid "Align Full"
+msgstr "Полное выравнивание"
+
+msgid "ADD"
+msgstr "ДОБАВИТЬ"
+
+msgid "Duplicate"
+msgstr "Дублировать"
+
+msgid "Padding"
+msgstr "Промежуток"
+
+msgid "Playlists"
+msgstr "Плейлисты"
+
+msgid "Create a new playlist."
+msgstr "Создать новый плейлист."
+
+msgid "View and edit existing playlists."
+msgstr "Просмотр и редактирование существующих плейлистов."
+
+msgid ""
+"Manage your viewing devices and generate urls for viewing your content on "
+"them."
+msgstr "Управление экранами и их содержимым."
+
+msgid "Configure videowalls - show your content across multiple devices."
+msgstr "Настройка видеостены - показать контент на нескольких устройствах."
+
+msgid "Manage your customers that own the devices."
+msgstr "Управление клиентами и их экранов."
+
+msgid "Slides"
+msgstr "Слайды"
+
+msgid "Showing"
+msgstr "Показ"
+
+msgid "Format"
+msgstr "Формат"
+
+msgid "Slidenames"
+msgstr "Названия слайдов"
+
+msgid "Last Change"
+msgstr "Последние изменения"
+
+msgid "Valid From"
+msgstr "Действует с"
+
+msgid "Valid To"
+msgstr "Действует до"
+
+msgid "Are you sure you want to remove this slide from the playlist?"
+msgstr "Вы уверены, что хотите удалить этот слайд из плейлист?"
+
+msgid "Display Orientation"
+msgstr "Ориентация дисплея"
+
+msgid "Display configuration"
+msgstr "Конфигурация дисплея"
+
+msgid "Resolution width"
+msgstr "Ширина разрешения"
+
+msgid "Bezel compensation width"
+msgstr "Ширина границы"
+
+msgid "Resolution height"
+msgstr "Высота разрешения"
+
+msgid "Bezel compensation height"
+msgstr "Высота границы"
+
+msgid "Rows"
+msgstr "Строк"
+
+msgid "Columns"
+msgstr "Колонок"
+
+msgid "Videowall Details"
+msgstr "Детали видеостены"
+
+msgid "PREVIEW OF YOUR PLAYLIST"
+msgstr "ПРЕДОСМОТР ПЛЕЙЛИСТА"
+
+msgid "Slide"
+msgstr "Слайд"
+
+msgid "Last Edit"
+msgstr "Последнее редактирование"
+
+msgid "nameless device"
+msgstr "Безымянное устройство"
+
+msgid "nameless playlist"
+msgstr "Безымянный плейлист"
+
+msgid "nameless customer"
+msgstr "Безымянный клиент"
+
+msgid "nameless videowall"
+msgstr "Безымянная видеостена"
+
+msgid "nameless user"
+msgstr "Безымянный пользователь"
+
+msgid "nameless slide"
+msgstr "Безымянный слайд"
+
+msgid "Enter Website URL"
+msgstr "Введите URL веб-сайта"
+
+msgid "Enter Video URL"
+msgstr "Введите URL видео"
+
+msgid ""
+"Enter a URL to a video file on a webserver or a youtube link or choose a "
+"video file from the media library."
+msgstr ""
+"Введите URL к видеофайлу на веб-сервере, ссылку YouTube или выберите "
+"видеофайл из медиа-библиотеки."
+
+msgid ""
+"You may also add fallback videos for browser that don't support the primary "
+"video."
+msgstr ""
+"Вы также можете добавить резервные видео для браузера, которые не "
+"поддерживают основное видео."
+
+msgid ""
+"To guarantee best compatibility, please provide at least files with formats "
+"of MP4 and OGG."
+msgstr ""
+"Чтобы гарантировать наилучшую совместимость, пожалуйста предоставьте по "
+"крайней мере файлы в форматаме MP4 или OGG."
+
+msgid "Edit your Code"
+msgstr "Изменить код"
+
+msgid "Set padding of Content"
+msgstr "Редактировать расстояние"
+
+msgid "Select to which element this padding should be applied"
+msgstr "Выберите элемент, к которому должно быть применено это расстояние"
+
+msgid "Only Text"
+msgstr "Только текст"
+
+msgid "Content"
+msgstr "Содержание"
+
+msgid "Setup Slideshow"
+msgstr "Настройка слайд-шоу"
+
+msgid "Slide-in Effect"
+msgstr "Вставные эффекты"
+
+msgid "REMOVE"
+msgstr "УДАЛИТЬ"
+
+msgid "Change"
+msgstr "Изменить"
+
+msgid "Name of this Folder"
+msgstr "Название этой папки"
+
+msgid "Insert into page"
+msgstr "Вставить в страницу"
+
+msgid "Create new empty Slide"
+msgstr "Создать новый пустой слайд"
+
+msgid "Copy existing Slide"
+msgstr "Копировать существующий слайд"
+
+msgid "Copy to Playlist"
+msgstr "Копировать в плейлист"
+
+msgid "New Folder"
+msgstr "Новая папка"
+
+msgid "Active"
+msgstr "Активный"
+
+msgid "More Options"
+msgstr "Остальные настройки"
+
+msgid "Limit Showtime by Day of Month"
+msgstr "Ограничение показа по дням месяца"
+
+msgid "Limit Showtime by Date"
+msgstr "Ограничение показа по дате"
+
+msgid "Text"
+msgstr "Текст"
+
+msgid "Tags"
+msgstr "Теги"
+
+msgid "Video"
+msgstr "Видео"
+
+msgid "Website"
+msgstr "Веб-сайт"
+
+msgid "Choose"
+msgstr "Выберите"
+
+msgid "Choose Image"
+msgstr "Выберите изображение"
+
+msgid "Choose Video"
+msgstr "Выберите видео"
+
+msgid "This call only works in a WordPress environment"
+msgstr "Эта функция работает только в среде WordPress"
+
+msgid "Not supported in fix template"
+msgstr "Поддерживается только в пользовательских шаблонах"
+
+msgid "Add Column"
+msgstr "Добавить столбец"
+
+msgid "Remove Column"
+msgstr "Удалить столбец"
+
+msgid "Add Row"
+msgstr "Добавить строку"
+
+msgid "Remove Row"
+msgstr "Удалить строку"
+
+msgid "Text Column"
+msgstr "Текстовая колонка"
+
+msgid "New Text Column"
+msgstr "Новая текстовая колонка"
+
+msgid "Price"
+msgstr "Цена"
+
+msgid "Edit Html-Content"
+msgstr "Изменить HTML-контент"
+
+msgid "Header"
+msgstr "Заголовок"
+
+msgid "Footer"
+msgstr "Нижний колонтитул"
+
+msgid "Menu"
+msgstr "Меню"
+
+msgid "Start the slideshow"
+msgstr "Начать показ слайдов"
+
+msgid "Stop the slideshow"
+msgstr "Остановить показ слайдов"
+
+msgid "Duration"
+msgstr "Продолжительность"
+
+msgid "Center"
+msgstr "Центр"
+
+msgid "left"
+msgstr "левый"
+
+msgid "right"
+msgstr "правый"
+
+msgid "top"
+msgstr "Вверх"
+
+msgid "bottom"
+msgstr "Низ"
+
+msgid "Add New User"
+msgstr "Добавить нового пользователя"
+
+msgid "Partly Never"
+msgstr "Частично никогда"
+
+msgid "ERROR: no customer"
+msgstr "ОШИБКА: нет клиента"
+
+msgid "ERROR: no playlist"
+msgstr "ОШИБКА: нет плейлиста"
+
+msgid "Layout"
+msgstr "Макет"
+
+msgid "Date"
+msgstr "Дата"
+
+msgid "Span"
+msgstr "Интервал"
+
+msgid "Settings"
+msgstr "Настройки"
+
+msgid "Logout"
+msgstr "Выход"
+
+msgid "Download"
+msgstr "Скачать"
+
+msgid "If you do not schedule something the slide will be always active"
+msgstr "Без планирования, слайд всегда активен."
+
+msgid "User to edit could not be found."
+msgstr "Пользователь для редактирования не может быть найден."
+
+msgid "Unrecoverable error while editing user."
+msgstr "Неисправимая ошибка при редактировании пользователя."
+
+msgid "Username already taken."
+msgstr "Данное имя пользователя уже занято."
+
+msgid "A required field was not filled, could not create user..."
+msgstr "Требуемое поле не заполнено, пользователь не может быть создан ..."
+
+msgid "This Device has the latest playlist."
+msgstr "Этот экран использует обновлённый плейлист."
+
+msgid "This Device hasn't yet downloaded the latest playlist."
+msgstr "Этот экран до сих пор использует устаревший плейлист."
+
+msgid ""
+"Here you can limit that this slide is only visible between the two given "
+"dates."
+msgstr "Здесь вы можете ограничить показ слайда между двумя указанными датами."
+
+msgid ""
+"Here you can limit that this slide is only visible between two days of a "
+"month. This will be repeated for every month."
+msgstr ""
+"Здесь вы можете ограничить показ слайда между двух дней одного месяца. Это "
+"будет повторяться для каждого месяца."
+
+msgid "Enter this URL into your device with SMIL support."
+msgstr "Введите этот URL в устройство с поддержкой SMIL."
+
+msgid "Choose landscape or portrait layout as your videowall orientation"
+msgstr "Выберите ландшафт или портрет, как макет ориентации видеостены"
+
+msgid "Set up the parameters of the display type your video wall consists of"
+msgstr "Настройки параметров отображения видеостены"
+
+msgid "Remove this slide from the playlist."
+msgstr "Удалить этот слайд из плейлиста."
+
+msgid "Delete this playlist."
+msgstr "Удалить этот плейлист."
+
+msgid "This slide is currently active."
+msgstr "Этот слайд в настоящее время активен."
+
+msgid "This slide is currently not showing because of scheduling."
+msgstr ""
+"Этот слайд в настоящее время не показывается из-за режима планирования."
+
+msgid "An error occurred during upload.."
+msgstr "Произошла ошибка во время загрузки.."
+
+msgid "An error occurred during update.."
+msgstr "Произошла ошибка во время обновления.."
+
+msgid "Invalid file format."
+msgstr "Неверный формат файла."
+
+msgid "Couldn't get user info."
+msgstr "Не удалось получить информацию о пользователе."
+
+msgid "A username and password are required."
+msgstr "Имя пользователя и пароль не требуется."
+
+msgid "We check whether your browser supports cookies."
+msgstr "Мы проверяем поддерживает ли ваш браузер cookies."
+
+msgid ""
+"This device number is already occupied by a different monitor, please enter "
+"the URL of a different device for this monitor."
+msgstr ""
+"Этот номер устройства уже занят другим монитором, пожалуйста введите  URL-"
+"адрес другого устройства для данного монитора."
+
+msgid ""
+"This device number is already occupied by a different monitor, please enter "
+"the URL of a different device for this monitor.<br>Please use this URL only "
+"on one monitor at the same time.<br>If this is the right monitor for this "
+"URL please follow these steps:<br>1) navigate to Devices<br>2) edit this "
+"device<br>3) press the button \"Allow other device to use this URL\"<br>4) "
+"refresh this page on this monitor/browser or restart the monitor"
+msgstr ""
+"Этот URL-адрес уже используется другим монитором.<br>Пожалуйста, введите URL-"
+"адрес другого устройства для данного монитора. <br> Пожалуйста, используйте "
+"только этот URL на одном мониторе одновременно. Если это правильный монитор "
+"для этого URL, выполните следующие действия: <br> 1) Перейдите к устройствам "
+"<br> 2) Редактируйте это устройство <br> 3) Нажмите кнопку \"Разрешить "
+"другому устройству использовать этот URL \"<br> 4)Обновите эту страницу на "
+"мониторе/браузере или перезагрузите монитор"
+
+msgid ""
+"There seems to be a problem with your license. Please verify your license "
+"data."
+msgstr ""
+"Возникла проблема с лицензией. Пожалуйста, проверьте свои лицензионные "
+"данные."
+
+msgid "Number of Playlists"
+msgstr "Количество плейлистов"
+
+msgid "Number of Slides"
+msgstr "Количество слайдов"
+
+msgid "Number of Customers"
+msgstr "Количество клиентов"
+
+msgid "Number of Devicewalls"
+msgstr "Количество видеостен"
+
+msgid "Updated Devices"
+msgstr "Обновленные устройства"
+
+msgid "Unused Devices"
+msgstr "Неиспользуемые устройства"
+
+msgid "Offline Devices"
+msgstr "Устройств в оффлайне"
+
+msgid "Online Devices"
+msgstr "Устройств в сети"
+
+msgid "You must choose an existing file to replace!"
+msgstr "Вы должны выбрать существующий файл, чтобы заменить его!"
+
+msgid "Upload a new file"
+msgstr "Добавить новый файл"
+
+# FILENAME is a keyword here
+msgid "Choose a new file to replace FILENAME"
+msgstr "Выберите новый файл для замены FILENAME"
+
+msgid "All links to the old file will be updated."
+msgstr "Все ссылки на старый файл будут обновлены."
+
+msgid "Once the upload is finished, this can not be undone!"
+msgstr "После завершения загрузки, это не может быть отменено!"
+
+msgid "You do not have permission to upload files."
+msgstr "У вас нет разрешения на загрузку файлов."
+
+msgid "Replace media"
+msgstr "Заменить носитель"
+
+msgid "Replace the current file and automatically update all links to it."
+msgstr ""
+"Заменить существующий файл и автоматически обновить на него все ссылки."
+
+msgid "Could not find file to replace."
+msgstr "Не удалось найти файл для замены."
+
+msgid "File not usable. Unknown extension."
+msgstr "Файл не может использоваться. Неизвестное расширение."
+
+msgid " could not be deleted, please check file permissions."
+msgstr " не удалось удалить, пожалуйста, проверьте права доступа к файлам."
+
+msgid "Complete the setup now."
+msgstr "Завершите установку прямо сейчас."
+
+# PLUGIN is a keyword here
+msgid "Please enter your PLUGIN license key to enable updates."
+msgstr "Пожалуйста, введите ваш лицензионный ключ, чтобы получать обновления."
+
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Доступна новая версия %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">Просмотр версии %3$s</a>."
+
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Доступна новая версия %1$s. <a target=\"_blank\" class=\"thickbox\" href="
+"\"%2$s\">Просмотр версии %3$s</a> oder <a href=\"%4$s\">Обновить версию</a>."
+
+msgid "All"
+msgstr "Все"
+
+msgid " of "
+msgstr " из "
+
+msgid "Start Date"
+msgstr "Дата начала"
+
+msgid "End Date"
+msgstr "Конечная дата"
+
+msgid "Signage Playlist"
+msgstr "Плейлист вывески"
+
+msgid "Nick"
+msgstr "Прозвище"
+
+msgid "This Device is online."
+msgstr "Это устройство находится в сети."
+
+msgid "This Device made no contact with the server for some time."
+msgstr ""
+"Данное устройство не имело никакого контакта с сервером в течение некоторого "
+"времени."
+
+msgid "MON"
+msgstr "ПО"
+
+msgid "TUE"
+msgstr "ВТ"
+
+msgid "WED"
+msgstr "СР"
+
+msgid "THU"
+msgstr "ЧТ"
+
+msgid "FRI"
+msgstr "ПТ"
+
+msgid "SAT"
+msgstr "СБ"
+
+msgid "SUN"
+msgstr "ВС"
+
+msgid "Border"
+msgstr "Рамка"
+
+msgid "Su"
+msgstr "Вс"
+
+msgid "Mo"
+msgstr "По"
+
+msgid "Tu"
+msgstr "Вт"
+
+msgid "We"
+msgstr "Ср"
+
+msgid "Th"
+msgstr "Чт"
+
+msgid "Fr"
+msgstr "Пт"
+
+msgid "Sa"
+msgstr "Сб"
+
+msgid "Sunday"
+msgstr "Воскресенье"
+
+msgid "Monday"
+msgstr "Понедельник"
+
+msgid "Tuesday"
+msgstr "Вторник"
+
+msgid "Wednesday"
+msgstr "Среда"
+
+msgid "Thursday"
+msgstr "Четверг"
+
+msgid "Friday"
+msgstr "Пятница"
+
+msgid "Saturday"
+msgstr "Суббота"
+
+msgid "January"
+msgstr "Январь"
+
+msgid "February"
+msgstr "Февраль"
+
+msgid "March"
+msgstr "Март"
+
+msgid "April"
+msgstr "Апрель"
+
+msgid "May"
+msgstr "Май"
+
+msgid "June"
+msgstr "Июнь"
+
+msgid "July"
+msgstr "Июль"
+
+msgid "August"
+msgstr "Август"
+
+msgid "September"
+msgstr "Сентябрь"
+
+msgid "October"
+msgstr "Октябрь"
+
+msgid "November"
+msgstr "Ноябрь"
+
+msgid "December"
+msgstr "Декабрь"
+
+msgid "Jan"
+msgstr "Янв"
+
+msgid "Feb"
+msgstr "Фев"
+
+msgid "Mar"
+msgstr "Мар"
+
+msgid "Apr"
+msgstr "Апр"
+
+msgid "Jun"
+msgstr "Июн"
+
+msgid "Jul"
+msgstr "Июл"
+
+msgid "Aug"
+msgstr "Авг"
+
+msgid "Sep"
+msgstr "Сен"
+
+msgid "Oct"
+msgstr "Окт"
+
+msgid "Nov"
+msgstr "Ноя"
+
+msgid "Dec"
+msgstr "Дек"
+
+msgid "Quick Template Generation"
+msgstr "Генератор шаблона"
+
+msgid "Template"
+msgstr "Шаблон"
+
+msgid "Facebook"
+msgstr "Фейсбук"
+
+msgid "Twitter"
+msgstr "Твиттер"
+
+msgid "Select a template type"
+msgstr "Выберите тип шаблона"
+
+msgid "Enter a Facebook username"
+msgstr "Введите имя пользователя Фейсбук"
+
+msgid "Enter a Twitter username"
+msgstr "Введите имя пользователя Твиттер"
+
+msgid "Generate"
+msgstr "Генерировать"
+
+msgid "EMPTY"
+msgstr "ПУСТО"
+
+msgid "SELECT THIS"
+msgstr "ВЫБЕРИТЕ"
+
+msgid "Navigation"
+msgstr "Навигация"
+
+msgid "Show WordPress navigation"
+msgstr "Показать навигацию WordPress"
+
+msgid "Hide WordPress navigation"
+msgstr "Скрыть навигацию WordPress"
+
+msgid "Device Limit"
+msgstr "Лимит устройств"
+
+msgid ""
+"If this problem persists, make sure that your browser supports cookies and "
+"does not delete them upon restart."
+msgstr ""
+"Если эта проблема не устранена, убедитесь, что ваш браузер поддерживает куки "
+"и не удаляет их при перезагрузке."
+
+msgid "This plugin requires at least PHP 5.5 or higher."
+msgstr "Этот плагин требует PHP 5.5 или выше."
+
+msgid "Select a playlist"
+msgstr "Выберите плейлист"
+
+msgid "Or embed a playlist"
+msgstr "или вставте плейлист"
+
+#~ msgid "Slidesnames"
+#~ msgstr "Название слайда"
+
+#~ msgid "Colums"
+#~ msgstr "Столбцов"
+
+#~ msgid "Scheduling of "
+#~ msgstr "Планирование "
+
+#~ msgid "%s"
+#~ msgstr "%s"
