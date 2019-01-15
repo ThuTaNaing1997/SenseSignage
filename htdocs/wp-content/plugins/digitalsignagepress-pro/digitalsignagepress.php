@@ -20,7 +20,7 @@ function signage_load_textdomain() {
 	$folder = substr($folder, 0, strpos($folder,'/'));
 	load_plugin_textdomain( 'digitalsignagepress', false, $folder.'/languages/' );
 }
-define('SIGNAGE_PLUGIN_NAME', 'DSignagepress Pro');
+define('SIGNAGE_PLUGIN_NAME', 'SenseSignage');
 define('SIGNAGE_PLUGIN_DIR', plugin_dir_url(__FILE__));
 define('SIGNAGE_PLUGIN_DIR_PATH', plugin_dir_path( __FILE__ ));
 define('SIGNAGE_PLUGIN_MENU_SLUG', 'MySignage');
