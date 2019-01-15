@@ -76,23 +76,24 @@ else{ //OK Now
 	//print_r($count1);
 	//die();
 	
-	 print_r($limit1);
-	 print_r($count1);
-	 die();
+	// print_r($limit1);
+	// print_r($count1);
+	// die();
 
  }
 
+ //dummycode_delete
  if ($changed) 
- {
- 
-	 $deviceId = $dsdbh->insert_or_update_device($device);
- 
-	 } 
- else 
- {
- $deviceId = $device['id'];
- }
-
+	{
+	
+		$deviceId = $dsdbh->insert_or_update_device($device);
+	
+		} 
+	else 
+	{
+	$deviceId = $device['id'];
+	}
+//dummycode_delete
 
 // NEW Code, Close connection
 mysqli_close($link);
