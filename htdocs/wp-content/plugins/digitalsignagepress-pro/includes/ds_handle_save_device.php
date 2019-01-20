@@ -76,8 +76,7 @@ else{ //OK Now
 	//print_r($count1);
 	//die();
 	
-	 print_r($limit1);
-	 print_r($count1);
+	 echo "Device Limit has been reached. Pls contact Admin For Details";
 	 die();
 
  }

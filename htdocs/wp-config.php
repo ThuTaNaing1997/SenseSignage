@@ -86,12 +86,13 @@ define('WP_DEBUG', false);
 define( 'MULTISITE', true );
 define( 'SUBDOMAIN_INSTALL', true );
 $base = '/';
-define( 'DOMAIN_CURRENT_SITE', '18.191.245.118.xip.io' );
+define( 'DOMAIN_CURRENT_SITE', '18.224.105.233.xip.io' );
 define( 'PATH_CURRENT_SITE', '/' );
 define( 'SITE_ID_CURRENT_SITE', 1 );
 define( 'BLOG_ID_CURRENT_SITE', 1 );
 
-define( 'NOBLOGREDIRECT', 'http://www.18.191.245.118.xip.io' );
+//This code for redirect from wp-signup page
+define( 'NOBLOGREDIRECT', 'http://www.18.224.105.233.xip.io' );
 define('FS_METHOD', 'direct');
 
 
