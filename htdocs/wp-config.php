@@ -92,8 +92,8 @@ define( 'SITE_ID_CURRENT_SITE', 1 );
 define( 'BLOG_ID_CURRENT_SITE', 1 );
 
 //This code for redirect from wp-signup page
-define( 'NOBLOGREDIRECT', 'http://www.18.224.105.233.xip.io' );
-define('FS_METHOD', 'direct');
+//define( 'NOBLOGREDIRECT', 'http://www.18.224.105.233.xip.io' );
+//define('FS_METHOD', 'direct');
 
 
 /** Absolute path to the WordPress directory. */
