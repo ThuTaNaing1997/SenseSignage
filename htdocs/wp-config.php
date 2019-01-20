@@ -93,7 +93,7 @@ define( 'BLOG_ID_CURRENT_SITE', 1 );
 
 //This code for redirect from wp-signup page
 //define( 'NOBLOGREDIRECT', 'http://www.sensesignagesolutions.com' );
-define('FS_METHOD', 'direct');
+//define('FS_METHOD', 'direct');
 
 
 /** Absolute path to the WordPress directory. */
