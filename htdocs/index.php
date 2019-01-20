@@ -14,7 +14,7 @@
  */
 
  //This Code Works
-header("location: /wp-admin/index.php",  true,  301 );  exit;
+//header("location: /wp-admin/index.php",  true,  301 );  exit;
 
 define('WP_USE_THEMES', true);
 
