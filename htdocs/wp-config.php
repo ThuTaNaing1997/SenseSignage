@@ -93,7 +93,7 @@ define( 'BLOG_ID_CURRENT_SITE', 1 );
 //new code
 //define( ‘COOKIE_DOMAIN’, $_SERVER[ ‘HTTP_HOST’ ] );
 //define( ‘COOKIE_DOMAIN’, false );
-
+define('COOKIE_DOMAIN', '');
 
 //This code for redirect from wp-signup page.
 define( 'NOBLOGREDIRECT', 'http://www.sensesignagesolutions.com' );
