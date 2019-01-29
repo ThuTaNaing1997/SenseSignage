@@ -7,7 +7,7 @@ $penalty = 2;
 	<div class="col_12_nm main-header">
 		<div class="col_02_nm">
 			<a id="logo" href="#" target=_blank>
-			<img alt="Logo" style="height: 60px;background-color:#3E454C;" src="<?php echo SIGNAGE_PLUGIN_DIR; ?>/icons/sensecapital.jpg">
+			<img alt="Logo" style="height: 60px;background-color:#3E454C;" src="<?php echo SIGNAGE_PLUGIN_DIR; ?>/icons/sensecapital.png">
 		</a>
 		</div>
 		<?php
